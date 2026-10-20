@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Deterministic>true</Deterministic>
+    <Company>Lacu</Company>
+    <Product>A2 Pet Tracking by Lacu</Product>
+    <Authors>Lacu; original contributors credited in NOTICE</Authors>
+    <Version>1.0.4</Version>
+    <RuntimeFrameworkVersion>10.0.13</RuntimeFrameworkVersion>
+    <NuGetAudit>false</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+</Project>

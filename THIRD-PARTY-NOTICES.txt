@@ -1,0 +1,13 @@
+A2 Pet Tracking by Lacu - local edition
+
+Original PetTracker application code, tests and tooling: Copyright (C) 2026 0Fox2Give and contributors, GPL-3.0-only. See LICENSE and NOTICE. Local changes by Lacu, 2026. Original source snapshot: a9d3cbf1faf48fe68dc463a4ae5a640648678831.
+
+SharpPcap 6.3.1 - MIT. Copyright Tamir Gal, Chris Morgan and contributors. https://github.com/dotpcap/sharppcap/tree/bfedf297e7410ffcf44e05d14f7fbef304f20895
+PacketDotNet 1.4.8 - MPL 2.0. Copyright Chris Morgan and contributors. Unmodified package. Source: https://github.com/dotpcap/packetnet/tree/690707ce56d6e9c266daf6236c4f76ac5035334c
+Microsoft .NET / Windows Desktop Runtime 10.0.13; System.Memory 4.6.3; System.Text.Encoding.CodePages 9.0.5; System.Runtime.CompilerServices.Unsafe 6.0.0. See Microsoft licenses and third-party notices under licenses.
+
+Npcap is installed separately and is not redistributed. Its own publisher terms apply.
+
+AION 2 names, portraits and soul crystal graphics belong to NCSOFT / NC Corporation and other respective owners. Original graphics attribution: aion2petguide.com/guides/soul-crystal-farm and aion2guidance.com. Catalog/source data references include aion2maps.com and aion2.gaming.tools. Attribution does not establish redistribution rights; see LEGAL.md and assets/README.md.
+
+Velopack and Avalonia are not runtime dependencies of this local Windows edition. Inherited license documents remain under licenses for provenance. No updater or official publisher configuration is shipped.
