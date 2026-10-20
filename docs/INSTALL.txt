@@ -1,0 +1,3 @@
+A2 Pet Tracking by Lacu
+
+Portable lokale Version. Starten.cmd im Projektordner startet die Anwendung mit dem benachbarten Ordner Daten. Npcap ist separat erforderlich. Keine Online-Updates und keine Cloud-Anbindung. Eigene Aenderungen erfolgen im Quellcode, danach Build-Local.ps1 ausfuehren.

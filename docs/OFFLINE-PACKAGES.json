@@ -1,0 +1,51 @@
+{
+  "Description": "Tested offline package inventory; download separately from official NuGet sources for a new build environment",
+  "SDK": "10.0.402",
+  "Runtime": "10.0.13",
+  "Packages": [
+    {
+      "File": "microsoft.aspnetcore.app.runtime.win-x64.10.0.13.nupkg",
+      "SHA256": "A0DBA5EE37A07A173BC2739F01FEE4C530C686E00BF3A3F7508972D6592511F3"
+    },
+    {
+      "File": "microsoft.netcore.app.host.win-x64.10.0.13.nupkg",
+      "SHA256": "503712375103BD93AA6AB51D1B64C134AC131E002540EC818B447DFE72C52174"
+    },
+    {
+      "File": "microsoft.netcore.app.runtime.win-x64.10.0.13.nupkg",
+      "SHA256": "C66885D464697BE75676B4D1FBCA38B8806F3AF01D65D27205B3F06ADD094444"
+    },
+    {
+      "File": "microsoft.windowsdesktop.app.runtime.win-x64.10.0.13.nupkg",
+      "SHA256": "AF044758D6BC23ECA96B60C9CE13B38F211C3E736EEF9458DE3CADBBD3E20FF2"
+    },
+    {
+      "File": "packetdotnet.1.4.8.nupkg",
+      "SHA256": "561DB9D210C40397E0A8EFED810692E604111DA4CCDCDFCBBD602C3D16059BAD"
+    },
+    {
+      "File": "sharppcap.6.3.1.nupkg",
+      "SHA256": "4F7DF1F19AB2AA45CEB252ABC14A2E9E7D474DD1C2379B5761B28875CE02F1FA"
+    },
+    {
+      "File": "system.buffers.4.6.1.nupkg",
+      "SHA256": "B00451E91D016FBEC091AD1E361F3A7015E1D91D4047F7E48A74455B2A673D79"
+    },
+    {
+      "File": "system.memory.4.6.3.nupkg",
+      "SHA256": "26078AEB758C9AE985E8BF851F973026061DA6A5EB4837204D0C2D2204C72955"
+    },
+    {
+      "File": "system.numerics.vectors.4.6.1.nupkg",
+      "SHA256": "2BC500A86DCB02F2032D6D877F9E2D6E9E4A79080E57239B4198679D4031F2C7"
+    },
+    {
+      "File": "system.runtime.compilerservices.unsafe.6.0.0.nupkg",
+      "SHA256": "6C41B53E70E9EEE298CFF3A02CE5ACDD15B04125589BE0273F0566026720A762"
+    },
+    {
+      "File": "system.text.encoding.codepages.9.0.5.nupkg",
+      "SHA256": "B6B31F845C0632733AD3E514AAE77B8052CBD98179A4276195E292A2792477CE"
+    }
+  ]
+}
