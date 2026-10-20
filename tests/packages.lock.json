@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "PacketDotNet": {
+        "type": "Transitive",
+        "resolved": "1.4.8",
+        "contentHash": "j4C4QaJmaPCk0KXsIdsZqmBteKWj5znXBmfbPpu48rE5SW2xwXKVlRf7C3g7VM9aZqMHIQedApEuC71nNX5PaQ=="
+      },
+      "SharpPcap": {
+        "type": "Transitive",
+        "resolved": "6.3.1",
+        "contentHash": "EWclXz+QdffBRppFR7GDBLyKiAz045RGvu4t4gcMGocVMEq6dRfCnAEx7Ep6qxcPPhH2kz13Y8FqBaHZhsh3Pg==",
+        "dependencies": {
+          "PacketDotNet": "1.4.8"
+        }
+      },
+      "A2PetTracking.Capture": {
+        "type": "Project",
+        "dependencies": {
+          "PacketDotNet": "[1.4.8, )",
+          "PetTracker.Core": "[1.0.0, )",
+          "SharpPcap": "[6.3.1, )"
+        }
+      },
+      "PetTracker.Core": {
+        "type": "Project"
+      },
+      "PetTrackerSetup": {
+        "type": "Project"
+      }
+    }
+  }
+}
