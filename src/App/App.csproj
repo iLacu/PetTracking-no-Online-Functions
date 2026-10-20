@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>WinExe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>A2PetTracking</AssemblyName>
+    <Company>A2 Pet Tracking by Lacu</Company>
+    <Product>A2 Pet Tracking by Lacu</Product>
+    <ApplicationIcon>../../assets/PetTracker.ico</ApplicationIcon>
+    <StartupObject>PetTracker.Program</StartupObject>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Core/Core.csproj" />
+    <EmbeddedResource Include="../../assets/PetTracker.ico" LogicalName="PetTracker.Icon" />
+    <EmbeddedResource Include="../../assets/portraits/*.png" LogicalName="PetTracker.Portraits.%(Filename).png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="../../assets/crystals/*.png" Link="Crystals/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
