@@ -1,41 +1,38 @@
-# A2 Pet Tracking by Lacu
+A2 Pet Tracking
+Custom local Windows version 1.0.4, based on PetTracker 0.1.51, commit a9d3cbf1faf48fe68dc463a4ae5a640648678831.
 
-Eigene lokale Windows-Version 1.0.4, basierend auf PetTracker 0.1.51, Commit a9d3cbf1faf48fe68dc463a4ae5a640648678831.
+The official updater, including Velopack, publisher keys, and GitHub automation, has been removed. No update checks, browser launches, developer account, or remote access functionality. The only download exception is the specified official Npcap installer, used if the startup check detects that Npcap is missing or the user explicitly opens the Npcap setup. Offers, collection data, and settings remain local.
 
-Der offizielle Updater samt Velopack, Herausgeberschluesseln und GitHub-Automatisierung wurde entfernt. Keine Update-Abfrage, kein Browser-Start, kein Entwicklerkonto und keine Fernzugriffsfunktion. Einzige Download-Ausnahme ist der festgelegte offizielle Npcap-Installer, falls die Startpruefung fehlendes Npcap erkennt oder der Nutzer das Npcap-Setup gezielt oeffnet. Angebote, Sammlung und Einstellungen bleiben lokal.
+Getting Started
+Open the A2Pet Tracking.lnk shortcut in the top-level project folder (alternatively, run Code\Starten.cmd). Clicking the X in the tracker's main window closes the entire application and the capture process. The paw icon in the system tray also provides access to settings and an exit option. For the first live synchronization, start the tracker first, then your AION-2 character.
 
-## Starten
+The startup check verifies the application files against their SHA-256 checksums, checks the data folder, and checks the Npcap driver and network adapters. .NET and image assets are already bundled in the EXE files. Npcap must be installed as a Windows driver. If it is missing, version 1.89 is downloaded directly from https://npcap.com/dist/npcap-1.89.exe, verified against the stored SHA-256 checksum, and launched in a visible setup window. Confirm the administrator prompt and complete the setup steps. No silent installation and no redistribution of the Npcap installer. A working Npcap installation is not reinstalled. Cancellation, missing files, or a required restart will prevent the tracker from starting.
 
-Im obersten Projektordner die Verknuepfung A2Pet Tracking.lnk oeffnen (alternativ Code/Starten.cmd). Das X im Tracker-Hauptfenster beendet die gesamte Anwendung und den Capture-Prozess. Das Pfotensymbol im Tray bietet ebenfalls Einstellungen und Beenden. Fuer den ersten Live-Abgleich zuerst den Tracker, danach den AION-2-Charakter starten.
+To share the application with friends, tools\Pack-Friends.ps1 creates a ZIP with the EXE at the top level and Code alongside it. Always extract the entire ZIP. The package includes an empty data folder, license notices, and the corresponding source code; it contains no personal user data or SDK. No separate .NET installation is required to use it. Building it yourself requires .NET SDK 10.0.402 and the packages listed in the project files; the standard compiler is not included in the compact distribution package.
 
-Die Startpruefung kontrolliert die Programmdateien anhand ihrer SHA-256-Pruefsummen, den Datenordner, den Npcap-Treiber und die Adapter. .NET und Bilder sind bereits in den EXE-Dateien enthalten. Npcap muss als Windows-Treiber installiert sein. Fehlt es, wird Version 1.89 direkt von https://npcap.com/dist/npcap-1.89.exe geladen, gegen die hinterlegte SHA-256-Pruefsumme geprueft und im sichtbaren Setup gestartet. Administratorabfrage und Setup-Schritte bestaetigen. Keine stille Installation, keine Weitergabe des Npcap-Installers. Funktionsfaehiges Npcap wird nicht erneut installiert. Abbruch, fehlende Dateien oder ein erforderlicher Neustart verhindern den Tracker-Start.
+Folders
+All technical folders are located under Code. Only Code and A2Pet Tracking.lnk remain in the top-level folder.
 
-Fuer Freunde erzeugt tools/Pack-Friends.ps1 ein ZIP mit der EXE oben und Code daneben. Immer das gesamte ZIP entpacken. Das Paket enthaelt einen leeren Datenordner, Lizenzhinweise und den zugehoerigen Quellcode; keine eigenen Nutzerdaten und kein SDK. Zum Nutzen ist keine separate .NET-Installation erforderlich. Fuer eigene Builds benoetigt man das .NET SDK 10.0.402 und die in den Projektdateien aufgefuehrten Pakete; der Standardcompiler ist nicht Teil des kompakten Weitergabepakets.
+Anwendung = locally compiled EXE with the .NET runtime.
+Daten = actual collection data, settings, and local backups.
+Quellcode = editable source code with its own local Git history.
+Werkzeuge = portable SDK, local NuGet package cache, and build files.
+Pruefung = synthetic test data and previews.
+Sicherungen = previous custom application versions.
+Custom Updates
+Close the application, modify the source code, and run Build-Local.ps1. The custom version number is defined in Directory.Build.props. Core and UI tests run by default. The build uses only the local package cache and backs up any existing application version. User data is not replaced. Code\Neu bauen.cmd starts this process within the existing local installation.
 
-## Ordner
+New third-party libraries are added to the local package cache only after deliberate review. With the existing cache, rebuilding requires no internet connection. A personal GitHub repository is used solely for source code management: the application does not access it or publish anything automatically. For a fresh clone, see docs\BUILDING.md and docs\GITHUB.md.
 
-Alle technischen Ordner liegen unter Code. Im obersten Ordner bleiben Code und A2Pet Tracking.lnk.
+Window Size
+The main window can be resized from any edge or corner. The title bar supports dragging, double-clicking to maximize or restore, and minimizing or maximizing using the buttons. The window's position, size, and maximized state are saved. Long pet lists scroll within the window, keeping the title and tabs accessible. Settings > Overlay > Reset window size restores automatic height adjustment. Fixed position and Click-through continue to prevent manual resizing.
 
-Anwendung = selbst kompilierte EXE mit .NET-Laufzeit. Daten = echte Sammlung, Einstellungen und lokale Backups. Quellcode = bearbeitbare Quellen mit eigenem lokalem Git-Verlauf. Werkzeuge = portables SDK, lokaler NuGet-Vorrat und Build-Dateien. Pruefung = kuenstliche Testdaten und Vorschauen. Sicherungen = vorherige eigene Programmversionen.
+Hide Shortcut and Merchant
+Settings > Hide Shortcut displays the configurable shortcut button, which defaults to Alt + D. Click it, then press the desired key combination; Escape cancels. The shortcut shows or hides the tracker window. Conflicts with other applications are displayed there. Clicking the X still closes the entire application.
 
-## Eigene Updates
+Merchant, next to Nearby, displays Special and Pets with the most recently observed offers, your collection rank, and the Kina price. Open both tabs once in the game so the local decoder can read the offers and the exact refresh time. The countdown uses only this in-game time. When the countdown expires, the connection changes, or an ambiguous shop change occurs, old offers are discarded. The tracker does not query the shop itself; open it again in the game after a refresh.
 
-Anwendung beenden, Quellcode anpassen und Build-Local.ps1 ausfuehren. Die eigene Versionsnummer steht in Directory.Build.props. Standardmaessig laufen Kern- und Oberflaechentests. Der Build nutzt ausschliesslich den lokalen Paketvorrat und sichert eine vorhandene Programmversion. Daten werden nicht ersetzt. Code/Neu bauen.cmd startet diesen Vorgang in der bestehenden lokalen Installation.
+Privacy and Limitations
+Game packets are read locally through Npcap and associated with the configured AION-2 processes. No game packets are sent or modified. Collection data and settings are stored in local JSON files. Diagnostic reports store sanitized counters; raw packet excerpts are not retained. No automatic uploads or cloud synchronization.
 
-Neue Drittbibliotheken werden erst nach bewusster Pruefung zum lokalen Paketvorrat hinzugefuegt. Mit dem bestehenden Vorrat braucht ein Neubau keine Internetverbindung. Ein eigenes GitHub-Repository dient nur der Quellcodeverwaltung: Die Anwendung ruft es nicht ab und veroeffentlicht nichts automatisch. Fuer einen frischen Clone siehe docs/BUILDING.md und docs/GITHUB.md.
-
-## Fenstergroesse
-
-Das Hauptfenster laesst sich an allen Raendern und Ecken vergroessern oder verkleinern. Die Titelleiste unterstuetzt Verschieben, Doppelklick zum Maximieren/Wiederherstellen sowie Minimieren und Maximieren per Button. Die Fensterposition, Groesse und der maximierte Zustand werden gespeichert. Lange Pet-Listen scrollen innerhalb des Fensters; Titel und Reiter bleiben erreichbar. Einstellungen > Overlay > Reset window size stellt die automatische Hoehe wieder her. Fixed position und Click-through sperren weiterhin die manuelle Groessenaenderung.
-
-## Hide Shortcut und Merchant
-
-Einstellungen > Hide Shortcut zeigt den frei belegbaren Button, standardmaessig Alt + D. Anklicken, Kombination druecken; Escape bricht ab. Der Shortcut blendet das Trackerfenster ein oder aus. Konflikte mit anderen Programmen werden dort angezeigt. Das X beendet weiterhin die gesamte Anwendung.
-
-Merchant neben Nearby zeigt Special und Pets mit zuletzt beobachteten Angeboten, eigenem Sammlungs-Rank und Kina-Preis. Beide Reiter einmal im Spiel oeffnen, damit der lokale Decoder Angebote und den exakten Refresh-Zeitpunkt lesen kann. Der Countdown nutzt ausschliesslich diese Spielzeit. Nach Ablauf, Verbindungswechsel oder einer unklaren Shop-Aenderung werden alte Angebote verworfen. Der Tracker fragt den Shop nicht selbst ab; nach einem Refresh im Spiel erneut oeffnen.
-
-## Datenschutz und Grenzen
-
-Spielpakete werden lokal ueber Npcap gelesen und den konfigurierten AION-2-Prozessen zugeordnet. Kein Senden oder Aendern von Spielpaketen. Sammlung und Einstellungen sind lokale JSON-Dateien. Diagnoseberichte speichern bereinigte Zaehler; rohe Paket-Ausschnitte werden nicht aufbewahrt. Keine automatische Uebertragung und keine Cloud-Synchronisation.
-
-Eine eigene Version aendert nicht die Regeln des Spielbetreibers. Nach Spielpatches kann eine Anpassung des Decoders erforderlich sein. Eine Simulation ersetzt keinen Live-Test im Spiel.
+Using a custom version does not change the game operator's rules. The decoder may need adjustments after game patches. A simulation is not a substitute for live testing in the game.
