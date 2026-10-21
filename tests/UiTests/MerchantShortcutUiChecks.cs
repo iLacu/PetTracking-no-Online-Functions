@@ -32,7 +32,7 @@ static class MerchantShortcutUiChecks
         var profile = new Profile { CharacterName = "Simulation", Pets = Catalog.Create() };
         profile.Pets[1196].Level = 1; profile.Pets[1196].LevelVerified = true;
         profile.Pets[1046].Level = 3; profile.Pets[1046].LevelVerified = true;
-        var time = DateTimeOffset.UtcNow;
+        var time = new DateTimeOffset(2030, 1, 1, 11, 30, 0, TimeZoneInfo.Local.GetUtcOffset(new DateTime(2030, 1, 1)));
         var special = new MarketStock(101, time, time.AddMinutes(30), new[] { new MarketOffer(1, 534760190, 1196, 80000) });
         var pets = new MarketStock(104, time, special.RefreshUtc, new[] { new MarketOffer(2, 1, 1046, 70000) });
         var settings = new AppSettings { TrackerMode = "Merchant", HideWhenEmpty = true, HideMaxed = true, ReducedMotion = true, HideShortcutKey = 0 };
@@ -43,18 +43,15 @@ static class MerchantShortcutUiChecks
         {
             show(overlay); pump(30);
             check(Id<Button>(overlay, "TrackerMode-Merchant").IsVisible && overlay.DisplayedPetCount == 0, "Merchant has its own main-screen tab and hides farming rows");
-            check(Id<TextBlock>(overlay, "MerchantCountdown").Text == "Refresh in 30:00", "Merchant countdown uses the exact game refresh timestamp");
-            check(Children(overlay).OfType<TextBlock>().Any(t => t.IsVisible && t.Text == "80,000 Kina") && Children(overlay).OfType<TextBlock>().Any(t => t.IsVisible && t.Text == "Rank 1"), "Special displays the observed price and collection rank beneath the name");
-            check(Children(overlay).OfType<Grid>().Count(g => System.Windows.Automation.AutomationProperties.GetAutomationId(g).StartsWith("MerchantOffer-")) == 1, "Special and Pets inventories are separated");
-            Program.Save(overlay, Path.Combine(folder, "merchant-special.png"), 340, 350);
-            Click(Id<Button>(overlay, "MerchantTab-104")); pump(20);
-            check(Children(overlay).OfType<TextBlock>().Any(t => t.IsVisible && t.Text == "70,000 Kina") && Children(overlay).OfType<TextBlock>().Any(t => t.IsVisible && t.Text == "Rank 3"), "Pets includes all observed offers, including a maxed or farmable pet");
-            Program.Save(overlay, Path.Combine(folder, "merchant-pets.png"), 340, 350);
+            check(Id<TextBlock>(overlay, "MerchantCountdown").Text == "Refresh in 30:00", "Merchant countdown follows the next full local clock hour");
+            check(Children(overlay).OfType<TextBlock>().Any(t => t.IsVisible && t.Text == "Hourly reminder is enabled."), "Merchant page explains the enabled reminder");
+            check(!Children(overlay).OfType<Button>().Any(b => System.Windows.Automation.AutomationProperties.GetAutomationId(b).StartsWith("MerchantTab-")) && overlay.DisplayedMerchantCount == 0, "Merchant reminder does not present old inventory tabs as current shop data");
+            Program.Save(overlay, Path.Combine(folder, "merchant-reminder-page.png"), 400, 350);
             time = time.AddMinutes(5); overlay.Refresh(); pump(20);
-            check(Id<TextBlock>(overlay, "MerchantCountdown").Text == "Refresh in 25:00" && overlay.DisplayedMerchantCount == 1, "Timer advances while last-observed offers remain available after two minutes");
+            check(Id<TextBlock>(overlay, "MerchantCountdown").Text == "Refresh in 25:00", "Local reminder countdown advances normally without stock updates");
             time = special.RefreshUtc; overlay.Refresh(); pump(20);
             check(overlay.DisplayedMerchantCount == 0 && !Children(overlay).OfType<Grid>().Any(g => System.Windows.Automation.AutomationProperties.GetAutomationId(g).StartsWith("MerchantOffer-")), "At refresh the old prices disappear rather than becoming a new inventory");
-            check(Id<TextBlock>(overlay, "MerchantCountdown").Text.Contains("—"), "Missing refresh data displays an unknown time instead of inventing a schedule");
+            check(Id<TextBlock>(overlay, "MerchantCountdown").Text == "Refresh in 01:00:00" && Children(overlay).OfType<TextBlock>().Any(t => t.Text.StartsWith("Next hourly reminder")), "At the hour the countdown moves to the next hourly reminder");
             time = special.SeenUtc;
             host.Preview(view with { MerchantStock = new[] { special } }); overlay.Refresh();
             check(overlay.DisplayedMerchantCount == 0, "Reading Special never populates the unread Pets tab");

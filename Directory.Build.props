@@ -6,7 +6,7 @@
     <Company>Lacu</Company>
     <Product>A2 Pet Tracking by Lacu</Product>
     <Authors>Lacu; original contributors credited in NOTICE</Authors>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <RuntimeFrameworkVersion>10.0.13</RuntimeFrameworkVersion>
     <NuGetAudit>false</NuGetAudit>
     <NuGetAuditMode>all</NuGetAuditMode>

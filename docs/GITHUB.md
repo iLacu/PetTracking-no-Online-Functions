@@ -1,4 +1,4 @@
-# Privates Quellcode-Repository
+# Quellcode-Repository
 
 Der Repository-Inhalt entspricht dem Ordner Quellcode. Keine persoenlichen Sammlungen, Einstellungen, Diagnosen, Paketmitschnitte, Sicherungen, Zugangsdaten, SDK-Dateien oder fertigen EXEs hochladen. Die .gitignore schliesst die lokalen Laufzeit- und Werkzeugordner zusaetzlich aus. Ein Quellcode-ZIP wird vor dem Hochladen entpackt, damit GitHub die Dateien direkt darstellen kann.
 

@@ -1388,6 +1388,7 @@ GameConnectionChecks.Run(Check);
 TcpConnectionTableChecks.Run(Check);
 PetPinChecks.Run(Check, root);
 MerchantShortcutChecks.Run(Check);
+LocalizationReminderChecks.Run(Check);
 StartupRequirementChecks.Run(Check, root);
 WindowSizeChecks.Run(Check);
 Console.WriteLine($"PASS including finder: {checks} core checks");

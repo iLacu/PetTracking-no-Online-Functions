@@ -75,6 +75,13 @@ public static class UiChecks
         Directory.CreateDirectory(folder);
         var app = new Application { ShutdownMode = ShutdownMode.OnExplicitShutdown };
         app.Resources.MergedDictionaries.Add(NativeTheme.Resources());
+        if (args.Contains("--language-reminder-only"))
+        {
+            LocalizationReminderUiChecks.Run(Check, folder, ShowOffscreen, Pump);
+            Console.WriteLine($"PASS: {passed} language and merchant reminder UI checks");
+            app.Shutdown();
+            return;
+        }
         if (args.Contains("--resize-only"))
         {
             WindowResizeChecks.Run(Check, folder, ShowOffscreen, Pump);
@@ -523,7 +530,7 @@ public static class UiChecks
 
         finderSearch.Text = "rabbit";
         Pump(30);
-        Check(Children(finder).OfType<TextBlock>().Any(b => b.Text.Contains("lokal gespeicherte Quellenangabe")) && !Children(finder).OfType<Button>().Any(b => Equals(b.Content, "Official source")), "Shop pet retains source attribution without an external browser action");
+        Check(Children(finder).OfType<TextBlock>().Any(b => b.Text.Contains("source stored locally")) && !Children(finder).OfType<Button>().Any(b => Equals(b.Content, "Official source")), "Shop pet retains source attribution without an external browser action");
         Check(!Children(finder).OfType<TextBlock>().Any(t => t.Text == "Farming maps" || t.Text == "Linked mobs"), "Shop pet omits empty farming and mob panels");
         Program.Save(finder, Path.Combine(folder, "finder-shop.png"), 860, 640);
         finderSearch.Text = "twitch";
@@ -548,7 +555,7 @@ public static class UiChecks
         Program.Save(finder, Path.Combine(folder, "finder-dungeon.png"), 860, 640);
         finder.SelectPet(1363);
         Pump(30);
-        Check(Children(finder).OfType<Image>().Any(i => i.Source != null) && Children(finder).OfType<TextBlock>().Any(b => b.Text.Contains("lokal gespeicherte Quellenangabe")), "New shop pet has bundled artwork and local source attribution");
+        Check(Children(finder).OfType<Image>().Any(i => i.Source != null) && Children(finder).OfType<TextBlock>().Any(b => b.Text.Contains("source stored locally")), "New shop pet has bundled artwork and local source attribution");
         Program.Save(finder, Path.Combine(folder, "finder-halloween.png"), 860, 640);
         finderSearch.Text = "Pet #";
         Pump(30);
@@ -734,7 +741,7 @@ public static class UiChecks
         ShowOffscreen(setupWindow);
         setupWindow.ShowConnection();
         Pump(30);
-        Check(Children(setupWindow).OfType<Button>().Any(b => Equals(b.Content, "Npcap lokal pruefen") && b.IsVisible), "Missing capture exposes local driver guidance without a browser download");
+        Check(Children(setupWindow).OfType<Button>().Any(b => Equals(b.Content, "Check Npcap locally") && b.IsVisible), "Missing capture exposes local driver guidance without a browser download");
         Children(setupWindow).OfType<Button>().Single(b => Equals(b.Content, "Refresh connection status")).RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
         Pump(30);
         Check(Children(setupWindow).OfType<TextBlock>().Any(t => t.Text == "Connection status refreshed"), "Refresh action gives visible completion feedback");
@@ -745,6 +752,8 @@ public static class UiChecks
         ShowOffscreen(marketSettings);
         marketSettings.ShowSection("Tracking");
         Pump(30);
+        Children(marketSettings).OfType<Expander>().Single(e => Equals(e.Header, "Observed shop recommendations")).IsExpanded = true;
+        Pump(20);
         var marketToggle = Children(marketSettings).OfType<CheckBox>().Single(c => Equals(c.Content, "Show merchant shopping list in overlay"));
         marketToggle.IsChecked = false;
         Pump(350);
@@ -956,7 +965,7 @@ public static class UiChecks
         condensed.ShowConnection();
         Pump(30);
         Check(!Children(condensed).OfType<Button>().Any(b => Equals(b.Content, "Restart capture") && b.IsVisible), "Capture recovery is hidden until advanced troubleshooting is expanded");
-        Check(!Children(condensed).OfType<Button>().Any(b => Equals(b.Content, "Npcap lokal pruefen") && b.IsVisible), "Healthy capture does not advertise driver setup");
+        Check(!Children(condensed).OfType<Button>().Any(b => Equals(b.Content, "Check Npcap locally") && b.IsVisible), "Healthy capture does not advertise driver setup");
         for (int depth = 0; depth < 2; depth++)
         {
             foreach (var ex in Children(condensed).OfType<Expander>().ToArray())
@@ -1238,7 +1247,7 @@ public static class UiChecks
             Pump(20);
             Check(!Children(clean).OfType<CheckBox>().Any(c => new[] { "Start with Windows", "Start with tracker hidden", "Show portraits", "Show progress bars", "Compact width" }.Contains(c.Content?.ToString())), "Retired startup and cosmetic switches are absent from settings");
             Check(!Children(clean).OfType<ComboBox>().Any(c => System.Windows.Automation.AutomationProperties.GetAutomationId(c) == "Accent"), "Decorative color picker is removed");
-            Check(Children(clean).OfType<CheckBox>().Any(c => Equals(c.Content, "Show merchant shopping list in overlay") && c.IsVisible), "Merchant recommendations live on Tracking");
+            Check(Children(clean).OfType<CheckBox>().Any(c => System.Windows.Automation.AutomationProperties.GetAutomationId(c) == nameof(AppSettings.MerchantRefreshAlerts) && c.IsVisible) && !Children(clean).OfType<Expander>().Single(e => Equals(e.Header, "Observed shop recommendations")).IsExpanded, "Hourly reminder is visible on Tracking and legacy observed recommendations start collapsed");
             Check(Children(clean).OfType<Expander>().Single(e => Equals(e.Header, "Sorting and timing")).IsExpanded == false, "Timing details start collapsed");
             clean.Width = 720;
             clean.Height = 560;
@@ -1284,6 +1293,7 @@ public static class UiChecks
         PlacementChecks.Run(Check);
         MobNameChecks.Run(Check, folder, ShowOffscreen, Pump);
         MerchantShortcutUiChecks.Run(Check, folder, ShowOffscreen, Pump);
+        LocalizationReminderUiChecks.Run(Check, folder, ShowOffscreen, Pump);
         StartupCheckUiChecks.Run(Check, folder, ShowOffscreen, Pump);
         WindowResizeChecks.Run(Check, folder, ShowOffscreen, Pump);
         OverlayCloseChecks.Run(Check, folder, view, ShowOffscreen, Pump);

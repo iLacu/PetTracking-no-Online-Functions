@@ -173,10 +173,14 @@ public sealed class SettingsWindow : Window
         pins.ToolTip = "Pin pets in Find a pet or right-click a tracker row. Pins keep their order. Lowering this limit keeps existing pins; the row limit grows when needed to leave room for activity.";
         Check(pets, "Hide maxed pets", nameof(AppSettings.HideMaxed));
         var merchant = Group(tracker, "Black Cloud Merchant");
-        Check(merchant, "Show merchant shopping list in overlay", nameof(AppSettings.BlackMarketAlerts));
-        Help(merchant, "Pets only from Chests or Black Cloud Merchants.");
+        Check(merchant, "Hourly merchant refresh reminder", nameof(AppSettings.MerchantRefreshAlerts));
+        Help(merchant, "At each local clock hour, the Merchant tab flashes yellow five times and shows a refresh reminder for 30 seconds.");
+        var observedShop = new StackPanel();
+        Check(observedShop, "Show merchant shopping list in overlay", nameof(AppSettings.BlackMarketAlerts));
+        Help(observedShop, "Pets only from Chests or Black Cloud Merchants.");
         merchantStatus.TextWrapping = TextWrapping.Wrap;
-        merchant.Children.Add(merchantStatus);
+        observedShop.Children.Add(merchantStatus);
+        Expand(tracker, "Observed shop recommendations", observedShop);
         var timing = new StackPanel();
         Choice(timing, "Sort", new[] { "Unfinished first", "Recent only", "Closest to next rank" }, host.PetOverlayPreferences.Sort, v => Queue(nameof(AppSettings.Sort), v)).ToolTip = "Unfinished first keeps Nearby in name order. Recent only puts the latest activity first. Pins always stay at the top.";
         Choice(recentOptions, "Hide inactive pets after", new[] { "Never", "15 seconds", "20 seconds", "30 seconds", "60 seconds", "120 seconds" }, Expiry(host.PetOverlayPreferences), v =>
@@ -260,6 +264,14 @@ public sealed class SettingsWindow : Window
         Actions(collection, Ui.Button("Manage accounts", host.OpenAccounts));
         syncHelp.Margin = new Thickness(0, 10, 0, 0);
         collection.Children.Add(syncHelp);
+        var languagePage = Page("Language");
+        var languageGroup = Group(languagePage, "Display language");
+        var language = new ComboBox { ItemsSource = AppLanguage.Options, SelectedItem = AppLanguage.Options.First(o => o.Code == host.PetOverlayPreferences.Language) };
+        System.Windows.Automation.AutomationProperties.SetAutomationId(language, "LanguageChoice");
+        SettingRow(languageGroup, "Language", language);
+        language.SelectionChanged += (s, e) => { if (!loading && language.SelectedItem is LanguageOption option) Queue(nameof(AppSettings.Language), option.Code); };
+        bindings.Add(options => language.SelectedItem = AppLanguage.Options.First(o => o.Code == options.Language));
+        Help(languageGroup, "Automatic uses your system display language. Unsupported system languages use English. A manual choice is saved and takes effect immediately.");
         var updatesPage = Page("Updates");
         var updates = Group(updatesPage, "Lokale Version");
         Help(updates, "A2 Pet Tracking by Lacu " + Version());
@@ -453,7 +465,7 @@ public sealed class SettingsWindow : Window
             return;
         var dialog = new Microsoft.Win32.SaveFileDialog
         {
-            Title = "Save support report",
+            Title = UiLanguage.Text("Save support report"),
             FileName = "PetTracker-support.json",
             Filter = "Support report (*.json)|*.json",
             DefaultExt = ".json"
@@ -525,6 +537,7 @@ public sealed class SettingsWindow : Window
             IsChecked = (bool)property.GetValue(host.PetOverlayPreferences)!,
             Margin = new Thickness(0, 10, 0, 4)
         };
+        System.Windows.Automation.AutomationProperties.SetAutomationId(checkbox, field);
         p.Children.Add(checkbox);
         checkbox.Checked += (s, e) => Queue(field, true);
         checkbox.Unchecked += (s, e) => Queue(field, false);
@@ -642,7 +655,7 @@ public sealed class SettingsWindow : Window
             button.Value.Background = button.Key == name ? new SolidColorBrush(Color.FromRgb(40, 50, 66)) : Brushes.Transparent;
         foreach (var button in navigation)
             button.Value.Foreground = button.Key == name ? Ui.Ink : Ui.Muted;
-        reset!.Visibility = name is "Tracking" or "Overlay" or "Hide Shortcut" ? Visibility.Visible : Visibility.Collapsed;
+        reset!.Visibility = name is "Tracking" or "Overlay" or "Hide Shortcut" or "Language" ? Visibility.Visible : Visibility.Collapsed;
     }
 
     public void ShowSection(string name)

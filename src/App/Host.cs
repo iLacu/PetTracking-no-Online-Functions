@@ -14,6 +14,7 @@ public sealed class Host : IDisposable
     public AppSettings PetOverlayPreferences { get; private set; } = new();
     public WorkerView? View { get; private set; }
     public MerchantDisplay MerchantDisplay { get; } = new();
+    public MerchantRefreshReminder MerchantReminder { get; } = new();
     public bool PreviewOnly { get; private set; }
     public string? ConnectionError { get; private set; }
     public bool ActivityCheckOnStart { get; set; }
@@ -91,6 +92,8 @@ public sealed class Host : IDisposable
         Directory.CreateDirectory(root);
         Tracker = new("", Catalog.Create());
         PetOverlayPreferences = AutomaticRecovery.Settings(root);
+        UiLanguage.Use(PetOverlayPreferences.Language);
+        MerchantReminder.Tick(DateTimeOffset.UtcNow, PetOverlayPreferences.MerchantRefreshAlerts);
         timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
         timer.Tick += async (s, e) =>
         {
@@ -263,6 +266,7 @@ public sealed class Host : IDisposable
         View = view;
         ConnectionError = null;
         PetOverlayPreferences = view.Settings;
+        UiLanguage.Use(PetOverlayPreferences.Language);
         Tracker.ReadOnlyView(view);
         settings?.RefreshStatus();
         if (!PreviewOnly && !captureSetupShown && view.Devices == 0)
@@ -271,7 +275,7 @@ public sealed class Host : IDisposable
             OpenConnectionHelp();
         }
 
-        bool hasRows = (Tracker.Ready && Activity.Select(Tracker, PetOverlayPreferences, DateTimeOffset.UtcNow).Any()) || MerchantDisplay.Select(view, DateTimeOffset.UtcNow).Count > 0;
+        bool hasRows = MerchantReminder.Tick(DateTimeOffset.UtcNow, PetOverlayPreferences.MerchantRefreshAlerts).Visible || (Tracker.Ready && Activity.Select(Tracker, PetOverlayPreferences, DateTimeOffset.UtcNow).Any()) || MerchantDisplay.Select(view, DateTimeOffset.UtcNow).Count > 0;
         if (hasRows)
             revealEmpty = false;
         bool show = (PetOverlayPreferences.TrackerMode == "Merchant" || !PetOverlayPreferences.HideWhenEmpty || !Tracker.Ready || hasRows || revealEmpty) && PetOverlayPreferences.Visible && !StartHidden && (!PetOverlayPreferences.GameOnly || IsGameForeground(PetOverlayPreferences.GameProcesses));

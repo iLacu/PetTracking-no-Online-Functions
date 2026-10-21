@@ -12,7 +12,7 @@ public sealed class HideShortcutButton : Button
     {
         this.host = host;
         this.save = save;
-        SetResourceReference(StyleProperty, typeof(Button));
+        SetResourceReference(StyleProperty, typeof(System.Windows.Controls.Button));
         Padding = new Thickness(20, 10, 20, 10);
         MinWidth = 190;
         HorizontalAlignment = HorizontalAlignment.Left;

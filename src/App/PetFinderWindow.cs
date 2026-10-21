@@ -123,7 +123,7 @@ public sealed class PetFinderWindow : Window
      <TextBlock Text="{Binding Label}" FontSize="13" FontWeight="SemiBold" TextTrimming="CharacterEllipsis"/>
      <DockPanel Margin="0,6,0,0">
       <TextBlock DockPanel.Dock="Right" Text="{Binding Progress}" Foreground="{Binding ProgressBrush}" FontSize="10" FontWeight="SemiBold" VerticalAlignment="Center" Margin="6,0,0,0"/>
-      <StackPanel Orientation="Horizontal"><TextBlock Text="{Binding Rank}" FontSize="10" Foreground="#99A3B1" VerticalAlignment="Center"/><local:PetFamilyBadge PetId="{Binding Result.Pet.Id}"/></StackPanel>
+      <StackPanel Orientation="Horizontal"><local:LocalizedTextBlock Text="{Binding Rank}" FontSize="10" Foreground="#99A3B1" VerticalAlignment="Center"/><local:PetFamilyBadge PetId="{Binding Result.Pet.Id}"/></StackPanel>
      </DockPanel>
      </StackPanel>
     </Grid>

@@ -10,8 +10,9 @@ public static class SettingsSections
     {
         string[] fields = section switch
         {
+            "Language" => [nameof(AppSettings.Language)],
             "Hide Shortcut" => [nameof(AppSettings.HideShortcutKey), nameof(AppSettings.HideShortcutModifiers)],
-            "Tracking" => [nameof(AppSettings.ExperimentalDirections), nameof(AppSettings.TrackerMode), nameof(AppSettings.NearbyStaleSeconds), nameof(AppSettings.RowLimit), nameof(AppSettings.PinLimit), nameof(AppSettings.Sort), nameof(AppSettings.HideMaxed), nameof(AppSettings.ExpireInactive), nameof(AppSettings.InactiveSeconds), nameof(AppSettings.BlackMarketAlerts)],
+            "Tracking" => [nameof(AppSettings.ExperimentalDirections), nameof(AppSettings.TrackerMode), nameof(AppSettings.NearbyStaleSeconds), nameof(AppSettings.RowLimit), nameof(AppSettings.PinLimit), nameof(AppSettings.Sort), nameof(AppSettings.HideMaxed), nameof(AppSettings.ExpireInactive), nameof(AppSettings.InactiveSeconds), nameof(AppSettings.BlackMarketAlerts), nameof(AppSettings.MerchantRefreshAlerts)],
             "Overlay" => [nameof(AppSettings.Scale), nameof(AppSettings.Opacity), nameof(AppSettings.Accent), nameof(AppSettings.Compact), nameof(AppSettings.Portraits), nameof(AppSettings.ProgressBars), nameof(AppSettings.ReducedMotion), nameof(AppSettings.GameOnly), nameof(AppSettings.Hotkey), nameof(AppSettings.Locked), nameof(AppSettings.ClickThrough), nameof(AppSettings.HideWhenEmpty), nameof(AppSettings.Sounds), nameof(AppSettings.Toasts)],
             "Appearance" => [nameof(AppSettings.Accent), nameof(AppSettings.Scale), nameof(AppSettings.Opacity), nameof(AppSettings.Compact), nameof(AppSettings.Portraits), nameof(AppSettings.ProgressBars), nameof(AppSettings.ReducedMotion)],
             "General" => [nameof(AppSettings.StartWithWindows), nameof(AppSettings.StartMinimized), nameof(AppSettings.GameOnly), nameof(AppSettings.Hotkey), nameof(AppSettings.Locked), nameof(AppSettings.ClickThrough), nameof(AppSettings.Sounds), nameof(AppSettings.Toasts), nameof(AppSettings.BlackMarketAlerts)],

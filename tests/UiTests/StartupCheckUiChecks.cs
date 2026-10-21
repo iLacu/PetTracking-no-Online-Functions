@@ -51,14 +51,14 @@ static class StartupCheckUiChecks
         var blocked = ready with { Checks = ready.Checks.Select(c => c.Id == "package" ? c with { Passed = false, Detail = "A2PetTracking.Capture.exe fehlt. Das vollständige ZIP erneut entpacken." } : c).ToArray(), NpcapMissing = true };
         var files = new StartupCheckWindow(_ => Task.FromResult(blocked), (_, _) => { installs++; return Task.FromResult(new NpcapSetupResult(true, false, "")); }, false);
         show(files); Complete(files.RunCheck());
-        check(!files.ReadyToStart && installs == 1 && !Children(files).OfType<Button>().Any(b => Equals(b.Content, "Npcap-Setup öffnen") && b.IsVisible), "Missing program files prevent both tracking and unnecessary Npcap installation");
+        check(!files.ReadyToStart && installs == 1 && !Children(files).OfType<Button>().Any(b => Equals(b.Content, "Open Npcap setup") && b.IsVisible), "Missing program files prevent both tracking and unnecessary Npcap installation");
         Program.Save(files, Path.Combine(folder, "startup-files-missing.png"), 660, 570); files.Close();
 
         int attempts = 0;
         var canceled = new StartupCheckWindow(_ => Task.FromResult(missing), (_, _) => { attempts++; return Task.FromResult(new NpcapSetupResult(false, false, "Installation abgebrochen.")); }, false);
         show(canceled); Complete(canceled.RunCheck()); Complete(canceled.RunCheck());
         check(!canceled.ReadyToStart && attempts == 1 && canceled.IsVisible, "Cancelled installation does not loop or start tracking after a retry");
-        check(Children(canceled).OfType<Button>().Any(b => Equals(b.Content, "Npcap-Setup öffnen") && b.IsVisible), "The user can retry visible setup after cancellation");
+        check(Children(canceled).OfType<Button>().Any(b => Equals(b.Content, "Open Npcap setup") && b.IsVisible), "The user can retry visible setup after cancellation");
         Program.Save(canceled, Path.Combine(folder, "startup-npcap-missing.png"), 660, 570); canceled.Close();
 
         var reboot = new StartupCheckWindow(_ => Task.FromResult(missing), (_, _) => Task.FromResult(new NpcapSetupResult(true, true, "Bitte Windows neu starten.")), false);

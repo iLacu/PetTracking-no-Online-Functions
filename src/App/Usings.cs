@@ -7,6 +7,14 @@ global using System.Threading.Tasks;
 global using System.Windows;
 global using System.Windows.Controls;
 global using System.Windows.Media;
+global using TextBlock = PetTracker.LocalizedTextBlock;
+global using Button = PetTracker.LocalizedButton;
+global using CheckBox = PetTracker.LocalizedCheckBox;
+global using ComboBox = PetTracker.LocalizedComboBox;
+global using Expander = PetTracker.LocalizedExpander;
+global using ToolTip = PetTracker.LocalizedToolTip;
+global using MenuItem = PetTracker.LocalizedMenuItem;
+global using TextBox = PetTracker.LocalizedTextBox;
 
 namespace PetTracker;
 
@@ -24,8 +32,8 @@ public static class Ui
     public static void Error(Exception ex, Window? owner = null)
     {
         if (owner != null)
-            MessageBox.Show(owner, ex.Message, "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(owner, UiLanguage.Text(ex.Message), "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
         else
-            MessageBox.Show(ex.Message, "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(UiLanguage.Text(ex.Message), "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }

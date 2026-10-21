@@ -20,9 +20,18 @@ public static class NativeTheme
         };
     }
 
-    public static ResourceDictionary Resources() => new() { Source = new Uri("/A2PetTracking;component/NativeTheme.xaml", UriKind.Relative) };
+    public static ResourceDictionary Resources()
+    {
+        var resources = new ResourceDictionary { Source = new Uri("/A2PetTracking;component/NativeTheme.xaml", UriKind.Relative) };
+        var tooltip = new Style(typeof(System.Windows.Controls.ToolTip), (Style)resources["ArcanaToolTipStyle"]);
+        tooltip.Setters.Add(new Setter(System.Windows.Controls.ContentControl.ContentTemplateSelectorProperty, new LocalizedStringTemplateSelector()));
+        resources["ArcanaToolTipStyle"] = tooltip;
+        resources[typeof(System.Windows.Controls.ToolTip)] = tooltip;
+        return resources;
+    }
     public static void Install(Window w)
     {
+        UiLanguage.Attach(w);
         w.Resources.MergedDictionaries.Add(Resources());
         w.Background = Ui.Dark;
         w.Foreground = Ui.Ink;

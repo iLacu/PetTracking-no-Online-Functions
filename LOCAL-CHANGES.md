@@ -1,5 +1,11 @@
 # A2 Pet Tracking by Lacu
 
+## Local version 1.0.5
+
+- Added system-language defaults and a persistent Language page with German, English, Spanish, French, Italian and Polish. Unsupported system display languages fall back to English. Open windows, dropdown captions, prerequisite messages and the tray menu update without restarting. Stored mode values, user-entered names and game catalog names remain stable.
+- Added a local-clock Merchant refresh reminder: exactly five yellow pulses at each full local hour and a thirty-second banner directly beneath the main tabs, including while another tab is selected. A separate enabled-by-default setting stops an in-progress reminder immediately and does not replay missed reminders when re-enabled. Handles date changes, fractional time zones, DST and clock rollback.
+- Added persistence, migration, clock-boundary and real WPF-control checks, six-language rendered previews and format-placeholder validation. The reminder does not send game traffic or read game memory.
+
 Private local edition, version 1.0.0, based on PetTracker commit a9d3cbf1faf48fe68dc463a4ae5a640648678831 (0.1.51).
 
 Changes: remote updater and Velopack dependency removed; publisher keys, GitHub automation and release scripts removed; browser launch actions removed; own app identity and IPC names; portable data folder; redacted on-disk connection report; no retained raw packet samples; .NET SDK 10.0.402/runtime 10.0.13; offline local NuGet source.

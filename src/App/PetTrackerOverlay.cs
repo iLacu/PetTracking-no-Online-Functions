@@ -33,6 +33,9 @@ public sealed class PetTrackerOverlay : Window
 
     readonly CheckBox hideMax;
     readonly Dictionary<string, Button> modes = new();
+    readonly MerchantRefreshReminder refreshReminder;
+    readonly Border refreshNotice;
+    readonly System.Windows.Threading.DispatcherTimer refreshTimer = new() { Interval = TimeSpan.FromMilliseconds(250) };
     readonly Dictionary<int, Row> cards = new();
     readonly Func<DateTimeOffset> now;
     readonly bool animate;
@@ -47,9 +50,12 @@ public sealed class PetTrackerOverlay : Window
         this.host = host;
         now = clock ?? (() => DateTimeOffset.UtcNow);
         this.animate = animate;
+        refreshReminder = clock == null ? host.MerchantReminder : new MerchantRefreshReminder();
+        refreshReminder.Tick(now(), host.PetOverlayPreferences.MerchantRefreshAlerts);
         names = new();
         portraits = new(host.AssetRoot);
         Title = "A2 Pet Tracking by Lacu";
+        UiLanguage.Attach(this);
         Width = 320;
         SizeToContent = SizeToContent.Height;
         WindowStyle = WindowStyle.None;
@@ -170,7 +176,7 @@ public sealed class PetTrackerOverlay : Window
             button.Padding = new Thickness(6, 2, 6, 2);
             button.Margin = new Thickness(0, 0, 4, 0);
             button.FontSize = 11;
-            button.ToolTip = mode == "Nearby" ? "Pet mobs observed by the game client. Distance is not measured." : mode == "Merchant" ? "Black Cloud Merchants · refresh, Special and Pets." : "Your recent pet rewards and tracked kills.";
+            button.ToolTip = mode == "Nearby" ? "Pet mobs observed by the game client. Distance is not measured." : mode == "Merchant" ? "Hourly merchant refresh reminder" : "Your recent pet rewards and tracked kills.";
             System.Windows.Automation.AutomationProperties.SetAutomationId(button, "TrackerMode-" + mode);
             modes[mode] = button;
             modeBar.Children.Add(button);
@@ -192,8 +198,15 @@ public sealed class PetTrackerOverlay : Window
         System.Windows.Automation.AutomationProperties.SetAutomationId(merchantSection, "MerchantRecommendations");
         var body = new StackPanel();
         body.Children.Add(merchantSection);
-        Grid.SetRow(modeBar, 1);
-        layout.Children.Add(modeBar);
+        var tabsAndNotice = new StackPanel();
+        tabsAndNotice.Children.Add(modeBar);
+        var notice = Ui.Text("The Black Cloud Merchant shop has refreshed.", 12);
+        notice.Foreground = new SolidColorBrush(Color.FromRgb(255, 215, 80));
+        refreshNotice = new Border { Child = notice, Visibility = Visibility.Collapsed, Padding = new Thickness(8), Margin = new Thickness(0, 4, 0, 4), CornerRadius = new CornerRadius(4), Background = new SolidColorBrush(Color.FromRgb(48, 39, 17)) };
+        System.Windows.Automation.AutomationProperties.SetAutomationId(refreshNotice, "MerchantRefreshNotice");
+        tabsAndNotice.Children.Add(refreshNotice);
+        Grid.SetRow(tabsAndNotice, 1);
+        layout.Children.Add(tabsAndNotice);
         merchantPage = new MerchantPanel(host, now) { Visibility = Visibility.Collapsed };
         body.Children.Add(merchantPage);
         body.Children.Add(rows);
@@ -226,6 +239,8 @@ public sealed class PetTrackerOverlay : Window
                 directionTimer.Stop();
         };
         Refresh();
+        refreshTimer.Tick += (s, e) => RefreshMerchantNotice();
+        refreshTimer.Start();
     }
 
     public void ApplyWindowPreferences(AppSettings settings)
@@ -257,6 +272,7 @@ public sealed class PetTrackerOverlay : Window
                 mode.Value.Background = selected ? NativeTheme.Accent(settings.Accent) : Brushes.Transparent;
                 mode.Value.Foreground = selected ? Brushes.Black : Ui.Muted;
             }
+            RefreshMerchantNotice();
             bool shopping = settings.TrackerMode == "Merchant";
             rows.Visibility = shopping ? Visibility.Collapsed : Visibility.Visible;
             hideMax.Visibility = shopping ? Visibility.Collapsed : Visibility.Visible;
@@ -607,12 +623,25 @@ public sealed class PetTrackerOverlay : Window
         disposed = true;
         frame.Dispose();
         directionTimer.Stop();
+        refreshTimer.Stop();
         merchantPage.Dispose();
         foreach (var row in cards.Values)
             row.Cancel();
         cards.Clear();
         allowClose = true;
         Close();
+    }
+
+    public void RefreshMerchantNotice()
+    {
+        if (disposed) return;
+        var settings = host.PetOverlayPreferences;
+        var state = refreshReminder.Tick(now(), settings.MerchantRefreshAlerts);
+        refreshNotice.Visibility = state.Visible ? Visibility.Visible : Visibility.Collapsed;
+        if (!modes.TryGetValue("Merchant", out var tab)) return;
+        bool selected = settings.TrackerMode == "Merchant";
+        tab.Background = state.Blinking ? (state.Yellow ? new SolidColorBrush(Color.FromRgb(255, 215, 80)) : Brushes.Transparent) : selected ? NativeTheme.Accent(settings.Accent) : Brushes.Transparent;
+        tab.Foreground = state.Blinking ? (state.Yellow ? Brushes.Black : Ui.Muted) : selected ? Brushes.Black : Ui.Muted;
     }
 
     void ConstrainToDesktop()

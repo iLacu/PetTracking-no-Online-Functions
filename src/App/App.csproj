@@ -19,6 +19,8 @@
   <ItemGroup>
     <ProjectReference Include="../Core/Core.csproj" />
     <EmbeddedResource Include="../../assets/PetTracker.ico" LogicalName="PetTracker.Icon" />
+    <EmbeddedResource Include="Translations.json" LogicalName="PetTracker.Translations.json" />
+    <EmbeddedResource Include="TranslationAliases.json" LogicalName="PetTracker.TranslationAliases.json" />
     <EmbeddedResource Include="../../assets/portraits/*.png" LogicalName="PetTracker.Portraits.%(Filename).png" />
   </ItemGroup>
   <ItemGroup>

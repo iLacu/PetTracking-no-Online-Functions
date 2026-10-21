@@ -1,0 +1,2760 @@
+{
+  "A2 Pet Tracking by Lacu — Accounts": [
+    "A2 Pet Tracking by Lacu — Konten",
+    "A2 Pet Tracking by Lacu — Cuentas",
+    "A2 Pet Tracking by Lacu — Comptes",
+    "A2 Pet Tracking by Lacu — Account",
+    "A2 Pet Tracking by Lacu — Konta"
+  ],
+  "Accounts": [
+    "Konten",
+    "Cuentas",
+    "Comptes",
+    "Account",
+    "Konta"
+  ],
+  "Pets are shared across an account. Choose the account to track, or link your detected alt to its account.": [
+    "Pets werden innerhalb eines Kontos geteilt. Wähle das zu erfassende Konto oder verknüpfe deinen erkannten Zweitcharakter damit.",
+    "Las mascotas se comparten en una cuenta. Elige la cuenta que quieres seguir o vincula tu personaje alternativo detectado.",
+    "Les familiers sont partagés sur un compte. Choisissez le compte à suivre ou associez le personnage secondaire détecté.",
+    "I famigli sono condivisi nell'account. Scegli l'account da seguire o collega il personaggio alternativo rilevato.",
+    "Pupile są współdzielone na koncie. Wybierz śledzone konto lub połącz z nim wykrytą postać alternatywną."
+  ],
+  "Your first account connects automatically when Aion 2 sends its character record.": [
+    "Dein erstes Konto wird automatisch verbunden, sobald Aion 2 die Charakterdaten sendet.",
+    "La primera cuenta se conecta automáticamente cuando Aion 2 envía los datos del personaje.",
+    "Votre premier compte se connecte automatiquement quand Aion 2 envoie les données du personnage.",
+    "Il primo account si collega automaticamente quando Aion 2 invia i dati del personaggio.",
+    "Pierwsze konto połączy się automatycznie, gdy Aion 2 wyśle dane postaci."
+  ],
+  "Waiting for character detection": [
+    "Warte auf Charaktererkennung",
+    "Esperando la detección del personaje",
+    "En attente de détection du personnage",
+    "In attesa del rilevamento del personaggio",
+    "Oczekiwanie na wykrycie postaci"
+  ],
+  "Use selected account": [
+    "Ausgewähltes Konto verwenden",
+    "Usar la cuenta seleccionada",
+    "Utiliser le compte sélectionné",
+    "Usa l'account selezionato",
+    "Użyj wybranego konta"
+  ],
+  "Rename account": [
+    "Konto umbenennen",
+    "Renombrar cuenta",
+    "Renommer le compte",
+    "Rinomina account",
+    "Zmień nazwę konta"
+  ],
+  "Account name": [
+    "Kontoname",
+    "Nombre de la cuenta",
+    "Nom du compte",
+    "Nome account",
+    "Nazwa konta"
+  ],
+  "Save name": [
+    "Namen speichern",
+    "Guardar nombre",
+    "Enregistrer le nom",
+    "Salva nome",
+    "Zapisz nazwę"
+  ],
+  "Add another account": [
+    "Weiteres Konto hinzufügen",
+    "Añadir otra cuenta",
+    "Ajouter un autre compte",
+    "Aggiungi un altro account",
+    "Dodaj kolejne konto"
+  ],
+  "Add account": [
+    "Konto hinzufügen",
+    "Añadir cuenta",
+    "Ajouter un compte",
+    "Aggiungi account",
+    "Dodaj konto"
+  ],
+  "Create this only for another game account. Alts on your current account share its collection.": [
+    "Nur für ein anderes Spielkonto erstellen. Zweitcharaktere auf deinem aktuellen Konto teilen dessen Sammlung.",
+    "Créala solo para otra cuenta del juego. Los personajes alternativos de tu cuenta actual comparten su colección.",
+    "À créer uniquement pour un autre compte de jeu. Les personnages secondaires du compte actuel partagent sa collection.",
+    "Crea solo per un altro account di gioco. I personaggi alternativi dell'account attuale condividono la raccolta.",
+    "Utwórz tylko dla innego konta gry. Postacie alternatywne na obecnym koncie współdzielą kolekcję."
+  ],
+  "First character name": [
+    "Name des ersten Charakters",
+    "Nombre del primer personaje",
+    "Nom du premier personnage",
+    "Nome del primo personaggio",
+    "Nazwa pierwszej postaci"
+  ],
+  "Press shortcut… (Esc cancels)": [
+    "Tastenkürzel drücken … (Esc bricht ab)",
+    "Pulsa el atajo… (Esc cancela)",
+    "Appuyez sur le raccourci… (Échap annule)",
+    "Premi la scorciatoia… (Esc annulla)",
+    "Naciśnij skrót… (Esc anuluje)"
+  ],
+  "Windows blocked the local capture connection. Open A2 Pet Tracking by Lacu from your Windows shortcut.": [
+    "Windows hat die lokale Verbindung zur Erfassung blockiert. Starte A2 Pet Tracking by Lacu über deine Windows-Verknüpfung.",
+    "Windows bloqueó la conexión local de captura. Abre A2 Pet Tracking by Lacu desde su acceso directo.",
+    "Windows a bloqué la connexion de capture locale. Ouvrez A2 Pet Tracking by Lacu avec son raccourci Windows.",
+    "Windows ha bloccato la connessione di acquisizione locale. Apri A2 Pet Tracking by Lacu dal collegamento Windows.",
+    "Windows zablokował lokalne połączenie przechwytywania. Uruchom A2 Pet Tracking by Lacu ze skrótu Windows."
+  ],
+  "A2 Pet Tracking by Lacu is closing.": [
+    "A2 Pet Tracking by Lacu wird beendet.",
+    "A2 Pet Tracking by Lacu se está cerrando.",
+    "A2 Pet Tracking by Lacu se ferme.",
+    "Chiusura di A2 Pet Tracking by Lacu.",
+    "Zamykanie A2 Pet Tracking by Lacu."
+  ],
+  "Capture is unavailable.": [
+    "Die Erfassung ist nicht verfügbar.",
+    "La captura no está disponible.",
+    "La capture est indisponible.",
+    "L'acquisizione non è disponibile.",
+    "Przechwytywanie jest niedostępne."
+  ],
+  "Restart A2 Pet Tracking by Lacu to reconnect the local capture component.": [
+    "Starte A2 Pet Tracking by Lacu neu, um die lokale Erfassung erneut zu verbinden.",
+    "Reinicia A2 Pet Tracking by Lacu para reconectar la captura local.",
+    "Redémarrez A2 Pet Tracking by Lacu pour reconnecter la capture locale.",
+    "Riavvia A2 Pet Tracking by Lacu per ricollegare l'acquisizione locale.",
+    "Uruchom ponownie A2 Pet Tracking by Lacu, aby połączyć lokalne przechwytywanie."
+  ],
+  "The capture component is missing. Reinstall A2 Pet Tracking by Lacu.": [
+    "Die Erfassungskomponente fehlt. Installiere A2 Pet Tracking by Lacu erneut.",
+    "Falta el componente de captura. Reinstala A2 Pet Tracking by Lacu.",
+    "Le composant de capture est manquant. Réinstallez A2 Pet Tracking by Lacu.",
+    "Manca il componente di acquisizione. Reinstalla A2 Pet Tracking by Lacu.",
+    "Brak składnika przechwytywania. Zainstaluj ponownie A2 Pet Tracking by Lacu."
+  ],
+  "Merchant": [
+    "Händler",
+    "Mercader",
+    "Marchand",
+    "Mercante",
+    "Handlarz"
+  ],
+  "Nearby": [
+    "Umgebung",
+    "Cercanos",
+    "À proximité",
+    "Vicinanze",
+    "W pobliżu"
+  ],
+  "Preview is not initialized": [
+    "Die Vorschau ist nicht initialisiert.",
+    "La vista previa no está inicializada.",
+    "L'aperçu n'est pas initialisé.",
+    "L'anteprima non è inizializzata.",
+    "Podgląd nie został zainicjowany."
+  ],
+  "This action needs a connected app": [
+    "Diese Aktion benötigt eine verbundene Anwendung.",
+    "Esta acción necesita una aplicación conectada.",
+    "Cette action nécessite une application connectée.",
+    "Questa azione richiede un'app collegata.",
+    "Ta czynność wymaga połączonej aplikacji."
+  ],
+  "The settings could not be saved. Retry closing after the file is available.": [
+    "Die Einstellungen konnten nicht gespeichert werden. Beende erneut, sobald die Datei verfügbar ist.",
+    "No se pudieron guardar los ajustes. Intenta cerrar de nuevo cuando el archivo esté disponible.",
+    "Les paramètres n'ont pas pu être enregistrés. Réessayez de fermer quand le fichier sera disponible.",
+    "Impossibile salvare le impostazioni. Riprova a chiudere quando il file sarà disponibile.",
+    "Nie udało się zapisać ustawień. Spróbuj zamknąć ponownie, gdy plik będzie dostępny."
+  ],
+  "Black Cloud Merchants": [
+    "Schwarzwolkenhändler",
+    "Mercaderes de la Nube Negra",
+    "Marchands du Nuage Noir",
+    "Mercanti della Nuvola Nera",
+    "Handlarze Czarnej Chmury"
+  ],
+  "Special": [
+    "Spezial",
+    "Especial",
+    "Spécial",
+    "Speciale",
+    "Specjalne"
+  ],
+  "Pets": [
+    "Pets",
+    "Mascotas",
+    "Familiers",
+    "Famigli",
+    "Pupile"
+  ],
+  "Open Special and Pets in the game to read each tab. Offers are last observed; purchases or manual refreshes can change them.": [
+    "Öffne im Spiel die Reiter Spezial und Pets, um ihre Angebote einzulesen. Angezeigt wird der zuletzt erfasste Stand; Käufe und manuelle Aktualisierungen können ihn ändern.",
+    "Abre Especial y Mascotas en el juego para leer sus ofertas. Se muestra la última lista observada; las compras o actualizaciones manuales pueden cambiarla.",
+    "Ouvrez Spécial et Familiers dans le jeu pour lire les offres. Le dernier relevé est affiché ; les achats et actualisations manuelles peuvent le modifier.",
+    "Apri Speciale e Famigli nel gioco per leggere le offerte. Viene mostrato l'ultimo elenco osservato; acquisti e aggiornamenti manuali possono modificarlo.",
+    "Otwórz w grze zakładki Specjalne i Pupile, aby odczytać oferty. Wyświetlany jest ostatni odczyt; zakupy i ręczne odświeżenie mogą go zmienić."
+  ],
+  "Open this tab in the game. Expired offers are cleared at refresh.": [
+    "Öffne diesen Reiter im Spiel. Abgelaufene Angebote werden bei der Aktualisierung entfernt.",
+    "Abre esta pestaña en el juego. Las ofertas caducadas se eliminan al actualizar.",
+    "Ouvrez cet onglet dans le jeu. Les offres expirées disparaissent à l'actualisation.",
+    "Apri questa scheda nel gioco. Le offerte scadute vengono rimosse all'aggiornamento.",
+    "Otwórz tę zakładkę w grze. Wygasłe oferty są usuwane przy odświeżeniu."
+  ],
+  "Waiting for a character connection. Then open the merchant in game.": [
+    "Warte auf eine Charakterverbindung. Öffne danach den Händler im Spiel.",
+    "Esperando la conexión de un personaje. Después abre el mercader en el juego.",
+    "En attente de connexion d'un personnage. Ouvrez ensuite le marchand dans le jeu.",
+    "In attesa del collegamento del personaggio. Poi apri il mercante nel gioco.",
+    "Oczekiwanie na połączenie postaci. Następnie otwórz handlarza w grze."
+  ],
+  "No pet offers were found in this observed tab.": [
+    "In diesem eingelesenen Reiter wurden keine Pet-Angebote gefunden.",
+    "No se encontraron ofertas de mascotas en esta pestaña.",
+    "Aucune offre de familier trouvée dans cet onglet relevé.",
+    "Nessuna offerta di famigli trovata in questa scheda.",
+    "Nie znaleziono ofert pupili w odczytanej zakładce."
+  ],
+  "Unranked": [
+    "Ohne Rang",
+    "Sin rango",
+    "Sans rang",
+    "Senza grado",
+    "Bez rangi"
+  ],
+  "Rank ? · collection not synced": [
+    "Rang ? · Sammlung nicht synchronisiert",
+    "Rango ? · colección sin sincronizar",
+    "Rang ? · collection non synchronisée",
+    "Grado ? · raccolta non sincronizzata",
+    "Ranga ? · kolekcja niezsynchronizowana"
+  ],
+  "N up": [
+    "N oben",
+    "N arriba",
+    "N en haut",
+    "N in alto",
+    "N u góry"
+  ],
+  "Map direction from your position: up is north, right is east. Turning does not rotate the arrow. Stale positions hide it.": [
+    "Kartenrichtung von deiner Position aus: Oben ist Norden, rechts ist Osten. Beim Drehen bleibt der Pfeil ausgerichtet. Veraltete Positionen blenden ihn aus.",
+    "Dirección desde tu posición: arriba es norte y a la derecha es este. Girar no rota la flecha. Se oculta con posiciones antiguas.",
+    "Direction depuis votre position : le nord est en haut, l'est à droite. Tourner ne fait pas pivoter la flèche. Les positions anciennes la masquent.",
+    "Direzione dalla tua posizione: in alto è nord, a destra è est. Ruotare non gira la freccia. Le posizioni obsolete la nascondono.",
+    "Kierunek od twojej pozycji: góra to północ, prawo to wschód. Obrót nie obraca strzałki. Nieaktualne pozycje ją ukrywają."
+  ],
+  "Experimental arrow relative to your last skill facing; up means ahead. Expires after two seconds.": [
+    "Experimenteller Pfeil relativ zur letzten Fertigkeitsrichtung; oben bedeutet voraus. Läuft nach zwei Sekunden ab.",
+    "Flecha experimental relativa a la última dirección de habilidad; arriba significa delante. Caduca a los dos segundos.",
+    "Flèche expérimentale relative à la dernière orientation de compétence ; le haut indique devant. Expire après deux secondes.",
+    "Freccia sperimentale rispetto all'ultima direzione di abilità; in alto indica avanti. Scade dopo due secondi.",
+    "Eksperymentalna strzałka względem ostatniego kierunku umiejętności; góra oznacza przód. Wygasa po dwóch sekundach."
+  ],
+  "Arrow relative to your character; up means ahead.": [
+    "Pfeil relativ zu deinem Charakter; oben bedeutet voraus.",
+    "Flecha relativa a tu personaje; arriba significa delante.",
+    "Flèche relative à votre personnage ; le haut indique devant.",
+    "Freccia rispetto al personaggio; in alto indica avanti.",
+    "Strzałka względem postaci; góra oznacza przód."
+  ],
+  "Direction unavailable.": [
+    "Richtung nicht verfügbar.",
+    "Dirección no disponible.",
+    "Direction indisponible.",
+    "Direzione non disponibile.",
+    "Kierunek niedostępny."
+  ],
+  "All pets": [
+    "Alle Pets",
+    "Todas las mascotas",
+    "Tous les familiers",
+    "Tutti i famigli",
+    "Wszystkie pupile"
+  ],
+  "Black Market watchlist": [
+    "Händler-Merkliste",
+    "Lista del mercado negro",
+    "Liste du marché noir",
+    "Lista del mercato nero",
+    "Lista czarnego rynku"
+  ],
+  "Seen in Black Market": [
+    "Beim Händler gesehen",
+    "Visto en el mercado negro",
+    "Vu au marché noir",
+    "Visto al mercato nero",
+    "Widziane na czarnym rynku"
+  ],
+  "Rank ?": [
+    "Rang ?",
+    "Rango ?",
+    "Rang ?",
+    "Grado ?",
+    "Ranga ?"
+  ],
+  "✓ MAX": [
+    "✓ MAX",
+    "✓ MÁX.",
+    "✓ MAX",
+    "✓ MAX",
+    "✓ MAKS."
+  ],
+  "A2 Pet Tracking by Lacu — Find a pet": [
+    "A2 Pet Tracking by Lacu — Pet suchen",
+    "A2 Pet Tracking by Lacu — Buscar mascota",
+    "A2 Pet Tracking by Lacu — Trouver un familier",
+    "A2 Pet Tracking by Lacu — Cerca un famiglio",
+    "A2 Pet Tracking by Lacu — Znajdź pupila"
+  ],
+  "Find a pet": [
+    "Pet suchen",
+    "Buscar mascota",
+    "Trouver un familier",
+    "Cerca un famiglio",
+    "Znajdź pupila"
+  ],
+  "Soul sources, locations, and your collection progress.": [
+    "Seelenquellen, Fundorte und dein Sammlungsfortschritt.",
+    "Fuentes de almas, ubicaciones y progreso de tu colección.",
+    "Sources d'âmes, lieux et progression de votre collection.",
+    "Fonti di anime, luoghi e progressi della raccolta.",
+    "Źródła dusz, lokalizacje i postępy kolekcji."
+  ],
+  "Search pets or mobs…": [
+    "Pets oder Mobs suchen …",
+    "Buscar mascotas o monstruos…",
+    "Rechercher des familiers ou monstres…",
+    "Cerca famigli o mostri…",
+    "Szukaj pupili lub potworów…"
+  ],
+  "Shows pets with supported locations or acquisition sources, plus pets with saved collection progress. Other entries are hidden until their sources are confirmed.": [
+    "Zeigt Pets mit bekannten Fundorten oder Bezugsquellen sowie Pets mit gespeichertem Fortschritt. Andere Einträge bleiben verborgen, bis ihre Quellen bestätigt sind.",
+    "Muestra mascotas con ubicaciones o fuentes conocidas y con progreso guardado. Las demás se ocultan hasta confirmar sus fuentes.",
+    "Affiche les familiers aux lieux ou sources connus ainsi que ceux ayant une progression enregistrée. Les autres restent masqués jusqu'à confirmation des sources.",
+    "Mostra famigli con luoghi o fonti noti e con progressi salvati. Gli altri restano nascosti finché le fonti non vengono confermate.",
+    "Pokazuje pupile o znanych lokalizacjach lub źródłach oraz z zapisanym postępem. Pozostałe są ukryte do potwierdzenia źródeł."
+  ],
+  "Locations and sources are stored locally. Confirm shop stock in game.": [
+    "Fundorte und Quellen sind lokal gespeichert. Prüfe Shopangebote im Spiel.",
+    "Las ubicaciones y fuentes se guardan localmente. Confirma las ofertas en el juego.",
+    "Les lieux et sources sont stockés localement. Vérifiez les offres dans le jeu.",
+    "Luoghi e fonti sono salvati localmente. Verifica le offerte nel gioco.",
+    "Lokalizacje i źródła są zapisane lokalnie. Sprawdź oferty w grze."
+  ],
+  "COLLECTION": [
+    "SAMMLUNG",
+    "COLECCIÓN",
+    "COLLECTION",
+    "RACCOLTA",
+    "KOLEKCJA"
+  ],
+  "Shopping list · Pets obtained from chests or the merchant. Maxed pets are hidden.": [
+    "Einkaufsliste · Pets aus Truhen oder vom Händler. Pets mit maximalem Rang sind ausgeblendet.",
+    "Lista de compras · Mascotas de cofres o del mercader. Se ocultan las de rango máximo.",
+    "Liste d'achats · Familiers issus de coffres ou du marchand. Ceux au rang maximum sont masqués.",
+    "Lista acquisti · Famigli da forzieri o dal mercante. Quelli al grado massimo sono nascosti.",
+    "Lista zakupów · Pupile ze skrzyń lub od handlarza. Pupile o maksymalnej randze są ukryte."
+  ],
+  "Recent offers · Open Special and Pets in game to read stock. Offers clear after two minutes or a connection change.": [
+    "Aktuelle Beobachtungen · Öffne Spezial und Pets im Spiel zum Einlesen. Angebote verfallen nach zwei Minuten oder einem Verbindungswechsel.",
+    "Ofertas recientes · Abre Especial y Mascotas en el juego. Las ofertas caducan a los dos minutos o al cambiar la conexión.",
+    "Offres récentes · Ouvrez Spécial et Familiers dans le jeu. Les offres expirent après deux minutes ou un changement de connexion.",
+    "Offerte recenti · Apri Speciale e Famigli nel gioco. Le offerte scadono dopo due minuti o al cambio di connessione.",
+    "Ostatnie oferty · Otwórz Specjalne i Pupile w grze. Oferty wygasają po dwóch minutach lub zmianie połączenia."
+  ],
+  "1 pet": [
+    "1 Pet",
+    "1 mascota",
+    "1 familier",
+    "1 famiglio",
+    "1 pupil"
+  ],
+  "No recent matching shop offers. Open the Black Market in game while A2 Pet Tracking by Lacu is connected.": [
+    "Keine aktuellen passenden Shopangebote. Öffne den Händler im Spiel, während A2 Pet Tracking by Lacu verbunden ist.",
+    "No hay ofertas recientes coincidentes. Abre el mercader en el juego mientras A2 Pet Tracking by Lacu esté conectado.",
+    "Aucune offre récente correspondante. Ouvrez le marchand dans le jeu avec A2 Pet Tracking by Lacu connecté.",
+    "Nessuna offerta recente corrispondente. Apri il mercante nel gioco mentre A2 Pet Tracking by Lacu è collegato.",
+    "Brak pasujących ostatnich ofert. Otwórz handlarza w grze, gdy A2 Pet Tracking by Lacu jest połączony."
+  ],
+  "No matching pets. Try another pet or mob name.": [
+    "Keine passenden Pets. Versuche einen anderen Pet- oder Mobnamen.",
+    "No se encontraron mascotas. Prueba otro nombre de mascota o monstruo.",
+    "Aucun familier correspondant. Essayez un autre nom de familier ou de monstre.",
+    "Nessun famiglio corrispondente. Prova un altro nome di famiglio o mostro.",
+    "Brak pasujących pupili. Spróbuj innej nazwy pupila lub potwora."
+  ],
+  "Unpin pet": [
+    "Pet lösen",
+    "Desfijar mascota",
+    "Détacher le familier",
+    "Rimuovi famiglio dai fissati",
+    "Odepnij pupila"
+  ],
+  "Pin this pet": [
+    "Pet anheften",
+    "Fijar esta mascota",
+    "Épingler ce familier",
+    "Fissa questo famiglio",
+    "Przypnij tego pupila"
+  ],
+  "Pin limit reached": [
+    "Limit angehefteter Pets erreicht",
+    "Límite de mascotas fijadas alcanzado",
+    "Limite de familiers épinglés atteinte",
+    "Limite dei famigli fissati raggiunto",
+    "Osiągnięto limit przypiętych pupili"
+  ],
+  "Check the offer in game before buying. Owned pet items convert to souls; the tracker does not buy or refresh stock.": [
+    "Prüfe das Angebot vor dem Kauf im Spiel. Bereits besessene Pet-Items werden in Seelen umgewandelt; der Tracker kauft oder aktualisiert keine Angebote.",
+    "Comprueba la oferta en el juego antes de comprar. Los objetos de mascotas que ya tienes se convierten en almas; el tracker no compra ni actualiza ofertas.",
+    "Vérifiez l'offre dans le jeu avant d'acheter. Les objets de familiers déjà possédés deviennent des âmes ; le tracker n'achète ni n'actualise les offres.",
+    "Verifica l'offerta nel gioco prima di acquistare. Gli oggetti di famigli già posseduti diventano anime; il tracker non acquista né aggiorna le offerte.",
+    "Sprawdź ofertę w grze przed zakupem. Przedmioty posiadanych pupili zamieniają się w dusze; tracker nie kupuje ani nie odświeża ofert."
+  ],
+  "How to obtain": [
+    "Erhältlich durch",
+    "Cómo conseguirlo",
+    "Comment l'obtenir",
+    "Come ottenerlo",
+    "Jak zdobyć"
+  ],
+  "No confirmed acquisition source yet.": [
+    "Noch keine bestätigte Bezugsquelle.",
+    "Aún no hay una fuente confirmada.",
+    "Aucune source d'acquisition confirmée.",
+    "Nessuna fonte confermata.",
+    "Brak potwierdzonego źródła."
+  ],
+  "Locations": [
+    "Fundorte",
+    "Ubicaciones",
+    "Lieux",
+    "Luoghi",
+    "Lokalizacje"
+  ],
+  "Soul sources": [
+    "Seelenquellen",
+    "Fuentes de almas",
+    "Sources d'âmes",
+    "Fonti di anime",
+    "Źródła dusz"
+  ],
+  "No confirmed farming location yet.": [
+    "Noch kein bestätigter Farmort.",
+    "Aún no hay una ubicación de farmeo confirmada.",
+    "Aucun lieu de farm confirmé.",
+    "Nessun luogo di raccolta confermato.",
+    "Brak potwierdzonego miejsca farmienia."
+  ],
+  "Soul drops": [
+    "Seelentropfen",
+    "Almas obtenibles",
+    "Âmes obtenues",
+    "Anime ottenibili",
+    "Zdobywane dusze"
+  ],
+  "Pets only from Chests or Black Cloud Merchants": [
+    "Pets nur aus Truhen oder von Schwarzwolkenhändlern",
+    "Mascotas solo de cofres o de Mercaderes de la Nube Negra",
+    "Familiers issus uniquement de coffres ou des Marchands du Nuage Noir",
+    "Famigli solo da forzieri o dai Mercanti della Nuvola Nera",
+    "Pupile tylko ze skrzyń lub od Handlarzy Czarnej Chmury"
+  ],
+  "Find a pet or mob": [
+    "Pet oder Mob suchen",
+    "Buscar mascota o monstruo",
+    "Trouver un familier ou monstre",
+    "Cerca un famiglio o mostro",
+    "Znajdź pupila lub potwora"
+  ],
+  "Tracker settings": [
+    "Tracker-Einstellungen",
+    "Ajustes del tracker",
+    "Paramètres du tracker",
+    "Impostazioni del tracker",
+    "Ustawienia trackera"
+  ],
+  "Hide maxed": [
+    "Pets mit maximalem Rang ausblenden",
+    "Ocultar rango máximo",
+    "Masquer les rangs maximums",
+    "Nascondi grado massimo",
+    "Ukryj maksymalną rangę"
+  ],
+  "Recent": [
+    "Zuletzt",
+    "Recientes",
+    "Récents",
+    "Recenti",
+    "Ostatnie"
+  ],
+  "Pet mobs observed by the game client. Distance is not measured.": [
+    "Vom Spielclient erkannte Pet-Mobs. Es wird keine Entfernung gemessen.",
+    "Monstruos de mascotas observados por el cliente. No se mide la distancia.",
+    "Monstres de familiers observés par le client. La distance n'est pas mesurée.",
+    "Mostri di famigli osservati dal client. La distanza non viene misurata.",
+    "Potwory pupili zaobserwowane przez klienta. Odległość nie jest mierzona."
+  ],
+  "Black Cloud Merchants · refresh, Special and Pets.": [
+    "Schwarzwolkenhändler · Aktualisierung, Spezial und Pets.",
+    "Mercaderes de la Nube Negra · actualización, Especial y Mascotas.",
+    "Marchands du Nuage Noir · actualisation, Spécial et Familiers.",
+    "Mercanti della Nuvola Nera · aggiornamento, Speciale e Famigli.",
+    "Handlarze Czarnej Chmury · odświeżenie, Specjalne i Pupile."
+  ],
+  "Your recent pet rewards and tracked kills.": [
+    "Deine letzten Pet-Belohnungen und erfassten Kills.",
+    "Tus últimas recompensas de mascotas y bajas registradas.",
+    "Vos dernières récompenses de familiers et éliminations suivies.",
+    "Le ultime ricompense dei famigli e uccisioni registrate.",
+    "Ostatnie nagrody pupili i śledzone zabójstwa."
+  ],
+  "Black Cloud Merchant": [
+    "Schwarzwolkenhändler",
+    "Mercader de la Nube Negra",
+    "Marchand du Nuage Noir",
+    "Mercante della Nuvola Nera",
+    "Handlarz Czarnej Chmury"
+  ],
+  "The Black Cloud Merchant shop has refreshed.": [
+    "Der Shop des Schwarzwolkenhändlers wurde aktualisiert.",
+    "La tienda del Mercader de la Nube Negra se ha actualizado.",
+    "La boutique du Marchand du Nuage Noir a été actualisée.",
+    "Il negozio del Mercante della Nuvola Nera è stato aggiornato.",
+    "Sklep Handlarza Czarnej Chmury został odświeżony."
+  ],
+  "Rank increase pending": [
+    "Rangerhöhung ausstehend",
+    "Aumento de rango pendiente",
+    "Hausse de rang en attente",
+    "Aumento di grado in attesa",
+    "Oczekiwanie na awans rangi"
+  ],
+  "Pinned": [
+    "Angeheftet",
+    "Fijado",
+    "Épinglé",
+    "Fissato",
+    "Przypięty"
+  ],
+  "Rank increased": [
+    "Rang erhöht",
+    "Rango aumentado",
+    "Rang augmenté",
+    "Grado aumentato",
+    "Awans rangi"
+  ],
+  "Last known soul total. See Settings → Help.": [
+    "Zuletzt bekannter Seelenstand. Siehe Einstellungen → Hilfe.",
+    "Último total de almas conocido. Consulta Ajustes → Ayuda.",
+    "Dernier total d'âmes connu. Voir Paramètres → Aide.",
+    "Ultimo totale di anime noto. Vedi Impostazioni → Aiuto.",
+    "Ostatnia znana liczba dusz. Zobacz Ustawienia → Pomoc."
+  ],
+  "Soul progress is estimated.": [
+    "Der Seelenfortschritt ist geschätzt.",
+    "El progreso de almas es estimado.",
+    "La progression des âmes est estimée.",
+    "Il progresso delle anime è stimato.",
+    "Postęp dusz jest szacunkowy."
+  ],
+  "Soul progress received after this offer was shown. This entry will leave the shopping list shortly.": [
+    "Seit der Anzeige dieses Angebots wurde Seelenfortschritt empfangen. Dieser Eintrag verschwindet gleich aus der Einkaufsliste.",
+    "Se recibió progreso de almas después de mostrar esta oferta. La entrada desaparecerá pronto de la lista.",
+    "Une progression d'âmes a été reçue depuis l'affichage de cette offre. Cette entrée quittera bientôt la liste d'achats.",
+    "Sono stati ricevuti progressi delle anime dopo questa offerta. La voce verrà rimossa a breve dalla lista.",
+    "Odebrano postęp dusz po wyświetleniu oferty. Ten wpis wkrótce zniknie z listy zakupów."
+  ],
+  "Chest and merchant pet. Confirm price and availability in game before purchasing.": [
+    "Pet aus Truhen und vom Händler. Preis und Verfügbarkeit vor dem Kauf im Spiel prüfen.",
+    "Mascota de cofres y del mercader. Confirma el precio y la disponibilidad en el juego antes de comprar.",
+    "Familier de coffres et du marchand. Vérifiez prix et disponibilité dans le jeu avant d'acheter.",
+    "Famiglio da forzieri e dal mercante. Verifica prezzo e disponibilità nel gioco prima di acquistare.",
+    "Pupil ze skrzyń i od handlarza. Sprawdź cenę i dostępność w grze przed zakupem."
+  ],
+  "Find on map…": [
+    "Auf Karte suchen …",
+    "Buscar en el mapa…",
+    "Trouver sur la carte…",
+    "Cerca sulla mappa…",
+    "Znajdź na mapie…"
+  ],
+  "Show / hide tracker": [
+    "Tracker ein-/ausblenden",
+    "Mostrar u ocultar tracker",
+    "Afficher / masquer le tracker",
+    "Mostra / nascondi tracker",
+    "Pokaż / ukryj tracker"
+  ],
+  "Find a pet…": [
+    "Pet suchen …",
+    "Buscar mascota…",
+    "Trouver un familier…",
+    "Cerca un famiglio…",
+    "Znajdź pupila…"
+  ],
+  "Settings": [
+    "Einstellungen",
+    "Ajustes",
+    "Paramètres",
+    "Impostazioni",
+    "Ustawienia"
+  ],
+  "Unlock tracker": [
+    "Tracker entsperren",
+    "Desbloquear tracker",
+    "Déverrouiller le tracker",
+    "Sblocca tracker",
+    "Odblokuj tracker"
+  ],
+  "Help": [
+    "Hilfe",
+    "Ayuda",
+    "Aide",
+    "Aiuto",
+    "Pomoc"
+  ],
+  "Quit A2 Pet Tracking by Lacu": [
+    "A2 Pet Tracking by Lacu beenden",
+    "Salir de A2 Pet Tracking by Lacu",
+    "Quitter A2 Pet Tracking by Lacu",
+    "Esci da A2 Pet Tracking by Lacu",
+    "Zamknij A2 Pet Tracking by Lacu"
+  ],
+  "Preview: your pet reached Rank 2.": [
+    "Vorschau: Dein Pet hat Rang 2 erreicht.",
+    "Vista previa: tu mascota alcanzó el rango 2.",
+    "Aperçu : votre familier a atteint le rang 2.",
+    "Anteprima: il famiglio ha raggiunto il grado 2.",
+    "Podgląd: pupil osiągnął rangę 2."
+  ],
+  "Live": [
+    "Live",
+    "En directo",
+    "En direct",
+    "In tempo reale",
+    "Na żywo"
+  ],
+  "Receiving soul updates from your character.": [
+    "Seelenaktualisierungen deines Charakters werden empfangen.",
+    "Recibiendo actualizaciones de almas de tu personaje.",
+    "Réception des mises à jour d'âmes de votre personnage.",
+    "Ricezione degli aggiornamenti delle anime del personaggio.",
+    "Odbieranie aktualizacji dusz postaci."
+  ],
+  "My account": [
+    "Mein Konto",
+    "Mi cuenta",
+    "Mon compte",
+    "Il mio account",
+    "Moje konto"
+  ],
+  "Tracking": [
+    "Tracking",
+    "Seguimiento",
+    "Suivi",
+    "Tracciamento",
+    "Śledzenie"
+  ],
+  "Overlay": [
+    "Overlay",
+    "Superposición",
+    "Superposition",
+    "Overlay",
+    "Nakładka"
+  ],
+  "Account": [
+    "Konto",
+    "Cuenta",
+    "Compte",
+    "Account",
+    "Konto"
+  ],
+  "Updates": [
+    "Updates",
+    "Actualizaciones",
+    "Mises à jour",
+    "Aggiornamenti",
+    "Aktualizacje"
+  ],
+  "Changes save automatically": [
+    "Änderungen werden automatisch gespeichert",
+    "Los cambios se guardan automáticamente",
+    "Les modifications sont enregistrées automatiquement",
+    "Le modifiche vengono salvate automaticamente",
+    "Zmiany są zapisywane automatycznie"
+  ],
+  "A2 Pet Tracking by Lacu — Settings": [
+    "A2 Pet Tracking by Lacu — Einstellungen",
+    "A2 Pet Tracking by Lacu — Ajustes",
+    "A2 Pet Tracking by Lacu — Paramètres",
+    "A2 Pet Tracking by Lacu — Impostazioni",
+    "A2 Pet Tracking by Lacu — Ustawienia"
+  ],
+  "Link character": [
+    "Charakter verknüpfen",
+    "Vincular personaje",
+    "Associer un personnage",
+    "Collega personaggio",
+    "Połącz postać"
+  ],
+  "Connection help": [
+    "Verbindungshilfe",
+    "Ayuda de conexión",
+    "Aide à la connexion",
+    "Aiuto connessione",
+    "Pomoc z połączeniem"
+  ],
+  "Done": [
+    "Fertig",
+    "Listo",
+    "Terminé",
+    "Fine",
+    "Gotowe"
+  ],
+  "Discard changes": [
+    "Änderungen verwerfen",
+    "Descartar cambios",
+    "Annuler les modifications",
+    "Scarta modifiche",
+    "Odrzuć zmiany"
+  ],
+  "Unsaved changes discarded": [
+    "Ungespeicherte Änderungen verworfen",
+    "Cambios sin guardar descartados",
+    "Modifications non enregistrées annulées",
+    "Modifiche non salvate scartate",
+    "Odrzucono niezapisane zmiany"
+  ],
+  "Reset this section": [
+    "Abschnitt zurücksetzen",
+    "Restablecer sección",
+    "Réinitialiser la section",
+    "Ripristina sezione",
+    "Resetuj sekcję"
+  ],
+  "Saving…": [
+    "Speichern …",
+    "Guardando…",
+    "Enregistrement…",
+    "Salvataggio…",
+    "Zapisywanie…"
+  ],
+  "Pet list": [
+    "Pet-Liste",
+    "Lista de mascotas",
+    "Liste de familiers",
+    "Elenco famigli",
+    "Lista pupili"
+  ],
+  "Tracker mode": [
+    "Tracker-Modus",
+    "Modo del tracker",
+    "Mode du tracker",
+    "Modalità del tracker",
+    "Tryb trackera"
+  ],
+  "Maximum shown pets": [
+    "Maximal angezeigte Pets",
+    "Máximo de mascotas visibles",
+    "Nombre maximal de familiers affichés",
+    "Numero massimo di famigli visibili",
+    "Maksymalna liczba widocznych pupili"
+  ],
+  "Maximum pinned pets": [
+    "Maximal angeheftete Pets",
+    "Máximo de mascotas fijadas",
+    "Nombre maximal de familiers épinglés",
+    "Numero massimo di famigli fissati",
+    "Maksymalna liczba przypiętych pupili"
+  ],
+  "Hide maxed pets": [
+    "Pets mit maximalem Rang ausblenden",
+    "Ocultar mascotas de rango máximo",
+    "Masquer les familiers au rang maximum",
+    "Nascondi famigli al grado massimo",
+    "Ukryj pupile o maksymalnej randze"
+  ],
+  "Hourly merchant refresh reminder": [
+    "Stündliche Händler-Erinnerung",
+    "Recordatorio horario del mercader",
+    "Rappel horaire du marchand",
+    "Promemoria orario del mercante",
+    "Cogodzinne przypomnienie o handlarzu"
+  ],
+  "At each local clock hour, the Merchant tab flashes yellow five times and shows a refresh reminder for 30 seconds.": [
+    "Zu jeder vollen Stunde der lokalen Systemuhr blinkt der Händler-Reiter fünfmal gelb. Der Hinweis bleibt 30 Sekunden sichtbar.",
+    "A cada hora en punto del reloj local, la pestaña Mercader parpadea cinco veces en amarillo y muestra un aviso durante 30 segundos.",
+    "À chaque heure pleine de l'horloge locale, l'onglet Marchand clignote cinq fois en jaune et affiche un rappel pendant 30 secondes.",
+    "A ogni ora esatta dell'orologio locale, la scheda Mercante lampeggia cinque volte in giallo e mostra un avviso per 30 secondi.",
+    "O każdej pełnej godzinie lokalnego zegara zakładka Handlarz miga pięć razy na żółto, a komunikat jest widoczny przez 30 sekund."
+  ],
+  "Show merchant shopping list in overlay": [
+    "Händler-Einkaufsliste im Overlay anzeigen",
+    "Mostrar lista del mercader en la superposición",
+    "Afficher la liste d'achats du marchand",
+    "Mostra lista acquisti del mercante nell'overlay",
+    "Pokaż listę zakupów handlarza w nakładce"
+  ],
+  "Pets only from Chests or Black Cloud Merchants.": [
+    "Pets nur aus Truhen oder von Schwarzwolkenhändlern.",
+    "Mascotas solo de cofres o de Mercaderes de la Nube Negra.",
+    "Familiers issus uniquement de coffres ou des Marchands du Nuage Noir.",
+    "Famigli solo da forzieri o dai Mercanti della Nuvola Nera.",
+    "Pupile tylko ze skrzyń lub od Handlarzy Czarnej Chmury."
+  ],
+  "Sort": [
+    "Sortierung",
+    "Orden",
+    "Tri",
+    "Ordinamento",
+    "Sortowanie"
+  ],
+  "Unfinished first": [
+    "Unvollständige zuerst",
+    "Incompletas primero",
+    "Incomplets d'abord",
+    "Incompleti prima",
+    "Najpierw nieukończone"
+  ],
+  "Recent only": [
+    "Nur zuletzt aktive",
+    "Solo recientes",
+    "Récents uniquement",
+    "Solo recenti",
+    "Tylko ostatnie"
+  ],
+  "Closest to next rank": [
+    "Nächster Rang zuerst",
+    "Más cerca del siguiente rango",
+    "Proches du rang suivant",
+    "Più vicini al grado successivo",
+    "Najbliższe kolejnej rangi"
+  ],
+  "Hide inactive pets after": [
+    "Inaktive Pets ausblenden nach",
+    "Ocultar mascotas inactivas tras",
+    "Masquer les familiers inactifs après",
+    "Nascondi famigli inattivi dopo",
+    "Ukryj nieaktywne pupile po"
+  ],
+  "Never": [
+    "Nie",
+    "Nunca",
+    "Jamais",
+    "Mai",
+    "Nigdy"
+  ],
+  "15 seconds": [
+    "15 Sekunden",
+    "15 segundos",
+    "15 secondes",
+    "15 secondi",
+    "15 sekund"
+  ],
+  "20 seconds": [
+    "20 Sekunden",
+    "20 segundos",
+    "20 secondes",
+    "20 secondi",
+    "20 sekund"
+  ],
+  "30 seconds": [
+    "30 Sekunden",
+    "30 segundos",
+    "30 secondes",
+    "30 secondi",
+    "30 sekund"
+  ],
+  "60 seconds": [
+    "60 Sekunden",
+    "60 segundos",
+    "60 secondes",
+    "60 secondi",
+    "60 sekund"
+  ],
+  "120 seconds": [
+    "120 Sekunden",
+    "120 segundos",
+    "120 secondes",
+    "120 secondi",
+    "120 sekund"
+  ],
+  "Hide unrefreshed mobs after (seconds)": [
+    "Nicht erneut erfasste Mobs ausblenden nach (Sekunden)",
+    "Ocultar monstruos sin actualizar tras (segundos)",
+    "Masquer les monstres non actualisés après (secondes)",
+    "Nascondi mostri non aggiornati dopo (secondi)",
+    "Ukryj nieodświeżone potwory po (sekundy)"
+  ],
+  "Sorting and timing": [
+    "Sortierung und Zeiten",
+    "Orden y tiempos",
+    "Tri et délais",
+    "Ordinamento e tempi",
+    "Sortowanie i czas"
+  ],
+  "Size and visibility": [
+    "Größe und Sichtbarkeit",
+    "Tamaño y visibilidad",
+    "Taille et visibilité",
+    "Dimensioni e visibilità",
+    "Rozmiar i widoczność"
+  ],
+  "Scale": [
+    "Skalierung",
+    "Escala",
+    "Échelle",
+    "Scala",
+    "Skala"
+  ],
+  "Background opacity": [
+    "Hintergrunddeckkraft",
+    "Opacidad del fondo",
+    "Opacité du fond",
+    "Opacità dello sfondo",
+    "Krycie tła"
+  ],
+  "Only show over Aion 2": [
+    "Nur über Aion 2 anzeigen",
+    "Mostrar solo sobre Aion 2",
+    "Afficher uniquement sur Aion 2",
+    "Mostra solo sopra Aion 2",
+    "Pokazuj tylko nad Aion 2"
+  ],
+  "Position and interaction": [
+    "Position und Bedienung",
+    "Posición e interacción",
+    "Position et interaction",
+    "Posizione e interazione",
+    "Pozycja i obsługa"
+  ],
+  "Interaction": [
+    "Bedienung",
+    "Interacción",
+    "Interaction",
+    "Interazione",
+    "Obsługa"
+  ],
+  "Move & interact": [
+    "Verschieben und bedienen",
+    "Mover e interactuar",
+    "Déplacer et interagir",
+    "Sposta e interagisci",
+    "Przesuwaj i obsługuj"
+  ],
+  "Fixed position": [
+    "Feste Position",
+    "Posición fija",
+    "Position fixe",
+    "Posizione fissa",
+    "Stała pozycja"
+  ],
+  "Pass clicks to game": [
+    "Klicks an das Spiel durchreichen",
+    "Pasar clics al juego",
+    "Transmettre les clics au jeu",
+    "Passa i clic al gioco",
+    "Przekazuj kliknięcia do gry"
+  ],
+  "Reposition tracker": [
+    "Tracker neu positionieren",
+    "Reposicionar tracker",
+    "Repositionner le tracker",
+    "Riposiziona tracker",
+    "Zmień pozycję trackera"
+  ],
+  "Reset window size": [
+    "Fenstergröße zurücksetzen",
+    "Restablecer tamaño de ventana",
+    "Réinitialiser la taille de fenêtre",
+    "Ripristina dimensioni finestra",
+    "Resetuj rozmiar okna"
+  ],
+  "Hide when empty": [
+    "Bei leerer Liste ausblenden",
+    "Ocultar si está vacío",
+    "Masquer si vide",
+    "Nascondi se vuoto",
+    "Ukryj pustą listę"
+  ],
+  "Reduce motion": [
+    "Bewegung reduzieren",
+    "Reducir movimiento",
+    "Réduire les animations",
+    "Riduci movimento",
+    "Ogranicz animacje"
+  ],
+  "More overlay options": [
+    "Weitere Overlay-Optionen",
+    "Más opciones de superposición",
+    "Autres options de superposition",
+    "Altre opzioni overlay",
+    "Więcej opcji nakładki"
+  ],
+  "Desktop notification": [
+    "Desktop-Benachrichtigung",
+    "Notificación de escritorio",
+    "Notification du bureau",
+    "Notifica desktop",
+    "Powiadomienie pulpitu"
+  ],
+  "Play a sound": [
+    "Ton abspielen",
+    "Reproducir sonido",
+    "Jouer un son",
+    "Riproduci suono",
+    "Odtwórz dźwięk"
+  ],
+  "Rank notifications": [
+    "Rang-Benachrichtigungen",
+    "Avisos de rango",
+    "Notifications de rang",
+    "Notifiche di grado",
+    "Powiadomienia o randze"
+  ],
+  "Hide Shortcut": [
+    "Tastenkürzel",
+    "Atajo para ocultar",
+    "Raccourci",
+    "Scorciatoia",
+    "Skrót klawiszowy"
+  ],
+  "Use Alt + D": [
+    "Alt + D verwenden",
+    "Usar Alt + D",
+    "Utiliser Alt + D",
+    "Usa Alt + D",
+    "Użyj Alt + D"
+  ],
+  "Disable shortcut": [
+    "Tastenkürzel deaktivieren",
+    "Desactivar atajo",
+    "Désactiver le raccourci",
+    "Disattiva scorciatoia",
+    "Wyłącz skrót"
+  ],
+  "Collection": [
+    "Sammlung",
+    "Colección",
+    "Collection",
+    "Raccolta",
+    "Kolekcja"
+  ],
+  "Share progress across all characters": [
+    "Fortschritt für alle Charaktere teilen",
+    "Compartir progreso entre personajes",
+    "Partager la progression entre personnages",
+    "Condividi i progressi fra i personaggi",
+    "Współdziel postęp wszystkich postaci"
+  ],
+  "Manage accounts": [
+    "Konten verwalten",
+    "Gestionar cuentas",
+    "Gérer les comptes",
+    "Gestisci account",
+    "Zarządzaj kontami"
+  ],
+  "Language": [
+    "Sprache",
+    "Idioma",
+    "Langue",
+    "Lingua",
+    "Język"
+  ],
+  "Display language": [
+    "Anzeigesprache",
+    "Idioma de visualización",
+    "Langue d'affichage",
+    "Lingua dell'interfaccia",
+    "Język interfejsu"
+  ],
+  "Automatic uses your system display language. Unsupported system languages use English. A manual choice is saved and takes effect immediately.": [
+    "Automatisch verwendet die Anzeigesprache deines Systems. Nicht unterstützte Systemsprachen verwenden Englisch. Eine manuelle Auswahl wird gespeichert und sofort übernommen.",
+    "Automático utiliza el idioma de tu sistema. Los idiomas no compatibles usan inglés. La selección manual se guarda y aplica al instante.",
+    "Automatique utilise la langue de votre système. Les langues non prises en charge utilisent l'anglais. Le choix manuel est enregistré et appliqué immédiatement.",
+    "Automatico usa la lingua del sistema. Le lingue non supportate usano l'inglese. La scelta manuale viene salvata e applicata subito.",
+    "Tryb automatyczny używa języka systemu. Nieobsługiwane języki korzystają z angielskiego. Ręczny wybór jest zapisywany i stosowany od razu."
+  ],
+  "Connection": [
+    "Verbindung",
+    "Conexión",
+    "Connexion",
+    "Connessione",
+    "Połączenie"
+  ],
+  "Refresh connection status": [
+    "Verbindungsstatus aktualisieren",
+    "Actualizar estado de conexión",
+    "Actualiser l'état de connexion",
+    "Aggiorna stato connessione",
+    "Odśwież stan połączenia"
+  ],
+  "Connection status refreshed": [
+    "Verbindungsstatus aktualisiert",
+    "Estado de conexión actualizado",
+    "État de connexion actualisé",
+    "Stato connessione aggiornato",
+    "Odświeżono stan połączenia"
+  ],
+  "Copy support report": [
+    "Supportbericht kopieren",
+    "Copiar informe de soporte",
+    "Copier le rapport d'assistance",
+    "Copia rapporto di assistenza",
+    "Kopiuj raport pomocy"
+  ],
+  "Support report copied": [
+    "Supportbericht kopiert",
+    "Informe de soporte copiado",
+    "Rapport d'assistance copié",
+    "Rapporto di assistenza copiato",
+    "Skopiowano raport pomocy"
+  ],
+  "Save support report…": [
+    "Supportbericht speichern …",
+    "Guardar informe de soporte…",
+    "Enregistrer le rapport d'assistance…",
+    "Salva rapporto di assistenza…",
+    "Zapisz raport pomocy…"
+  ],
+  "Support report": [
+    "Supportbericht",
+    "Informe de soporte",
+    "Rapport d'assistance",
+    "Rapporto di assistenza",
+    "Raport pomocy"
+  ],
+  "Capture recovery": [
+    "Erfassung wiederherstellen",
+    "Recuperación de captura",
+    "Récupération de capture",
+    "Ripristino acquisizione",
+    "Przywracanie przechwytywania"
+  ],
+  "Restart capture": [
+    "Erfassung neu starten",
+    "Reiniciar captura",
+    "Redémarrer la capture",
+    "Riavvia acquisizione",
+    "Uruchom ponownie przechwytywanie"
+  ],
+  "Network adapter": [
+    "Netzwerkadapter",
+    "Adaptador de red",
+    "Carte réseau",
+    "Scheda di rete",
+    "Karta sieciowa"
+  ],
+  "Automatic (recommended)": [
+    "Automatisch (empfohlen)",
+    "Automático (recomendado)",
+    "Automatique (recommandé)",
+    "Automatico (consigliato)",
+    "Automatycznie (zalecane)"
+  ],
+  "Saved adapter (not detected)": [
+    "Gespeicherter Adapter (nicht erkannt)",
+    "Adaptador guardado (no detectado)",
+    "Carte enregistrée (non détectée)",
+    "Scheda salvata (non rilevata)",
+    "Zapisana karta (niewykryta)"
+  ],
+  "Refresh adapters": [
+    "Adapter aktualisieren",
+    "Actualizar adaptadores",
+    "Actualiser les cartes",
+    "Aggiorna schede",
+    "Odśwież karty"
+  ],
+  "Game process names": [
+    "Namen der Spielprozesse",
+    "Nombres de procesos del juego",
+    "Noms des processus du jeu",
+    "Nomi processi di gioco",
+    "Nazwy procesów gry"
+  ],
+  "Use automatic": [
+    "Automatisch verwenden",
+    "Usar automático",
+    "Utiliser automatique",
+    "Usa automatico",
+    "Użyj trybu automatycznego"
+  ],
+  "Apply connection options": [
+    "Verbindungsoptionen anwenden",
+    "Aplicar opciones de conexión",
+    "Appliquer les options de connexion",
+    "Applica opzioni connessione",
+    "Zastosuj opcje połączenia"
+  ],
+  "Connection overrides": [
+    "Verbindungsvorgaben",
+    "Opciones de conexión",
+    "Options de connexion",
+    "Opzioni connessione",
+    "Opcje połączenia"
+  ],
+  "Diagnostics": [
+    "Diagnose",
+    "Diagnóstico",
+    "Diagnostic",
+    "Diagnostica",
+    "Diagnostyka"
+  ],
+  "Record activity check (90 seconds)": [
+    "Aktivität prüfen (90 Sekunden)",
+    "Comprobar actividad (90 segundos)",
+    "Vérifier l'activité (90 secondes)",
+    "Controlla attività (90 secondi)",
+    "Sprawdź aktywność (90 sekund)"
+  ],
+  "Activity check started": [
+    "Aktivitätsprüfung gestartet",
+    "Comprobación de actividad iniciada",
+    "Vérification d'activité démarrée",
+    "Controllo attività avviato",
+    "Rozpoczęto sprawdzanie aktywności"
+  ],
+  "Advanced troubleshooting": [
+    "Erweiterte Fehlerbehebung",
+    "Solución de problemas avanzada",
+    "Dépannage avancé",
+    "Risoluzione problemi avanzata",
+    "Zaawansowane rozwiązywanie problemów"
+  ],
+  "Unknown": [
+    "Unbekannt",
+    "Desconocido",
+    "Inconnu",
+    "Sconosciuto",
+    "Nieznane"
+  ],
+  "Save support report": [
+    "Supportbericht speichern",
+    "Guardar informe de soporte",
+    "Enregistrer le rapport d'assistance",
+    "Salva rapporto di assistenza",
+    "Zapisz raport pomocy"
+  ],
+  "Support report saved": [
+    "Supportbericht gespeichert",
+    "Informe de soporte guardado",
+    "Rapport d'assistance enregistré",
+    "Rapporto di assistenza salvato",
+    "Zapisano raport pomocy"
+  ],
+  "Pet tracking is ready.": [
+    "Pet-Tracking ist bereit.",
+    "Seguimiento de mascotas listo.",
+    "Suivi des familiers prêt.",
+    "Tracciamento famigli pronto.",
+    "Śledzenie pupili jest gotowe."
+  ],
+  "Release channel": [
+    "Veröffentlichungskanal",
+    "Canal de versiones",
+    "Canal de publication",
+    "Canale di rilascio",
+    "Kanał wydań"
+  ],
+  "Beta": [
+    "Beta",
+    "Beta",
+    "Bêta",
+    "Beta",
+    "Beta"
+  ],
+  "Stable": [
+    "Stabil",
+    "Estable",
+    "Stable",
+    "Stabile",
+    "Stabilny"
+  ],
+  "Not saved. Press Done to retry.": [
+    "Nicht gespeichert. Klicke zum Wiederholen auf Fertig.",
+    "Sin guardar. Pulsa Listo para reintentar.",
+    "Non enregistré. Cliquez sur Terminé pour réessayer.",
+    "Non salvato. Premi Fine per riprovare.",
+    "Nie zapisano. Naciśnij Gotowe, aby ponowić."
+  ],
+  "Saved": [
+    "Gespeichert",
+    "Guardado",
+    "Enregistré",
+    "Salvato",
+    "Zapisano"
+  ],
+  "Tracker": [
+    "Tracker",
+    "Tracker",
+    "Tracker",
+    "Tracker",
+    "Tracker"
+  ],
+  "Appearance": [
+    "Darstellung",
+    "Apariencia",
+    "Apparence",
+    "Aspetto",
+    "Wygląd"
+  ],
+  "General": [
+    "Allgemein",
+    "General",
+    "Général",
+    "Generale",
+    "Ogólne"
+  ],
+  "Connection & Help": [
+    "Verbindung und Hilfe",
+    "Conexión y ayuda",
+    "Connexion et aide",
+    "Connessione e aiuto",
+    "Połączenie i pomoc"
+  ],
+  "Connecting to capture…": [
+    "Verbindung zur Erfassung …",
+    "Conectando con captura…",
+    "Connexion à la capture…",
+    "Connessione all'acquisizione…",
+    "Łączenie z przechwytywaniem…"
+  ],
+  "Collection syncs automatically at character login.": [
+    "Die Sammlung wird beim Charakter-Login automatisch synchronisiert.",
+    "La colección se sincroniza automáticamente al entrar con el personaje.",
+    "La collection se synchronise automatiquement à la connexion du personnage.",
+    "La raccolta si sincronizza automaticamente all'accesso del personaggio.",
+    "Kolekcja synchronizuje się automatycznie przy logowaniu postaci."
+  ],
+  "Waiting for connection diagnostics.": [
+    "Warte auf Verbindungsdiagnose.",
+    "Esperando diagnóstico de conexión.",
+    "En attente du diagnostic de connexion.",
+    "In attesa della diagnostica di connessione.",
+    "Oczekiwanie na diagnostykę połączenia."
+  ],
+  "Not received": [
+    "Nicht empfangen",
+    "No recibido",
+    "Non reçu",
+    "Non ricevuto",
+    "Nie odebrano"
+  ],
+  "System language (automatic)": [
+    "Systemsprache (automatisch)",
+    "Idioma del sistema (automático)",
+    "Langue du système (automatique)",
+    "Lingua di sistema (automatica)",
+    "Język systemu (automatyczny)"
+  ],
+  "A2 Pet Tracking by Lacu is already running. Use its paw icon in the Windows tray. To switch copies, choose Quit A2 Pet Tracking by Lacu there first.": [
+    "A2 Pet Tracking by Lacu läuft bereits. Nutze das Pfotensymbol im Windows-Infobereich. Beende dort zuerst die laufende Anwendung, um die Version zu wechseln.",
+    "A2 Pet Tracking by Lacu ya está en ejecución. Usa el icono de la pata en la bandeja de Windows. Cierra primero esa copia para cambiar de versión.",
+    "A2 Pet Tracking by Lacu est déjà ouvert. Utilisez l'icône de patte dans la zone de notification Windows. Quittez d'abord cette copie pour en changer.",
+    "A2 Pet Tracking by Lacu è già in esecuzione. Usa l'icona della zampa nell'area di notifica Windows. Chiudi prima la copia attuale per cambiarla.",
+    "A2 Pet Tracking by Lacu już działa. Użyj ikony łapki w zasobniku Windows. Najpierw zamknij obecną kopię, aby uruchomić inną."
+  ],
+  "A2 Pet Tracking by Lacu couldn’t open its saved data. Close any program using the files, check folder access, then try again.": [
+    "A2 Pet Tracking by Lacu konnte die gespeicherten Daten nicht öffnen. Schließe Programme, die die Dateien verwenden, prüfe den Ordnerzugriff und versuche es erneut.",
+    "A2 Pet Tracking by Lacu no pudo abrir los datos guardados. Cierra los programas que usen los archivos, revisa el acceso a la carpeta y reintenta.",
+    "A2 Pet Tracking by Lacu ne peut pas ouvrir les données enregistrées. Fermez les programmes utilisant les fichiers, vérifiez l'accès au dossier et réessayez.",
+    "A2 Pet Tracking by Lacu non può aprire i dati salvati. Chiudi i programmi che usano i file, verifica l'accesso alla cartella e riprova.",
+    "A2 Pet Tracking by Lacu nie może otworzyć zapisanych danych. Zamknij programy używające plików, sprawdź dostęp do folderu i spróbuj ponownie."
+  ],
+  "Nearby lists recent mob observations, not a measured radius. Older sightings show when they were last seen.": [
+    "Umgebung zeigt zuletzt erfasste Mobs, keinen gemessenen Radius. Bei älteren Sichtungen wird der letzte Erfassungszeitpunkt angezeigt.",
+    "Cercanos muestra monstruos observados recientemente, no un radio medido. Las observaciones antiguas muestran cuándo se vieron por última vez.",
+    "À proximité affiche les monstres observés récemment, pas un rayon mesuré. Les anciennes observations indiquent leur dernière détection.",
+    "Vicinanze mostra i mostri osservati di recente, non un raggio misurato. Gli avvistamenti meno recenti indicano l'ultima rilevazione.",
+    "W pobliżu pokazuje ostatnio zaobserwowane potwory, a nie zmierzony promień. Starsze obserwacje pokazują czas ostatniego wykrycia."
+  ],
+  "Reset preferences on this page. Keep pet progress, accounts and pinned goals.": [
+    "Setzt die Einstellungen dieser Seite zurück. Pet-Fortschritt, Konten und angeheftete Ziele bleiben erhalten.",
+    "Restablece los ajustes de esta página. Conserva el progreso, las cuentas y los objetivos fijados.",
+    "Réinitialise les paramètres de cette page. Conserve progression, comptes et objectifs épinglés.",
+    "Ripristina le impostazioni della pagina. Conserva progressi, account e obiettivi fissati.",
+    "Resetuje ustawienia tej strony. Zachowuje postęp, konta i przypięte cele."
+  ],
+  "Pin pets in Find a pet or right-click a tracker row. Pins keep their order. Lowering this limit keeps existing pins; the row limit grows when needed to leave room for activity.": [
+    "Hefte Pets über die Suche oder per Rechtsklick auf einen Tracker-Eintrag an. Die Reihenfolge bleibt erhalten. Ein niedrigeres Limit entfernt keine vorhandenen Pins; das Zeilenlimit wächst bei Bedarf.",
+    "Fija mascotas desde Buscar mascota o con clic derecho en una fila. Mantienen su orden. Reducir el límite conserva las fijadas; la lista crece si necesita espacio para actividad.",
+    "Épinglez des familiers depuis la recherche ou par clic droit sur une ligne. Leur ordre est conservé. Réduire la limite conserve les épingles ; la liste s'agrandit si nécessaire.",
+    "Fissa i famigli dalla ricerca o con clic destro su una riga. Mantengono l'ordine. Ridurre il limite conserva quelli fissati; l'elenco cresce se serve spazio per l'attività.",
+    "Przypinaj pupile w wyszukiwarce lub prawym przyciskiem na wierszu. Zachowują kolejność. Obniżenie limitu nie usuwa przypięć; lista rośnie, jeśli potrzeba miejsca na aktywność."
+  ],
+  "Unfinished first keeps Nearby in name order. Recent only puts the latest activity first. Pins always stay at the top.": [
+    "Unvollständige zuerst lässt Umgebung nach Namen sortiert. Nur zuletzt aktive zeigt die neueste Aktivität zuerst. Angeheftete Pets bleiben immer oben.",
+    "Incompletas primero mantiene Cercanos ordenado por nombre. Solo recientes muestra la última actividad primero. Las fijadas siempre van arriba.",
+    "Incomplets d'abord conserve le tri par nom dans À proximité. Récents uniquement place la dernière activité en premier. Les épingles restent en tête.",
+    "Incompleti prima mantiene Vicinanze in ordine alfabetico. Solo recenti mostra prima l'ultima attività. I fissati restano in cima.",
+    "Najpierw nieukończone zachowuje sortowanie W pobliżu po nazwie. Tylko ostatnie pokazuje najnowszą aktywność. Przypięte pupile zawsze są na górze."
+  ],
+  "Shorter times clear old sightings sooner but can hide stationary mobs. Pinned pets remain visible.": [
+    "Kürzere Zeiten entfernen alte Sichtungen schneller, können aber stillstehende Mobs ausblenden. Angeheftete Pets bleiben sichtbar.",
+    "Los tiempos cortos eliminan antes las observaciones antiguas, pero pueden ocultar monstruos inmóviles. Las mascotas fijadas siguen visibles.",
+    "Des délais courts effacent plus vite les anciennes observations mais peuvent masquer les monstres immobiles. Les familiers épinglés restent visibles.",
+    "Tempi brevi rimuovono prima i vecchi avvistamenti ma possono nascondere mostri fermi. I famigli fissati restano visibili.",
+    "Krótszy czas szybciej usuwa stare obserwacje, ale może ukryć nieruchome potwory. Przypięte pupile pozostają widoczne."
+  ],
+  "Fixed position also prevents resizing. If clicks pass through the overlay, use the Windows tray paw icon to unlock it.": [
+    "Feste Position verhindert auch Größenänderungen. Wenn Klicks durchgereicht werden, lässt sich das Overlay über das Pfotensymbol im Windows-Infobereich entsperren.",
+    "Posición fija también impide cambiar el tamaño. Si los clics pasan al juego, desbloquea desde el icono de la pata en la bandeja de Windows.",
+    "Position fixe empêche aussi le redimensionnement. Si les clics passent au jeu, déverrouillez avec l'icône de patte de Windows.",
+    "Posizione fissa impedisce anche il ridimensionamento. Se i clic passano al gioco, sblocca dall'icona della zampa in Windows.",
+    "Stała pozycja blokuje też zmianę rozmiaru. Gdy kliknięcia trafiają do gry, odblokuj nakładkę ikoną łapki w zasobniku Windows."
+  ],
+  "Drag the edges or corners to resize. Double-click the title to maximize or restore. Your size is saved; Reset window size restores automatic height.": [
+    "Ziehe Kanten oder Ecken zum Ändern der Größe. Ein Doppelklick auf den Titel maximiert das Fenster oder stellt es wieder her. Die Größe wird gespeichert; Zurücksetzen aktiviert die automatische Höhe.",
+    "Arrastra bordes o esquinas para cambiar el tamaño. Haz doble clic en el título para maximizar o restaurar. El tamaño se guarda; Restablecer reactiva la altura automática.",
+    "Faites glisser les bords ou coins pour redimensionner. Double-cliquez sur le titre pour agrandir ou restaurer. La taille est enregistrée ; Réinitialiser rétablit la hauteur automatique.",
+    "Trascina bordi o angoli per ridimensionare. Fai doppio clic sul titolo per massimizzare o ripristinare. Le dimensioni si salvano; il ripristino riattiva l'altezza automatica.",
+    "Przeciągnij krawędzie lub rogi, aby zmienić rozmiar. Dwuklik tytułu maksymalizuje lub przywraca okno. Rozmiar jest zapisywany; reset włącza automatyczną wysokość."
+  ],
+  "The Windows tray paw icon can always show or unlock the overlay.": [
+    "Das Pfotensymbol im Windows-Infobereich kann das Overlay jederzeit einblenden oder entsperren.",
+    "El icono de la pata en la bandeja de Windows permite mostrar o desbloquear la superposición.",
+    "L'icône de patte dans la zone de notification Windows permet d'afficher ou déverrouiller la superposition.",
+    "L'icona della zampa nell'area di notifica Windows permette di mostrare o sbloccare l'overlay.",
+    "Ikona łapki w zasobniku Windows pozwala zawsze pokazać lub odblokować nakładkę."
+  ],
+  "Press the shortcut to hide the A2Pet Tracking window, or show it again. It also works while another application is active.": [
+    "Das Tastenkürzel blendet das Tracker-Fenster aus oder wieder ein. Es funktioniert auch, wenn eine andere Anwendung aktiv ist.",
+    "El atajo oculta o muestra la ventana del tracker. Funciona incluso con otra aplicación activa.",
+    "Le raccourci masque ou affiche le tracker. Il fonctionne aussi quand une autre application est active.",
+    "La scorciatoia nasconde o mostra il tracker. Funziona anche con un'altra applicazione attiva.",
+    "Skrót ukrywa lub pokazuje okno trackera. Działa także przy aktywnej innej aplikacji."
+  ],
+  "Click the button, then press your preferred combination with Alt, Ctrl, Shift or Win. Escape cancels. Default: Alt + D.": [
+    "Klicke den Button und drücke deine Kombination mit Alt, Strg, Umschalt oder Win. Escape bricht ab. Standard: Alt + D.",
+    "Pulsa el botón y tu combinación con Alt, Ctrl, Mayús o Win. Escape cancela. Predeterminado: Alt + D.",
+    "Cliquez sur le bouton puis sur votre combinaison avec Alt, Ctrl, Maj ou Win. Échap annule. Par défaut : Alt + D.",
+    "Premi il pulsante, poi la combinazione con Alt, Ctrl, Maiusc o Win. Esc annulla. Predefinita: Alt + D.",
+    "Kliknij przycisk i naciśnij kombinację z Alt, Ctrl, Shift lub Win. Esc anuluje. Domyślnie: Alt + D."
+  ],
+  "For characters on the same game account. Turn this off before playing a separate account.": [
+    "Für Charaktere auf demselben Spielkonto. Deaktiviere dies, bevor du mit einem anderen Konto spielst.",
+    "Para personajes de la misma cuenta del juego. Desactívalo antes de jugar con otra cuenta.",
+    "Pour les personnages du même compte de jeu. Désactivez avant de jouer sur un autre compte.",
+    "Per personaggi dello stesso account di gioco. Disattiva prima di usare un altro account.",
+    "Dla postaci na tym samym koncie gry. Wyłącz przed graniem na osobnym koncie."
+  ],
+  "Could not refresh connection status. Try again or save a support report.": [
+    "Der Verbindungsstatus konnte nicht aktualisiert werden. Versuche es erneut oder speichere einen Supportbericht.",
+    "No se pudo actualizar la conexión. Reintenta o guarda un informe de soporte.",
+    "Impossible d'actualiser la connexion. Réessayez ou enregistrez un rapport d'assistance.",
+    "Impossibile aggiornare la connessione. Riprova o salva un rapporto di assistenza.",
+    "Nie udało się odświeżyć połączenia. Spróbuj ponownie lub zapisz raport pomocy."
+  ],
+  "Reports exclude account names, chat, packet samples and file paths. Nothing is uploaded automatically.": [
+    "Berichte enthalten keine Kontonamen, Chats, Paket-Ausschnitte oder Dateipfade. Es wird nichts automatisch hochgeladen.",
+    "Los informes no incluyen nombres de cuenta, chats, paquetes ni rutas. Nada se sube automáticamente.",
+    "Les rapports excluent noms de compte, discussions, paquets et chemins de fichiers. Aucun envoi automatique.",
+    "I rapporti escludono nomi account, chat, pacchetti e percorsi dei file. Nessun caricamento automatico.",
+    "Raporty nie zawierają nazw kont, czatu, pakietów ani ścieżek plików. Nic nie jest automatycznie wysyłane."
+  ],
+  "Restart only when troubleshooting. Fresh collection totals may be needed afterward.": [
+    "Nur zur Fehlerbehebung neu starten. Danach können neue Sammlungsdaten erforderlich sein.",
+    "Reinicia solo para resolver problemas. Después pueden necesitarse datos nuevos de la colección.",
+    "Redémarrez uniquement pour dépanner. De nouvelles données de collection peuvent ensuite être nécessaires.",
+    "Riavvia solo per risolvere problemi. Potrebbero servire nuovi dati della raccolta.",
+    "Uruchamiaj ponownie tylko przy problemach. Później mogą być potrzebne nowe dane kolekcji."
+  ],
+  "Automatic uses available capture adapters. Apply restarts capture; these fields do not autosave.": [
+    "Automatisch nutzt verfügbare Erfassungsadapter. Anwenden startet die Erfassung neu; diese Felder speichern nicht automatisch.",
+    "Automático usa los adaptadores disponibles. Aplicar reinicia la captura; estos campos no se guardan solos.",
+    "Automatique utilise les cartes disponibles. Appliquer redémarre la capture ; ces champs ne s'enregistrent pas automatiquement.",
+    "Automatico usa le schede disponibili. Applica riavvia l'acquisizione; questi campi non si salvano automaticamente.",
+    "Tryb automatyczny używa dostępnych kart. Zastosowanie restartuje przechwytywanie; te pola nie zapisują się automatycznie."
+  ],
+  "Try restarting A2 Pet Tracking by Lacu from its shortcut.": [
+    "Versuche A2 Pet Tracking by Lacu über die Verknüpfung neu zu starten.",
+    "Intenta reiniciar A2 Pet Tracking by Lacu desde su acceso directo.",
+    "Essayez de redémarrer A2 Pet Tracking by Lacu depuis son raccourci.",
+    "Prova a riavviare A2 Pet Tracking by Lacu dal collegamento.",
+    "Spróbuj ponownie uruchomić A2 Pet Tracking by Lacu ze skrótu."
+  ],
+  "Capture is unavailable. Live tracking requires Npcap, installed separately. Download it below if missing, then restart A2 Pet Tracking by Lacu. If it is already installed, check Windows capture permissions and save a support report.": [
+    "Die Erfassung ist nicht verfügbar. Live-Tracking benötigt eine separate Npcap-Installation. Installiere fehlendes Npcap und starte den Tracker neu. Ist Npcap installiert, prüfe die Erfassungsberechtigungen und speichere einen Supportbericht.",
+    "Captura no disponible. El seguimiento requiere Npcap instalado por separado. Instálalo si falta y reinicia el tracker. Si ya está instalado, revisa los permisos y guarda un informe.",
+    "Capture indisponible. Le suivi nécessite Npcap installé séparément. Installez-le s'il manque puis redémarrez. Sinon, vérifiez les droits et enregistrez un rapport.",
+    "Acquisizione non disponibile. Il tracciamento richiede Npcap separatamente. Installalo se manca e riavvia. Se è già installato, verifica i permessi e salva un rapporto.",
+    "Przechwytywanie niedostępne. Śledzenie wymaga osobnej instalacji Npcap. Zainstaluj go i uruchom ponownie. Jeśli jest zainstalowany, sprawdź uprawnienia i zapisz raport."
+  ],
+  "Connected, but no recent game traffic. Check that Aion 2 is running and connected.": [
+    "Verbunden, aber kein aktueller Spielverkehr. Prüfe, ob Aion 2 läuft und verbunden ist.",
+    "Conectado, pero sin tráfico reciente. Comprueba que Aion 2 esté abierto y conectado.",
+    "Connecté, mais aucun trafic récent. Vérifiez qu'Aion 2 est ouvert et connecté.",
+    "Collegato, ma senza traffico recente. Verifica che Aion 2 sia aperto e collegato.",
+    "Połączono, ale brak ostatniego ruchu gry. Sprawdź, czy Aion 2 działa i jest połączony."
+  ],
+  "Character connected. Traffic timing is not available yet.": [
+    "Charakter verbunden. Informationen zum Datenverkehr sind noch nicht verfügbar.",
+    "Personaje conectado. Aún no hay información temporal del tráfico.",
+    "Personnage connecté. Les informations temporelles du trafic sont indisponibles.",
+    "Personaggio collegato. Le informazioni temporali del traffico non sono ancora disponibili.",
+    "Postać połączona. Dane o czasie ruchu nie są jeszcze dostępne."
+  ],
+  "Collection sync is automatic at character login. Leave A2 Pet Tracking by Lacu running, return to character selection, then log back in. There is no separate sync button. If totals are still missing, check Settings → Help.": [
+    "Die Sammlung wird beim Charakter-Login automatisch synchronisiert. Lass den Tracker laufen, kehre zur Charakterauswahl zurück und logge dich erneut ein. Es gibt keinen separaten Synchronisieren-Button. Fehlen weiterhin Werte, siehe Einstellungen → Hilfe.",
+    "La colección se sincroniza al iniciar sesión con el personaje. Deja el tracker abierto, vuelve a la selección de personajes y entra de nuevo. No hay un botón de sincronización. Si faltan datos, consulta Ajustes → Ayuda.",
+    "La collection se synchronise à la connexion du personnage. Laissez le tracker ouvert, revenez au choix des personnages puis reconnectez-vous. Aucun bouton de synchronisation. Si des données manquent, voir Paramètres → Aide.",
+    "La raccolta si sincronizza all'accesso del personaggio. Lascia aperto il tracker, torna alla selezione e accedi di nuovo. Non c'è un pulsante di sincronizzazione. Se mancano dati, vedi Impostazioni → Aiuto.",
+    "Kolekcja synchronizuje się przy logowaniu postaci. Zostaw tracker włączony, wróć do wyboru postaci i zaloguj się ponownie. Nie ma osobnego przycisku synchronizacji. Jeśli brakuje danych, zobacz Ustawienia → Pomoc."
+  ],
+  "Merchant tracking needs an active capture connection. Check Settings → Help.": [
+    "Händler-Tracking benötigt eine aktive Erfassung. Siehe Einstellungen → Hilfe.",
+    "El seguimiento del mercader requiere captura activa. Consulta Ajustes → Ayuda.",
+    "Le suivi du marchand nécessite une capture active. Voir Paramètres → Aide.",
+    "Il tracciamento del mercante richiede acquisizione attiva. Vedi Impostazioni → Aiuto.",
+    "Śledzenie handlarza wymaga aktywnego przechwytywania. Zobacz Ustawienia → Pomoc."
+  ],
+  "Merchant shopping list is turned off.": [
+    "Die Händler-Einkaufsliste ist deaktiviert.",
+    "La lista de compras del mercader está desactivada.",
+    "La liste d'achats du marchand est désactivée.",
+    "La lista acquisti del mercante è disattivata.",
+    "Lista zakupów handlarza jest wyłączona."
+  ],
+  "Waiting for collection sync. See Settings → Account for login steps.": [
+    "Warte auf die Synchronisierung der Sammlung. Siehe Einstellungen → Konto für die Anmeldeschritte.",
+    "Esperando la sincronización de la colección. Consulta Ajustes → Cuenta para iniciar sesión.",
+    "En attente de synchronisation. Voir Paramètres → Compte pour les étapes de connexion.",
+    "In attesa della sincronizzazione. Vedi Impostazioni → Account per accedere.",
+    "Oczekiwanie na synchronizację kolekcji. Instrukcje logowania: Ustawienia → Konto."
+  ],
+  "Waiting for the active character connection. Check Settings → Help.": [
+    "Warte auf die aktive Charakterverbindung. Siehe Einstellungen → Hilfe.",
+    "Esperando la conexión del personaje activo. Consulta Ajustes → Ayuda.",
+    "En attente du personnage actif. Voir Paramètres → Aide.",
+    "In attesa del personaggio attivo. Vedi Impostazioni → Aiuto.",
+    "Oczekiwanie na połączenie aktywnej postaci. Zobacz Ustawienia → Pomoc."
+  ],
+  "No fresh merchant stock received. Open the merchant’s Special and Pets tabs while tracking. Offers expire after two minutes, at refresh, or when the connection changes.": [
+    "Keine aktuellen Händler-Angebote empfangen. Öffne Spezial und Pets im Spiel. Die Angebote verfallen nach zwei Minuten, bei der Aktualisierung oder einem Verbindungswechsel.",
+    "No se recibieron ofertas recientes. Abre Especial y Mascotas en el juego. Caducan a los dos minutos, al actualizar o cambiar de conexión.",
+    "Aucune offre récente reçue. Ouvrez Spécial et Familiers dans le jeu. Les offres expirent après deux minutes, à l'actualisation ou au changement de connexion.",
+    "Nessuna offerta recente ricevuta. Apri Speciale e Famigli nel gioco. Le offerte scadono dopo due minuti, all'aggiornamento o al cambio di connessione.",
+    "Nie odebrano aktualnych ofert. Otwórz Specjalne i Pupile w grze. Oferty wygasają po dwóch minutach, przy odświeżeniu lub zmianie połączenia."
+  ],
+  "The window size could not be saved. Please try closing again.": [
+    "Die Fenstergröße konnte nicht gespeichert werden. Bitte erneut beenden.",
+    "No se pudo guardar el tamaño de ventana. Intenta cerrar de nuevo.",
+    "La taille de fenêtre n'a pas pu être enregistrée. Réessayez de fermer.",
+    "Impossibile salvare le dimensioni. Riprova a chiudere.",
+    "Nie zapisano rozmiaru okna. Spróbuj zamknąć ponownie."
+  ],
+  "The Npcap download has an unexpected size. Nothing was executed.": [
+    "Der Npcap-Download hat eine unerwartete Größe. Es wurde nichts ausgeführt.",
+    "La descarga de Npcap tiene un tamaño inesperado. No se ejecutó nada.",
+    "La taille du téléchargement Npcap est inattendue. Rien n'a été exécuté.",
+    "Il download Npcap ha dimensioni inattese. Nulla è stato eseguito.",
+    "Pobrany Npcap ma nieoczekiwany rozmiar. Niczego nie uruchomiono."
+  ],
+  "The Npcap download is incomplete. Nothing was executed.": [
+    "Der Npcap-Download ist unvollständig. Es wurde nichts ausgeführt.",
+    "La descarga de Npcap está incompleta. No se ejecutó nada.",
+    "Le téléchargement Npcap est incomplet. Rien n'a été exécuté.",
+    "Il download Npcap è incompleto. Nulla è stato eseguito.",
+    "Pobieranie Npcap jest niekompletne. Niczego nie uruchomiono."
+  ],
+  "The Npcap checksum does not match. Nothing was executed.": [
+    "Die Npcap-Prüfsumme stimmt nicht. Es wurde nichts ausgeführt.",
+    "La suma de verificación de Npcap no coincide. No se ejecutó nada.",
+    "La somme de contrôle Npcap ne correspond pas. Rien n'a été exécuté.",
+    "Il checksum Npcap non corrisponde. Nulla è stato eseguito.",
+    "Suma kontrolna Npcap jest nieprawidłowa. Niczego nie uruchomiono."
+  ],
+  "Downloading and verifying the official Npcap installer from npcap.com…": [
+    "Der offizielle Npcap-Installer wird von npcap.com heruntergeladen und geprüft …",
+    "Descargando y verificando el instalador oficial de Npcap desde npcap.com…",
+    "Téléchargement et vérification du programme Npcap officiel depuis npcap.com…",
+    "Download e verifica del programma Npcap ufficiale da npcap.com…",
+    "Pobieranie i weryfikowanie oficjalnego instalatora Npcap z npcap.com…"
+  ],
+  "The official Npcap download is unavailable. Try later or visit https://npcap.com/#download.": [
+    "Der offizielle Npcap-Download ist zurzeit nicht verfügbar. Später erneut versuchen oder https://npcap.com/#download besuchen.",
+    "La descarga oficial de Npcap no está disponible. Reintenta más tarde o visita https://npcap.com/#download.",
+    "Le téléchargement Npcap officiel est indisponible. Réessayez plus tard ou visitez https://npcap.com/#download.",
+    "Il download ufficiale Npcap non è disponibile. Riprova più tardi o visita https://npcap.com/#download.",
+    "Oficjalne pobieranie Npcap jest niedostępne. Spróbuj później lub odwiedź https://npcap.com/#download."
+  ],
+  "Npcap setup opened. Approve the Windows administrator prompt and finish the visible setup. Keep WinPcap compatibility enabled.": [
+    "Npcap-Setup geöffnet. Bitte die Windows-Administratorabfrage bestätigen und die Installation im sichtbaren Setup abschließen. Die WinPcap-Kompatibilität aktiviert lassen.",
+    "Instalador de Npcap abierto. Acepta la solicitud de administrador de Windows y completa la instalación visible. Mantén la compatibilidad WinPcap.",
+    "Installation Npcap ouverte. Acceptez la demande administrateur Windows et terminez l'installation visible. Gardez la compatibilité WinPcap activée.",
+    "Installazione Npcap aperta. Conferma la richiesta amministratore Windows e completa l'installazione visibile. Mantieni attiva la compatibilità WinPcap.",
+    "Otwarto instalator Npcap. Potwierdź monit administratora Windows i ukończ widoczną instalację. Pozostaw zgodność z WinPcap."
+  ],
+  "The Npcap file changed. Nothing was executed.": [
+    "Npcap-Datei verändert. Es wurde nichts ausgeführt.",
+    "El archivo de Npcap cambió. No se ejecutó nada.",
+    "Le fichier Npcap a changé. Rien n'a été exécuté.",
+    "Il file Npcap è cambiato. Nulla è stato eseguito.",
+    "Plik Npcap został zmieniony. Niczego nie uruchomiono."
+  ],
+  "Npcap setup could not be started.": [
+    "Npcap-Setup konnte nicht gestartet werden.",
+    "No se pudo iniciar el instalador de Npcap.",
+    "Impossible de démarrer l'installation Npcap.",
+    "Impossibile avviare l'installazione Npcap.",
+    "Nie udało się uruchomić instalatora Npcap."
+  ],
+  "Npcap setup finished. Checking the installation again.": [
+    "Npcap-Setup beendet. Die Installation wird erneut geprüft.",
+    "Instalador de Npcap finalizado. Comprobando la instalación de nuevo.",
+    "Installation Npcap terminée. Nouvelle vérification en cours.",
+    "Installazione Npcap terminata. Nuovo controllo dell'installazione.",
+    "Instalator Npcap zakończony. Ponowne sprawdzanie instalacji."
+  ],
+  "Npcap is installed. Restart Windows, then open the tracker.": [
+    "Npcap wurde installiert. Bitte Windows neu starten und danach den Tracker öffnen.",
+    "Npcap está instalado. Reinicia Windows y abre el tracker.",
+    "Npcap est installé. Redémarrez Windows puis ouvrez le tracker.",
+    "Npcap è installato. Riavvia Windows e apri il tracker.",
+    "Npcap jest zainstalowany. Uruchom ponownie Windows, a następnie tracker."
+  ],
+  "Npcap requires a Windows restart. Run setup again afterward.": [
+    "Npcap benötigt einen Windows-Neustart. Danach das Setup erneut ausführen.",
+    "Npcap necesita reiniciar Windows. Ejecuta el instalador otra vez después.",
+    "Npcap nécessite un redémarrage de Windows. Relancez ensuite l'installation.",
+    "Npcap richiede un riavvio di Windows. Poi esegui di nuovo l'installazione.",
+    "Npcap wymaga ponownego uruchomienia Windows. Następnie uruchom instalator ponownie."
+  ],
+  "Npcap installation was cancelled. Capture was not started.": [
+    "Npcap-Installation wurde abgebrochen. Der Tracker hat keine Erfassung gestartet.",
+    "La instalación de Npcap se canceló. La captura no se inició.",
+    "Installation Npcap annulée. La capture n'a pas démarré.",
+    "Installazione Npcap annullata. Acquisizione non avviata.",
+    "Anulowano instalację Npcap. Nie uruchomiono przechwytywania."
+  ],
+  "Another installation is running. Finish it and check again.": [
+    "Eine andere Installation läuft bereits. Diese abschließen und erneut prüfen.",
+    "Hay otra instalación en curso. Termínala y vuelve a comprobar.",
+    "Une autre installation est en cours. Terminez-la puis vérifiez de nouveau.",
+    "Un'altra installazione è in corso. Completala e ricontrolla.",
+    "Trwa inna instalacja. Zakończ ją i sprawdź ponownie."
+  ],
+  "The Windows administrator prompt was cancelled. Capture was not started.": [
+    "Die Windows-Administratorabfrage wurde abgebrochen. Es wurde keine Erfassung gestartet.",
+    "Se canceló la solicitud de administrador de Windows. No se inició la captura.",
+    "La demande administrateur Windows a été annulée. La capture n'a pas démarré.",
+    "Richiesta amministratore Windows annullata. Acquisizione non avviata.",
+    "Anulowano monit administratora Windows. Nie uruchomiono przechwytywania."
+  ],
+  "Minimize": [
+    "Minimieren",
+    "Minimizar",
+    "Réduire",
+    "Riduci a icona",
+    "Minimalizuj"
+  ],
+  "Maximize / restore": [
+    "Maximieren / Wiederherstellen",
+    "Maximizar / restaurar",
+    "Agrandir / restaurer",
+    "Massimizza / ripristina",
+    "Maksymalizuj / przywróć"
+  ],
+  "Quit": [
+    "Beenden",
+    "Salir",
+    "Quitter",
+    "Esci",
+    "Zakończ"
+  ],
+  "Windows x64 detected.": [
+    "Windows x64 erkannt.",
+    "Windows x64 detectado.",
+    "Windows x64 détecté.",
+    "Windows x64 rilevato.",
+    "Wykryto Windows x64."
+  ],
+  "Program files": [
+    "Programmdateien",
+    "Archivos del programa",
+    "Fichiers du programme",
+    "File del programma",
+    "Pliki programu"
+  ],
+  "All required program files are complete and unchanged.": [
+    "Alle benötigten Programmdateien sind vollständig und unverändert.",
+    "Todos los archivos requeridos están completos y sin modificar.",
+    "Tous les fichiers requis sont complets et inchangés.",
+    "Tutti i file richiesti sono completi e invariati.",
+    "Wszystkie wymagane pliki są kompletne i niezmienione."
+  ],
+  ".NET runtime": [
+    ".NET-Laufzeit",
+    "Entorno de ejecución .NET",
+    "Environnement .NET",
+    "Runtime .NET",
+    "Środowisko .NET"
+  ],
+  "Already included in the executables. No separate installation needed.": [
+    "Bereits in den EXE-Dateien enthalten. Keine separate Installation nötig.",
+    "Ya incluido en los ejecutables. No requiere instalación aparte.",
+    "Déjà inclus dans les exécutables. Aucune installation séparée nécessaire.",
+    "Già incluso negli eseguibili. Nessuna installazione separata necessaria.",
+    "Zawarte w plikach wykonywalnych. Osobna instalacja nie jest potrzebna."
+  ],
+  "Data folder": [
+    "Datenordner",
+    "Carpeta de datos",
+    "Dossier de données",
+    "Cartella dati",
+    "Folder danych"
+  ],
+  "Collection and settings can be saved locally.": [
+    "Sammlung und Einstellungen können lokal gespeichert werden.",
+    "La colección y los ajustes pueden guardarse localmente.",
+    "La collection et les paramètres peuvent être enregistrés localement.",
+    "Raccolta e impostazioni possono essere salvate localmente.",
+    "Kolekcję i ustawienia można zapisywać lokalnie."
+  ],
+  "Npcap and network adapters": [
+    "Npcap und Netzwerkadapter",
+    "Npcap y adaptadores de red",
+    "Npcap et cartes réseau",
+    "Npcap e schede di rete",
+    "Npcap i karty sieciowe"
+  ],
+  "Npcap ready · 10 network adapters detected.": [
+    "Npcap bereit · 10 Netzwerkadapter erkannt.",
+    "Npcap listo · 10 adaptadores detectados.",
+    "Npcap prêt · 10 cartes réseau détectées.",
+    "Npcap pronto · 10 schede di rete rilevate.",
+    "Npcap gotowy · wykryto 10 kart sieciowych."
+  ],
+  "Npcap is missing. The official installer will be downloaded, verified and opened. Approve the visible setup and Windows administrator prompt.": [
+    "Npcap fehlt. Der offizielle Installer wird heruntergeladen und nach Prüfung geöffnet. Bitte das sichtbare Setup und die Windows-Administratorabfrage bestätigen.",
+    "Falta Npcap. Se descargará, verificará y abrirá el instalador oficial. Acepta la instalación visible y la solicitud de administrador de Windows.",
+    "Npcap est manquant. Le programme officiel sera téléchargé, vérifié et ouvert. Acceptez l'installation visible et la demande administrateur Windows.",
+    "Npcap manca. Il programma ufficiale verrà scaricato, verificato e aperto. Conferma l'installazione visibile e la richiesta amministratore Windows.",
+    "Brak Npcap. Oficjalny instalator zostanie pobrany, sprawdzony i otwarty. Potwierdź widoczną instalację i monit administratora Windows."
+  ],
+  "Local version": [
+    "Lokale Version",
+    "Versión local",
+    "Version locale",
+    "Versione locale",
+    "Wersja lokalna"
+  ],
+  "This version works locally. There is no online updater, automatic update check or access for the original developer.": [
+    "Diese Version arbeitet lokal. Es gibt keinen Online-Updater, keine automatische Update-Abfrage und keinen Zugang fuer den urspruenglichen Entwickler.",
+    "Esta versión funciona localmente. No hay actualizador en línea, comprobaciones automáticas ni acceso del desarrollador original.",
+    "Cette version fonctionne localement. Aucun programme de mise à jour en ligne, vérification automatique ou accès du développeur original.",
+    "Questa versione funziona localmente. Nessun aggiornamento online, controllo automatico o accesso per lo sviluppatore originale.",
+    "Ta wersja działa lokalnie. Nie ma aktualizatora online, automatycznych kontroli ani dostępu dla pierwotnego autora."
+  ],
+  "The only download exception is the pinned official Npcap installer when Npcap is missing. The startup check verifies it and opens visible setup.": [
+    "Einzige Download-Ausnahme: Fehlt Npcap, kann die Startpruefung den festgelegten offiziellen Installer von npcap.com laden, pruefen und als sichtbares Setup oeffnen.",
+    "La única excepción de descarga es el instalador oficial fijado de Npcap cuando falta. La comprobación inicial lo verifica y abre la instalación visible.",
+    "Seule exception de téléchargement : le programme Npcap officiel fixé s'il manque. La vérification initiale le contrôle puis ouvre l'installation visible.",
+    "L'unica eccezione di download è il programma Npcap ufficiale fissato se manca. Il controllo iniziale lo verifica e apre l'installazione visibile.",
+    "Jedyny wyjątek pobierania to ustalony oficjalny instalator Npcap, gdy go brak. Kontrola startowa weryfikuje go i otwiera widoczną instalację."
+  ],
+  "For local updates, close the app, edit the source and run Build-Local.ps1. Your saved collection in the Data folder is preserved.": [
+    "Eigene Updates: Anwendung beenden, Quellcode lokal anpassen und Build-Local.ps1 ausfuehren. Die gespeicherte Sammlung im Ordner Daten bleibt erhalten.",
+    "Para actualizar localmente, cierra la app, modifica el código y ejecuta Build-Local.ps1. Se conserva la colección guardada en Datos.",
+    "Pour les mises à jour locales, fermez l'application, modifiez le code et lancez Build-Local.ps1. La collection du dossier de données est conservée.",
+    "Per aggiornamenti locali, chiudi l'app, modifica il codice ed esegui Build-Local.ps1. La raccolta nella cartella dati viene conservata.",
+    "Aby zaktualizować lokalnie, zamknij aplikację, zmień kod i uruchom Build-Local.ps1. Kolekcja w folderze danych zostanie zachowana."
+  ],
+  "Check Npcap locally": [
+    "Npcap lokal pruefen",
+    "Comprobar Npcap localmente",
+    "Vérifier Npcap localement",
+    "Controlla Npcap localmente",
+    "Sprawdź Npcap lokalnie"
+  ],
+  "Preview: no driver will be installed.": [
+    "Simulation: Es wird kein Treiber installiert.",
+    "Vista previa: no se instalará ningún controlador.",
+    "Aperçu : aucun pilote ne sera installé.",
+    "Anteprima: non verrà installato alcun driver.",
+    "Podgląd: żaden sterownik nie zostanie zainstalowany."
+  ],
+  "Checks local protocol counters. Raw data and packet samples are not saved.": [
+    "Prueft lokale Protokollzaehler. Rohdaten und Paket-Ausschnitte werden nicht gespeichert.",
+    "Comprueba contadores locales del protocolo. No guarda datos ni muestras de paquetes.",
+    "Vérifie les compteurs locaux du protocole. Aucune donnée brute ni aucun paquet n'est enregistré.",
+    "Controlla i contatori locali del protocollo. Dati grezzi e campioni dei pacchetti non vengono salvati.",
+    "Sprawdza lokalne liczniki protokołu. Surowe dane i próbki pakietów nie są zapisywane."
+  ],
+  "Checking program files and Npcap…": [
+    "Programmdateien und Npcap werden geprüft …",
+    "Comprobando archivos del programa y Npcap…",
+    "Vérification des fichiers et de Npcap…",
+    "Controllo dei file del programma e Npcap…",
+    "Sprawdzanie plików programu i Npcap…"
+  ],
+  "A2Pet Tracking – Startup check": [
+    "A2Pet Tracking – Startprüfung",
+    "A2Pet Tracking – Comprobación inicial",
+    "A2Pet Tracking – Vérification initiale",
+    "A2Pet Tracking – Controllo iniziale",
+    "A2Pet Tracking – Kontrola startowa"
+  ],
+  "Startup check": [
+    "Startprüfung",
+    "Comprobación inicial",
+    "Vérification initiale",
+    "Controllo iniziale",
+    "Kontrola startowa"
+  ],
+  "Requirements are checked locally before the tracker starts.": [
+    "Die Voraussetzungen werden vor dem Tracker-Start lokal geprüft.",
+    "Los requisitos se comprueban localmente antes de iniciar el tracker.",
+    "Les prérequis sont vérifiés localement avant le démarrage du tracker.",
+    "I requisiti vengono controllati localmente prima dell'avvio del tracker.",
+    "Wymagania są sprawdzane lokalnie przed uruchomieniem trackera."
+  ],
+  "Check again": [
+    "Erneut prüfen",
+    "Comprobar de nuevo",
+    "Vérifier à nouveau",
+    "Ricontrolla",
+    "Sprawdź ponownie"
+  ],
+  "Open Npcap setup": [
+    "Npcap-Setup öffnen",
+    "Abrir instalador de Npcap",
+    "Ouvrir l'installation Npcap",
+    "Apri installazione Npcap",
+    "Otwórz instalator Npcap"
+  ],
+  "Checks passed. Starting the tracker…": [
+    "Prüfung erfolgreich. Tracker wird gestartet …",
+    "Comprobaciones correctas. Iniciando el tracker…",
+    "Vérifications réussies. Démarrage du tracker…",
+    "Controlli superati. Avvio del tracker…",
+    "Kontrole pomyślne. Uruchamianie trackera…"
+  ],
+  "The tracker starts only after every requirement is met.": [
+    "Der Tracker startet erst, wenn alle Voraussetzungen erfüllt sind.",
+    "El tracker solo se inicia cuando se cumplen todos los requisitos.",
+    "Le tracker ne démarre qu'une fois tous les prérequis satisfaits.",
+    "Il tracker si avvia solo quando tutti i requisiti sono soddisfatti.",
+    "Tracker uruchomi się dopiero po spełnieniu wszystkich wymagań."
+  ],
+  "The startup check could not finish. Check again or extract the complete ZIP again.": [
+    "Die Startprüfung konnte nicht abgeschlossen werden. Erneut prüfen oder das vollständige ZIP neu entpacken.",
+    "No se completó la comprobación inicial. Reintenta o extrae de nuevo el ZIP completo.",
+    "La vérification initiale n'a pas abouti. Réessayez ou extrayez de nouveau le ZIP complet.",
+    "Il controllo iniziale non è terminato. Riprova o estrai nuovamente lo ZIP completo.",
+    "Kontrola startowa nie powiodła się. Sprawdź ponownie lub wypakuj jeszcze raz cały ZIP."
+  ],
+  "Npcap download cancelled.": [
+    "Npcap-Download abgebrochen.",
+    "Descarga de Npcap cancelada.",
+    "Téléchargement Npcap annulé.",
+    "Download Npcap annullato.",
+    "Anulowano pobieranie Npcap."
+  ],
+  "Npcap could not be downloaded or installed. Check your connection or use the official installer at https://npcap.com/#download.": [
+    "Npcap konnte nicht geladen oder installiert werden. Internetverbindung prüfen oder den offiziellen Installer von https://npcap.com/#download verwenden.",
+    "No se pudo descargar o instalar Npcap. Revisa la conexión o usa el instalador oficial de https://npcap.com/#download.",
+    "Impossible de télécharger ou installer Npcap. Vérifiez la connexion ou utilisez le programme officiel sur https://npcap.com/#download.",
+    "Impossibile scaricare o installare Npcap. Verifica la connessione o usa il programma ufficiale su https://npcap.com/#download.",
+    "Nie udało się pobrać lub zainstalować Npcap. Sprawdź połączenie lub użyj oficjalnego instalatora z https://npcap.com/#download."
+  ],
+  "This edition requires Windows on an x64 PC. The .NET runtime is included.": [
+    "Diese Ausgabe benötigt Windows auf einem x64-PC. Die .NET-Laufzeit ist bereits enthalten.",
+    "Esta edición requiere Windows en un PC x64. El entorno .NET está incluido.",
+    "Cette édition nécessite Windows sur un PC x64. L'environnement .NET est inclus.",
+    "Questa edizione richiede Windows su PC x64. Il runtime .NET è incluso.",
+    "Ta edycja wymaga Windows na komputerze x64. Środowisko .NET jest zawarte."
+  ],
+  "The local Npcap check could not run. Extract the complete program, check file access and retry. Nothing was installed.": [
+    "Der lokale Npcap-Test konnte nicht ausgeführt werden. Programm vollständig entpacken, Dateizugriff prüfen und erneut testen. Es wurde nichts installiert.",
+    "No se pudo comprobar Npcap localmente. Extrae todo el programa, revisa el acceso y reintenta. No se instaló nada.",
+    "La vérification Npcap locale n'a pas pu démarrer. Extrayez tout le programme, vérifiez l'accès et réessayez. Rien n'a été installé.",
+    "Impossibile avviare il controllo Npcap locale. Estrai tutto il programma, verifica l'accesso e riprova. Nulla è stato installato.",
+    "Nie uruchomiono lokalnej kontroli Npcap. Wypakuj cały program, sprawdź dostęp i ponów. Niczego nie zainstalowano."
+  ],
+  "Npcap is missing. The official installer is required.": [
+    "Npcap fehlt. Der offizielle Installer wird benötigt.",
+    "Falta Npcap. Se necesita el instalador oficial.",
+    "Npcap est manquant. Le programme officiel est requis.",
+    "Npcap manca. È richiesto il programma ufficiale.",
+    "Brak Npcap. Wymagany jest oficjalny instalator."
+  ],
+  "Npcap is installed but its driver is not running. Restart Windows or repair Npcap.": [
+    "Npcap ist installiert, aber der Treiber läuft nicht. Windows neu starten oder Npcap reparieren.",
+    "Npcap está instalado, pero su controlador no funciona. Reinicia Windows o repara Npcap.",
+    "Npcap est installé mais son pilote est arrêté. Redémarrez Windows ou réparez Npcap.",
+    "Npcap è installato ma il driver non è attivo. Riavvia Windows o ripara Npcap.",
+    "Npcap jest zainstalowany, ale sterownik nie działa. Uruchom Windows ponownie lub napraw Npcap."
+  ],
+  "Npcap allows administrator access only. Run the tracker as administrator or change that option in Npcap setup.": [
+    "Npcap erlaubt nur Administratoren den Zugriff. Tracker als Administrator starten oder die Npcap-Option für Administratorzugriff im Setup ändern.",
+    "Npcap solo permite acceso de administrador. Ejecuta el tracker como administrador o cambia esa opción en el instalador.",
+    "Npcap autorise uniquement les administrateurs. Lancez le tracker comme administrateur ou modifiez cette option dans l'installation Npcap.",
+    "Npcap consente l'accesso solo agli amministratori. Esegui il tracker come amministratore o modifica l'opzione nell'installazione Npcap.",
+    "Npcap zezwala tylko administratorom. Uruchom tracker jako administrator lub zmień tę opcję w instalatorze Npcap."
+  ],
+  "The Npcap library cannot be loaded. Repair Npcap using its official setup.": [
+    "Die Npcap-Bibliothek kann nicht geladen werden. Npcap mit dem offiziellen Setup reparieren.",
+    "No se puede cargar la biblioteca Npcap. Repárala con el instalador oficial.",
+    "Impossible de charger la bibliothèque Npcap. Réparez-la avec le programme officiel.",
+    "Impossibile caricare la libreria Npcap. Riparala con l'installazione ufficiale.",
+    "Nie można załadować biblioteki Npcap. Napraw ją oficjalnym instalatorem."
+  ],
+  "Npcap loaded but no network adapter was found. Enable an adapter and check again.": [
+    "Npcap wurde geladen, aber kein Netzwerkadapter gefunden. Netzwerkadapter aktivieren und erneut prüfen.",
+    "Npcap se cargó, pero no se encontró un adaptador de red. Activa uno y comprueba de nuevo.",
+    "Npcap est chargé mais aucune carte réseau n'a été trouvée. Activez-en une puis vérifiez de nouveau.",
+    "Npcap è caricato ma non è stata trovata alcuna scheda di rete. Attivane una e ricontrolla.",
+    "Npcap załadowano, ale nie znaleziono karty sieciowej. Włącz kartę i sprawdź ponownie."
+  ],
+  "Already included in the executables. No separate .NET installation needed.": [
+    "Bereits in den EXE-Dateien enthalten. Keine separate .NET-Installation nötig.",
+    "Ya incluido en los ejecutables. No requiere instalación separada de .NET.",
+    "Déjà inclus dans les exécutables. Aucune installation .NET séparée nécessaire.",
+    "Già incluso negli eseguibili. Nessuna installazione .NET separata necessaria.",
+    "Zawarte w plikach wykonywalnych. Nie wymaga osobnej instalacji .NET."
+  ],
+  "The program package is incomplete or unreadable. Extract the full ZIP into a writable folder. Back up personal data first.": [
+    "Das Programmpaket ist unvollständig oder nicht lesbar. Das vollständige ZIP in einen beschreibbaren Ordner entpacken. Persönliche Daten vorher sichern.",
+    "El paquete está incompleto o no se puede leer. Extrae todo el ZIP en una carpeta con permisos de escritura. Copia antes tus datos.",
+    "Le programme est incomplet ou illisible. Extrayez tout le ZIP dans un dossier accessible en écriture. Sauvegardez d'abord vos données.",
+    "Il programma è incompleto o illeggibile. Estrai lo ZIP completo in una cartella scrivibile. Salva prima i dati personali.",
+    "Pakiet programu jest niekompletny lub nieczytelny. Wypakuj cały ZIP do folderu z prawem zapisu. Najpierw skopiuj dane osobiste."
+  ],
+  "The data folder is not writable. Extract the ZIP into Documents, for example, and start again.": [
+    "Der Datenordner ist nicht beschreibbar. Das ZIP zum Beispiel nach Dokumente entpacken und erneut starten.",
+    "No se puede escribir en la carpeta de datos. Extrae el ZIP, por ejemplo, en Documentos e inicia de nuevo.",
+    "Le dossier de données n'est pas accessible en écriture. Extrayez le ZIP, par exemple dans Documents, et relancez.",
+    "La cartella dati non è scrivibile. Estrai lo ZIP, per esempio in Documenti, e riavvia.",
+    "Brak prawa zapisu w folderze danych. Wypakuj ZIP na przykład do Dokumentów i uruchom ponownie."
+  ],
+  "Rank {0}": [
+    "Rang {0}",
+    "Rango {0}",
+    "Rang {0}",
+    "Grado {0}",
+    "Ranga {0}"
+  ],
+  "Refresh in {0}": [
+    "Aktualisierung in {0}",
+    "Actualización en {0}",
+    "Actualisation dans {0}",
+    "Aggiornamento tra {0}",
+    "Odświeżenie za {0}"
+  ],
+  "Next refresh · {0}": [
+    "Nächste Aktualisierung · {0}",
+    "Próxima actualización · {0}",
+    "Prochaine actualisation · {0}",
+    "Prossimo aggiornamento · {0}",
+    "Następne odświeżenie · {0}"
+  ],
+  "Next hourly reminder · {0} · local time": [
+    "Nächste Erinnerung · {0} · Ortszeit",
+    "Próximo recordatorio · {0} · hora local",
+    "Prochain rappel · {0} · heure locale",
+    "Prossimo promemoria · {0} · ora locale",
+    "Następne przypomnienie · {0} · czas lokalny"
+  ],
+  "No current observation for {0}.": [
+    "Kein aktueller Stand für {0}.",
+    "Sin datos actuales de {0}.",
+    "Aucun relevé récent pour {0}.",
+    "Nessun dato recente per {0}.",
+    "Brak aktualnego odczytu dla {0}."
+  ],
+  "Last observed · {0} · {1} pets": [
+    "Zuletzt erfasst · {0} · {1} Pets",
+    "Última lectura · {0} · Mascotas: {1}",
+    "Dernier relevé · {0} · Familiers : {1}",
+    "Ultimo rilevamento · {0} · Famigli: {1}",
+    "Ostatni odczyt · {0} · Pupile: {1}"
+  ],
+  "Rank {0} · last known": [
+    "Rang {0} · zuletzt bekannt",
+    "Rango {0} · último conocido",
+    "Rang {0} · dernier connu",
+    "Grado {0} · ultimo noto",
+    "Ranga {0} · ostatnia znana"
+  ],
+  "{0} pets": [
+    "Pets: {0}",
+    "Mascotas: {0}",
+    "Familiers : {0}",
+    "Famigli: {0}",
+    "Pupile: {0}"
+  ],
+  "{0} souls": [
+    "{0} Seelen",
+    "Almas: {0}",
+    "Âmes : {0}",
+    "Anime: {0}",
+    "Dusze: {0}"
+  ],
+  "Characters: {0}": [
+    "Charaktere: {0}",
+    "Personajes: {0}",
+    "Personnages : {0}",
+    "Personaggi: {0}",
+    "Postacie: {0}"
+  ],
+  "Use {0} with {1}": [
+    "{0} mit {1} verwenden",
+    "Usar {0} con {1}",
+    "Utiliser {0} avec {1}",
+    "Usa {0} con {1}",
+    "Użyj {0} z {1}"
+  ],
+  "Choose account for {0}": [
+    "Konto für {0} wählen",
+    "Elegir cuenta para {0}",
+    "Choisir le compte de {0}",
+    "Scegli account per {0}",
+    "Wybierz konto dla {0}"
+  ],
+  "{0} is already in use. Choose another shortcut.": [
+    "{0} wird bereits verwendet. Wähle ein anderes Tastenkürzel.",
+    "{0} ya está en uso. Elige otro atajo.",
+    "{0} est déjà utilisé. Choisissez un autre raccourci.",
+    "{0} è già in uso. Scegli un'altra scorciatoia.",
+    "{0} jest już używany. Wybierz inny skrót."
+  ],
+  "{0} reached MAX": [
+    "{0} hat MAX erreicht",
+    "{0} alcanzó el máximo",
+    "{0} a atteint le maximum",
+    "{0} ha raggiunto MAX",
+    "{0} osiągnął maksimum"
+  ],
+  "{0} reached Rank {1}": [
+    "{0} hat Rang {1} erreicht",
+    "{0} alcanzó el rango {1}",
+    "{0} a atteint le rang {1}",
+    "{0} ha raggiunto il grado {1}",
+    "{0} osiągnął rangę {1}"
+  ],
+  "Observed mobs: {0}": [
+    "Erfasste Mobs: {0}",
+    "Monstruos observados: {0}",
+    "Monstres observés : {0}",
+    "Mostri osservati: {0}",
+    "Zaobserwowane potwory: {0}"
+  ],
+  "Last creature: {0}": [
+    "Letzter Mob: {0}",
+    "Última criatura: {0}",
+    "Dernière créature : {0}",
+    "Ultima creatura: {0}",
+    "Ostatni potwór: {0}"
+  ],
+  "{0} pet family": [
+    "Pet-Familie {0}",
+    "Familia de mascotas {0}",
+    "Famille de familiers {0}",
+    "Famiglia dei famigli {0}",
+    "Rodzina pupili {0}"
+  ],
+  "Nearest observed mob: {0}": [
+    "Nächster erfasster Mob: {0}",
+    "Monstruo observado más cercano: {0}",
+    "Monstre observé le plus proche : {0}",
+    "Mostro osservato più vicino: {0}",
+    "Najbliższy zaobserwowany potwór: {0}"
+  ],
+  "Capture component unavailable. {0}": [
+    "Erfassungskomponente nicht verfügbar. {0}",
+    "Componente de captura no disponible. {0}",
+    "Composant de capture indisponible. {0}",
+    "Componente di acquisizione non disponibile. {0}",
+    "Składnik przechwytywania niedostępny. {0}"
+  ],
+  "Decoded messages: {0}": [
+    "Decodierte Meldungen: {0}",
+    "Mensajes decodificados: {0}",
+    "Messages décodés : {0}",
+    "Messaggi decodificati: {0}",
+    "Zdekodowane komunikaty: {0}"
+  ],
+  "Soul rewards: {0}": [
+    "Seelenbelohnungen: {0}",
+    "Recompensas de almas: {0}",
+    "Récompenses d'âmes : {0}",
+    "Ricompense anime: {0}",
+    "Nagrody dusz: {0}"
+  ],
+  "Decoder faults: {0}": [
+    "Decoderfehler: {0}",
+    "Errores de decodificación: {0}",
+    "Erreurs de décodage : {0}",
+    "Errori di decodifica: {0}",
+    "Błędy dekodera: {0}"
+  ],
+  "Active stream interruptions: {0}": [
+    "Unterbrechungen der aktiven Verbindung: {0}",
+    "Interrupciones de la conexión activa: {0}",
+    "Interruptions de la connexion active : {0}",
+    "Interruzioni della connessione attiva: {0}",
+    "Przerwy aktywnego połączenia: {0}"
+  ],
+  "Last collection: {0}": [
+    "Letzte Sammlung: {0}",
+    "Última colección: {0}",
+    "Dernière collection : {0}",
+    "Ultima raccolta: {0}",
+    "Ostatnia kolekcja: {0}"
+  ],
+  "{0} soul remaining to unlock Rank 1.": [
+    "Noch {0} Seelenpunkt bis zur Freischaltung von Rang 1.",
+    "Falta {0} alma para desbloquear el rango 1.",
+    "Il reste {0} âme pour débloquer le rang 1.",
+    "Manca {0} anima per sbloccare il grado 1.",
+    "Pozostałe punkty dusz do odblokowania rangi 1: {0}."
+  ],
+  "{0} souls remaining to unlock Rank 1.": [
+    "Noch {0} Seelenpunkte bis zur Freischaltung von Rang 1.",
+    "Faltan {0} almas para desbloquear el rango 1.",
+    "Il reste {0} âmes pour débloquer le rang 1.",
+    "Mancano {0} anime per sbloccare il grado 1.",
+    "Pozostałe punkty dusz do odblokowania rangi 1: {0}."
+  ],
+  "{0} soul remaining to reach Rank {1}.": [
+    "Noch {0} Seelenpunkt bis Rang {1}.",
+    "Falta {0} alma para el rango {1}.",
+    "Il reste {0} âme pour le rang {1}.",
+    "Manca {0} anima per il grado {1}.",
+    "Pozostałe punkty dusz do rangi {1}: {0}."
+  ],
+  "{0} souls remaining to reach Rank {1}.": [
+    "Noch {0} Seelenpunkte bis Rang {1}.",
+    "Faltan {0} almas para el rango {1}.",
+    "Il reste {0} âmes pour le rang {1}.",
+    "Mancano {0} anime per il grado {1}.",
+    "Pozostałe punkty dusz do rangi {1}: {0}."
+  ],
+  "Approximately {0}": [
+    "Ungefähr: {0}",
+    "Aproximadamente: {0}",
+    "Environ : {0}",
+    "Circa: {0}",
+    "W przybliżeniu: {0}"
+  ],
+  "Keep this pet at the top of the tracker ({0}/{1} pinned).": [
+    "Dieses Pet oben im Tracker halten ({0}/{1} angeheftet).",
+    "Mantener esta mascota arriba ({0}/{1} fijadas).",
+    "Garder ce familier en tête ({0}/{1} épinglés).",
+    "Mantieni il famiglio in cima ({0}/{1} fissati).",
+    "Zachowaj pupila na górze ({0}/{1} przypiętych)."
+  ],
+  "{0} — link to account": [
+    "{0} — mit Konto verknüpfen",
+    "{0} — vincular a cuenta",
+    "{0} — associer au compte",
+    "{0} — collega all'account",
+    "{0} — połącz z kontem"
+  ],
+  "{0} detected — choose profile": [
+    "{0} erkannt — Profil wählen",
+    "{0} detectado — elegir perfil",
+    "{0} détecté — choisir le profil",
+    "{0} rilevato — scegli profilo",
+    "Wykryto {0} — wybierz profil"
+  ],
+  "Connected to {0}. Collection synchronized. {1}": [
+    "Verbunden mit {0}. Sammlung synchronisiert. {1}",
+    "Conectado con {0}. Colección sincronizada. {1}",
+    "Connecté à {0}. Collection synchronisée. {1}",
+    "Collegato a {0}. Raccolta sincronizzata. {1}",
+    "Połączono z {0}. Kolekcja zsynchronizowana. {1}"
+  ],
+  "Connected to {0}. Recent pet rewards remain visible; totals are last-known until a fresh collection arrives.{1}": [
+    "Verbunden mit {0}. Letzte Pet-Belohnungen bleiben sichtbar; Gesamtwerte sind bis zum nächsten Abgleich zuletzt bekannt.{1}",
+    "Conectado con {0}. Las recompensas recientes siguen visibles; los totales son los últimos conocidos hasta sincronizar.{1}",
+    "Connecté à {0}. Les récompenses récentes restent visibles ; les totaux attendent une nouvelle synchronisation.{1}",
+    "Collegato a {0}. Le ricompense recenti restano visibili; i totali attendono una nuova sincronizzazione.{1}",
+    "Połączono z {0}. Ostatnie nagrody pozostają widoczne; sumy czekają na nową synchronizację.{1}"
+  ],
+  "Last soul reward: {0}": [
+    "Letzte Seelenbelohnung: {0}",
+    "Última recompensa de almas: {0}",
+    "Dernière récompense d'âmes : {0}",
+    "Ultima ricompensa anime: {0}",
+    "Ostatnia nagroda dusz: {0}"
+  ],
+  "Last interruption: {0}": [
+    "Letzte Unterbrechung: {0}",
+    "Última interrupción: {0}",
+    "Dernière interruption : {0}",
+    "Ultima interruzione: {0}",
+    "Ostatnia przerwa: {0}"
+  ],
+  "Fresh merchant stock received · {0} eligible pet. Recently updated pets leave the overlay after 20 seconds.": [
+    "Neue Händlerangebote empfangen · {0} passendes Pet. Aktualisierte Pets verschwinden nach 20 Sekunden.",
+    "Ofertas recibidas · {0} mascota apta. Las mascotas actualizadas desaparecen a los 20 segundos.",
+    "Offres reçues · {0} familier éligible. Les familiers mis à jour disparaissent après 20 secondes.",
+    "Offerte ricevute · {0} famiglio idoneo. I famigli aggiornati scompaiono dopo 20 secondi.",
+    "Odebrano oferty · Pasujące pupile: {0}. Zaktualizowane pupile znikają po 20 sekundach."
+  ],
+  "Fresh merchant stock received · {0} eligible pets. Recently updated pets leave the overlay after 20 seconds.": [
+    "Neue Händlerangebote empfangen · {0} passende Pets. Aktualisierte Pets verschwinden nach 20 Sekunden.",
+    "Ofertas recibidas · {0} mascotas aptas. Las mascotas actualizadas desaparecen a los 20 segundos.",
+    "Offres reçues · {0} familiers éligibles. Les familiers mis à jour disparaissent après 20 secondes.",
+    "Offerte ricevute · {0} famigli idonei. I famigli aggiornati scompaiono dopo 20 secondi.",
+    "Odebrano oferty · Pasujące pupile: {0}. Zaktualizowane pupile znikają po 20 sekundach."
+  ],
+  "{0} · {1} Kina · seen {2}": [
+    "{0} · {1} Kina · erfasst {2}",
+    "{0} · {1} Kina · visto {2}",
+    "{0} · {1} Kina · vu à {2}",
+    "{0} · {1} Kina · visto {2}",
+    "{0} · {1} Kina · widziano {2}"
+  ],
+  "Npcap ready · {0} network adapters detected.": [
+    "Npcap bereit · {0} Netzwerkadapter erkannt.",
+    "Npcap listo · adaptadores detectados: {0}.",
+    "Npcap prêt · cartes détectées : {0}.",
+    "Npcap pronto · schede rilevate: {0}.",
+    "Npcap gotowy · wykryte karty: {0}."
+  ],
+  "Npcap setup could not finish (code {0}). https://npcap.com/#download": [
+    "Npcap-Setup konnte nicht abgeschlossen werden (Code {0}). https://npcap.com/#download",
+    "El instalador de Npcap no terminó (código {0}). https://npcap.com/#download",
+    "L'installation Npcap n'a pas abouti (code {0}). https://npcap.com/#download",
+    "L'installazione Npcap non è terminata (codice {0}). https://npcap.com/#download",
+    "Instalator Npcap nie zakończył działania (kod {0}). https://npcap.com/#download"
+  ],
+  "File missing or damaged: {0}. Extract the full ZIP again; the executable alone is not enough.": [
+    "Datei fehlt oder ist beschädigt: {0}. Das vollständige ZIP erneut entpacken; die EXE allein reicht nicht.",
+    "Archivo ausente o dañado: {0}. Extrae el ZIP completo; el ejecutable solo no basta.",
+    "Fichier manquant ou endommagé : {0}. Extrayez le ZIP complet ; l'exécutable seul ne suffit pas.",
+    "File mancante o danneggiato: {0}. Estrai lo ZIP completo; il solo eseguibile non basta.",
+    "Brakujący lub uszkodzony plik: {0}. Wypakuj cały ZIP; sam plik wykonywalny nie wystarczy."
+  ],
+  "Your latest changes could not be saved. Retrying automatically; check free disk space and folder access if this continues.": [
+    "Deine letzten Änderungen konnten nicht gespeichert werden. Ein neuer Versuch erfolgt automatisch. Prüfe bei anhaltenden Problemen Speicherplatz und Ordnerzugriff.",
+    "No se guardaron los últimos cambios. Se reintentará automáticamente. Revisa espacio y permisos si continúa.",
+    "Les dernières modifications n'ont pas été enregistrées. Nouvelle tentative automatique. Vérifiez l'espace et l'accès si cela persiste.",
+    "Le ultime modifiche non sono state salvate. Nuovo tentativo automatico. Se persiste, verifica spazio e accesso alla cartella.",
+    "Nie zapisano ostatnich zmian. Próba zostanie ponowiona automatycznie. Jeśli problem trwa, sprawdź miejsce i dostęp do folderu."
+  ],
+  "Background tracking checks were interrupted. Retrying automatically.": [
+    "Hintergrundprüfungen wurden unterbrochen. Ein neuer Versuch erfolgt automatisch.",
+    "Se interrumpieron las comprobaciones. Se reintentará automáticamente.",
+    "Les vérifications en arrière-plan ont été interrompues. Nouvelle tentative automatique.",
+    "I controlli in background sono stati interrotti. Nuovo tentativo automatico.",
+    "Kontrole w tle zostały przerwane. Próba zostanie ponowiona automatycznie."
+  ],
+  "Waiting for character login": [
+    "Warte auf Charakter-Login",
+    "Esperando acceso del personaje",
+    "En attente de connexion du personnage",
+    "In attesa dell'accesso del personaggio",
+    "Oczekiwanie na logowanie postaci"
+  ],
+  "Waiting for Aion 2": [
+    "Warte auf Aion 2",
+    "Esperando Aion 2",
+    "En attente d'Aion 2",
+    "In attesa di Aion 2",
+    "Oczekiwanie na Aion 2"
+  ],
+  "Choose your account": [
+    "Wähle dein Konto",
+    "Elige tu cuenta",
+    "Choisissez votre compte",
+    "Scegli il tuo account",
+    "Wybierz konto"
+  ],
+  "Log into your character to load pet ranks and soul totals automatically. If you are already playing, return to character selection and log in again. No account setup is needed.": [
+    "Logge deinen Charakter ein, um Pet-Ränge und Seelenstände automatisch zu laden. Spielst du bereits, kehre zur Charakterauswahl zurück und logge dich erneut ein. Eine Kontoeinrichtung ist nicht nötig.",
+    "Entra con tu personaje para cargar rangos y almas. Si ya estás jugando, vuelve a la selección y entra de nuevo. No necesitas configurar la cuenta.",
+    "Connectez votre personnage pour charger rangs et âmes. Si vous jouez déjà, revenez au choix des personnages puis reconnectez-vous. Aucune configuration de compte nécessaire.",
+    "Accedi con il personaggio per caricare gradi e anime. Se stai già giocando, torna alla selezione e accedi di nuovo. Non serve configurare l'account.",
+    "Zaloguj postać, aby wczytać rangi i dusze. Jeśli już grasz, wróć do wyboru postaci i zaloguj ponownie. Nie trzeba konfigurować konta."
+  ],
+  "Open Aion 2 and log into your character. A2 Pet Tracking by Lacu will set up your collection automatically.": [
+    "Öffne Aion 2 und logge deinen Charakter ein. Der Tracker richtet deine Sammlung automatisch ein.",
+    "Abre Aion 2 y entra con tu personaje. El tracker configurará tu colección automáticamente.",
+    "Ouvrez Aion 2 et connectez votre personnage. Le tracker configurera automatiquement votre collection.",
+    "Apri Aion 2 e accedi con il personaggio. Il tracker configurerà la raccolta automaticamente.",
+    "Otwórz Aion 2 i zaloguj postać. Tracker automatycznie skonfiguruje kolekcję."
+  ],
+  "Open Settings > Account > Manage accounts to choose your saved account.": [
+    "Öffne Einstellungen > Konto > Konten verwalten und wähle dein gespeichertes Konto.",
+    "Abre Ajustes > Cuenta > Gestionar cuentas y elige la cuenta guardada.",
+    "Ouvrez Paramètres > Compte > Gérer les comptes pour choisir le compte enregistré.",
+    "Apri Impostazioni > Account > Gestisci account e scegli l'account salvato.",
+    "Otwórz Ustawienia > Konto > Zarządzaj kontami i wybierz zapisane konto."
+  ],
+  "Capture unavailable": [
+    "Erfassung nicht verfügbar",
+    "Captura no disponible",
+    "Capture indisponible",
+    "Acquisizione non disponibile",
+    "Przechwytywanie niedostępne"
+  ],
+  "Capture stopped": [
+    "Erfassung gestoppt",
+    "Captura detenida",
+    "Capture arrêtée",
+    "Acquisizione arrestata",
+    "Przechwytywanie zatrzymane"
+  ],
+  "Character server differs": [
+    "Charakterserver weicht ab",
+    "El servidor del personaje difiere",
+    "Serveur du personnage différent",
+    "Server del personaggio diverso",
+    "Inny serwer postaci"
+  ],
+  "Waiting for your character…": [
+    "Warte auf deinen Charakter …",
+    "Esperando a tu personaje…",
+    "En attente de votre personnage…",
+    "In attesa del tuo personaggio…",
+    "Oczekiwanie na twoją postać…"
+  ],
+  "Collection sync needed": [
+    "Sammlung muss synchronisiert werden",
+    "La colección necesita sincronización",
+    "Synchronisation de collection nécessaire",
+    "Sincronizzazione raccolta necessaria",
+    "Kolekcja wymaga synchronizacji"
+  ],
+  "Open Settings > Help > Advanced troubleshooting to restart capture.": [
+    "Öffne Einstellungen > Hilfe > Erweiterte Fehlerbehebung, um die Erfassung neu zu starten.",
+    "Abre Ajustes > Ayuda > Solución de problemas avanzada para reiniciar la captura.",
+    "Ouvrez Paramètres > Aide > Dépannage avancé pour redémarrer la capture.",
+    "Apri Impostazioni > Aiuto > Risoluzione problemi avanzata per riavviare l'acquisizione.",
+    "Otwórz Ustawienia > Pomoc > Zaawansowane rozwiązywanie problemów, aby ponownie uruchomić przechwytywanie."
+  ],
+  "Open Aion 2 to connect your character.": [
+    "Öffne Aion 2, um deinen Charakter zu verbinden.",
+    "Abre Aion 2 para conectar tu personaje.",
+    "Ouvrez Aion 2 pour connecter votre personnage.",
+    "Apri Aion 2 per collegare il personaggio.",
+    "Otwórz Aion 2, aby połączyć postać."
+  ],
+  "New characters join your selected account automatically.": [
+    "Neue Charaktere werden automatisch dem ausgewählten Konto zugeordnet.",
+    "Los personajes nuevos se añaden automáticamente a la cuenta seleccionada.",
+    "Les nouveaux personnages rejoignent automatiquement le compte sélectionné.",
+    "I nuovi personaggi vengono aggiunti automaticamente all'account selezionato.",
+    "Nowe postacie są automatycznie dodawane do wybranego konta."
+  ],
+  "You can link a new character in Settings > Account > Manage accounts.": [
+    "Verknüpfe einen neuen Charakter unter Einstellungen > Konto > Konten verwalten.",
+    "Vincula un personaje nuevo en Ajustes > Cuenta > Gestionar cuentas.",
+    "Associez un nouveau personnage dans Paramètres > Compte > Gérer les comptes.",
+    "Collega un nuovo personaggio in Impostazioni > Account > Gestisci account.",
+    "Połącz nową postać w Ustawienia > Konto > Zarządzaj kontami."
+  ],
+  "Your saved collection is available. Start A2 Pet Tracking by Lacu before the next full game login to sync current totals.": [
+    "Deine gespeicherte Sammlung ist verfügbar. Starte den Tracker vor dem nächsten vollständigen Spiel-Login, um aktuelle Werte zu synchronisieren.",
+    "Tu colección guardada está disponible. Inicia el tracker antes del próximo acceso completo para sincronizar los totales.",
+    "Votre collection enregistrée est disponible. Démarrez le tracker avant la prochaine connexion complète au jeu pour synchroniser les totaux.",
+    "La raccolta salvata è disponibile. Avvia il tracker prima del prossimo accesso completo per sincronizzare i totali.",
+    "Zapisana kolekcja jest dostępna. Uruchom tracker przed następnym pełnym logowaniem do gry, aby zsynchronizować sumy."
+  ],
+  "Waiting for pet activity.": [
+    "Warte auf Pet-Aktivität.",
+    "Esperando actividad de mascotas.",
+    "En attente d'activité des familiers.",
+    "In attesa di attività dei famigli.",
+    "Oczekiwanie na aktywność pupili."
+  ],
+  "Background retry needed": [
+    "Hintergrundprüfung muss wiederholt werden",
+    "Se requiere un nuevo intento en segundo plano",
+    "Nouvelle tentative en arrière-plan nécessaire",
+    "Nuovo tentativo in background necessario",
+    "Wymagana ponowna próba w tle"
+  ],
+  "The saved collection belongs to another profile.": [
+    "Die gespeicherte Sammlung gehört zu einem anderen Profil.",
+    "La colección guardada pertenece a otro perfil.",
+    "La collection enregistrée appartient à un autre profil.",
+    "La raccolta salvata appartiene a un altro profilo.",
+    "Zapisana kolekcja należy do innego profilu."
+  ],
+  "Missing settings.": [
+    "Einstellungen fehlen.",
+    "Faltan los ajustes.",
+    "Paramètres manquants.",
+    "Impostazioni mancanti.",
+    "Brak ustawień."
+  ],
+  "Missing settings changes": [
+    "Einstellungsänderungen fehlen.",
+    "Faltan los cambios de ajustes.",
+    "Modifications des paramètres manquantes.",
+    "Modifiche alle impostazioni mancanti.",
+    "Brak zmian ustawień."
+  ],
+  "That character profile already exists.": [
+    "Dieses Charakterprofil existiert bereits.",
+    "Este perfil de personaje ya existe.",
+    "Ce profil de personnage existe déjà.",
+    "Questo profilo personaggio esiste già.",
+    "Ten profil postaci już istnieje."
+  ],
+  "Connect your character before editing progress.": [
+    "Verbinde deinen Charakter, bevor du Fortschritt bearbeitest.",
+    "Conecta tu personaje antes de editar el progreso.",
+    "Connectez votre personnage avant de modifier la progression.",
+    "Collega il personaggio prima di modificare i progressi.",
+    "Połącz postać przed edycją postępu."
+  ],
+  "Unknown pet.": [
+    "Unbekanntes Pet.",
+    "Mascota desconocida.",
+    "Familier inconnu.",
+    "Famiglio sconosciuto.",
+    "Nieznany pupil."
+  ],
+  "Unknown request.": [
+    "Unbekannte Anfrage.",
+    "Solicitud desconocida.",
+    "Requête inconnue.",
+    "Richiesta sconosciuta.",
+    "Nieznane żądanie."
+  ],
+  "Choose an account profile first.": [
+    "Wähle zuerst ein Kontoprofil.",
+    "Elige primero un perfil de cuenta.",
+    "Choisissez d'abord un profil de compte.",
+    "Scegli prima un profilo account.",
+    "Najpierw wybierz profil konta."
+  ],
+  "The detected character changed. Open Profile again before linking it.": [
+    "Der erkannte Charakter hat gewechselt. Öffne das Profil vor dem Verknüpfen erneut.",
+    "El personaje detectado ha cambiado. Abre Perfil de nuevo antes de vincularlo.",
+    "Le personnage détecté a changé. Rouvrez le profil avant de l'associer.",
+    "Il personaggio rilevato è cambiato. Riapri il profilo prima di collegarlo.",
+    "Wykryta postać się zmieniła. Otwórz profil ponownie przed połączeniem."
+  ],
+  "The chosen account no longer exists.": [
+    "Das ausgewählte Konto existiert nicht mehr.",
+    "La cuenta seleccionada ya no existe.",
+    "Le compte choisi n'existe plus.",
+    "L'account selezionato non esiste più.",
+    "Wybrane konto już nie istnieje."
+  ],
+  "Choose a unique account label of up to 80 characters.": [
+    "Wähle einen eindeutigen Kontonamen mit bis zu 80 Zeichen.",
+    "Elige un nombre único de hasta 80 caracteres.",
+    "Choisissez un nom de compte unique de 80 caractères maximum.",
+    "Scegli un nome account univoco fino a 80 caratteri.",
+    "Wybierz unikalną nazwę konta do 80 znaków."
+  ],
+  "Choose an account first.": [
+    "Wähle zuerst ein Konto.",
+    "Elige primero una cuenta.",
+    "Choisissez d'abord un compte.",
+    "Scegli prima un account.",
+    "Najpierw wybierz konto."
+  ],
+  "Enter a unique account label of up to 80 characters.": [
+    "Gib einen eindeutigen Kontonamen mit bis zu 80 Zeichen ein.",
+    "Introduce un nombre único de hasta 80 caracteres.",
+    "Saisissez un nom de compte unique de 80 caractères maximum.",
+    "Inserisci un nome account univoco fino a 80 caratteri.",
+    "Wpisz unikalną nazwę konta do 80 znaków."
+  ],
+  "Choose an account before editing local details.": [
+    "Wähle ein Konto, bevor du lokale Details bearbeitest.",
+    "Elige una cuenta antes de editar los datos locales.",
+    "Choisissez un compte avant de modifier les détails locaux.",
+    "Scegli un account prima di modificare i dettagli locali.",
+    "Wybierz konto przed edycją lokalnych szczegółów."
+  ],
+  "Invalid pet details.": [
+    "Ungültige Pet-Daten.",
+    "Datos de mascota no válidos.",
+    "Données de familier invalides.",
+    "Dati del famiglio non validi.",
+    "Nieprawidłowe dane pupila."
+  ],
+  "No profiles selected.": [
+    "Keine Profile ausgewählt.",
+    "No hay perfiles seleccionados.",
+    "Aucun profil sélectionné.",
+    "Nessun profilo selezionato.",
+    "Nie wybrano profili."
+  ],
+  "No collection data supplied.": [
+    "Keine Sammlungsdaten angegeben.",
+    "No se proporcionaron datos de colección.",
+    "Aucune donnée de collection fournie.",
+    "Nessun dato della raccolta fornito.",
+    "Nie podano danych kolekcji."
+  ],
+  "Invalid or duplicate profiles.": [
+    "Ungültige oder doppelte Profile.",
+    "Perfiles no válidos o duplicados.",
+    "Profils invalides ou en double.",
+    "Profili non validi o duplicati.",
+    "Nieprawidłowe lub zduplikowane profile."
+  ],
+  "Profile identity does not match its collection.": [
+    "Das Profil passt nicht zu seiner Sammlung.",
+    "El perfil no coincide con su colección.",
+    "Le profil ne correspond pas à sa collection.",
+    "Il profilo non corrisponde alla raccolta.",
+    "Profil nie pasuje do kolekcji."
+  ],
+  "This collection uses unsupported pet IDs.": [
+    "Diese Sammlung verwendet nicht unterstützte Pet-IDs.",
+    "La colección usa identificadores de mascotas no compatibles.",
+    "Cette collection utilise des identifiants de familiers non pris en charge.",
+    "La raccolta usa ID dei famigli non supportati.",
+    "Kolekcja używa nieobsługiwanych identyfikatorów pupili."
+  ],
+  "A matching profile already exists. Use a separate profile label to avoid overwriting it.": [
+    "Ein passendes Profil existiert bereits. Nutze einen anderen Profilnamen, um es nicht zu überschreiben.",
+    "Ya existe un perfil coincidente. Usa otro nombre para no sobrescribirlo.",
+    "Un profil correspondant existe déjà. Utilisez un autre nom pour ne pas l'écraser.",
+    "Un profilo corrispondente esiste già. Usa un altro nome per non sovrascriverlo.",
+    "Pasujący profil już istnieje. Użyj innej nazwy, aby go nie nadpisać."
+  ],
+  "Pin limit reached. Unpin a pet or raise the limit in Settings > Tracking.": [
+    "Limit angehefteter Pets erreicht. Löse ein Pet oder erhöhe das Limit unter Einstellungen > Tracking.",
+    "Límite de mascotas fijadas alcanzado. Desfija una o aumenta el límite en Ajustes > Seguimiento.",
+    "Limite atteinte. Détachez un familier ou augmentez la limite dans Paramètres > Suivi.",
+    "Limite raggiunto. Rimuovi un famiglio o aumenta il limite in Impostazioni > Tracciamento.",
+    "Osiągnięto limit. Odepnij pupila lub zwiększ limit w Ustawienia > Śledzenie."
+  ],
+  "Remove this pet from your pinned list.": [
+    "Dieses Pet aus der angehefteten Liste entfernen.",
+    "Quitar esta mascota de la lista fijada.",
+    "Retirer ce familier de la liste épinglée.",
+    "Rimuovi il famiglio dall'elenco dei fissati.",
+    "Usuń pupila z listy przypiętych."
+  ],
+  "Unpin a pet or raise the limit in Settings > Tracking.": [
+    "Löse ein Pet oder erhöhe das Limit unter Einstellungen > Tracking.",
+    "Desfija una mascota o aumenta el límite en Ajustes > Seguimiento.",
+    "Détachez un familier ou augmentez la limite dans Paramètres > Suivi.",
+    "Rimuovi un famiglio o aumenta il limite in Impostazioni > Tracciamento.",
+    "Odepnij pupila lub zwiększ limit w Ustawienia > Śledzenie."
+  ],
+  "Unlock Rank 1: 5 soul points.": [
+    "Rang 1 freischalten: 5 Seelenpunkte.",
+    "Desbloquear rango 1: 5 puntos de alma.",
+    "Débloquer le rang 1 : 5 points d'âme.",
+    "Sblocca grado 1: 5 punti anima.",
+    "Odblokuj rangę 1: 5 punktów dusz."
+  ],
+  "Upgrade to Rank 2: 25 soul points.": [
+    "Auf Rang 2 erhöhen: 25 Seelenpunkte.",
+    "Subir a rango 2: 25 puntos de alma.",
+    "Passer au rang 2 : 25 points d'âme.",
+    "Passa al grado 2: 25 punti anima.",
+    "Awans na rangę 2: 25 punktów dusz."
+  ],
+  "Upgrade to Rank 3 / MAX: 75 soul points.": [
+    "Auf Rang 3 / MAX erhöhen: 75 Seelenpunkte.",
+    "Subir a rango 3 / máximo: 75 puntos de alma.",
+    "Passer au rang 3 / MAX : 75 points d'âme.",
+    "Passa al grado 3 / MAX: 75 punti anima.",
+    "Awans na rangę 3 / MAKS.: 75 punktów dusz."
+  ],
+  "Maximum rank.": [
+    "Maximaler Rang.",
+    "Rango máximo.",
+    "Rang maximum.",
+    "Grado massimo.",
+    "Maksymalna ranga."
+  ],
+  "Rank is not known.": [
+    "Rang ist nicht bekannt.",
+    "Rango desconocido.",
+    "Rang inconnu.",
+    "Grado sconosciuto.",
+    "Ranga jest nieznana."
+  ],
+  "Capture unavailable. Install Npcap or check capture permissions.": [
+    "Erfassung nicht verfügbar. Installiere Npcap oder prüfe die Erfassungsberechtigungen.",
+    "Captura no disponible. Instala Npcap o revisa los permisos de captura.",
+    "Capture indisponible. Installez Npcap ou vérifiez les droits de capture.",
+    "Acquisizione non disponibile. Installa Npcap o verifica i permessi.",
+    "Przechwytywanie niedostępne. Zainstaluj Npcap lub sprawdź uprawnienia."
+  ],
+  "Last known progress; waiting for a fresh collection.": [
+    "Zuletzt bekannter Fortschritt; warte auf einen neuen Sammlungsabgleich.",
+    "Último progreso conocido; esperando una colección actualizada.",
+    "Dernière progression connue ; en attente d’une collection actualisée.",
+    "Ultimo progresso noto; in attesa di una raccolta aggiornata.",
+    "Ostatni znany postęp; oczekiwanie na aktualizację kolekcji."
+  ],
+  "Connected": [
+    "Verbunden",
+    "Conectado",
+    "Connecté",
+    "Collegato",
+    "Połączono"
+  ],
+  "game traffic is arriving.": [
+    "Spielverkehr wird empfangen.",
+    "Se reciben datos del juego.",
+    "Des données du jeu arrivent.",
+    "Ricezione dei dati del gioco.",
+    "Odbierane są dane gry."
+  ],
+  "Disabled": [
+    "Deaktiviert",
+    "Desactivado",
+    "Désactivé",
+    "Disattivato",
+    "Wyłączony"
+  ],
+  "last known": [
+    "zuletzt bekannt",
+    "último conocido",
+    "dernier connu",
+    "ultimo noto",
+    "ostatni znany"
+  ],
+  "Unranked · last known": [
+    "Ohne Rang · zuletzt bekannt",
+    "Sin rango · último conocido",
+    "Sans rang · dernier connu",
+    "Senza grado · ultimo noto",
+    "Bez rangi · ostatnia znana"
+  ],
+  "Nearest observed mob. ": [
+    "Nächster erfasster Mob. ",
+    "Monstruo observado más cercano. ",
+    "Monstre observé le plus proche. ",
+    "Mostro osservato più vicino. ",
+    "Najbliższy zaobserwowany potwór. "
+  ],
+  "Nearest matched mob on the minimap. ": [
+    "Nächster zugeordneter Mob auf der Minikarte. ",
+    "Monstruo coincidente más cercano en el minimapa. ",
+    "Monstre correspondant le plus proche sur la minicarte. ",
+    "Mostro corrispondente più vicino sulla minimappa. ",
+    "Najbliższy dopasowany potwór na minimapie. "
+  ],
+  "Global launch data": [
+    "Daten zur globalen Veröffentlichung",
+    "Datos del lanzamiento global",
+    "Données de sortie mondiale",
+    "Dati del lancio globale",
+    "Dane z globalnej premiery"
+  ],
+  "Asian-release data; Global availability unverified": [
+    "Daten der asiatischen Version; globale Verfügbarkeit unbestätigt",
+    "Datos de la versión asiática; disponibilidad global sin confirmar",
+    "Données de la version asiatique ; disponibilité mondiale non confirmée",
+    "Dati della versione asiatica; disponibilità globale non verificata",
+    "Dane wersji azjatyckiej; dostępność globalna niepotwierdzona"
+  ],
+  "Dungeon reward": [
+    "Dungeon-Belohnung",
+    "Recompensa de mazmorra",
+    "Récompense de donjon",
+    "Ricompensa spedizione",
+    "Nagroda lochu"
+  ],
+  "Quest reward": [
+    "Quest-Belohnung",
+    "Recompensa de misión",
+    "Récompense de quête",
+    "Ricompensa missione",
+    "Nagroda zadania"
+  ],
+  "Chest": [
+    "Truhe",
+    "Cofre",
+    "Coffre",
+    "Forziere",
+    "Skrzynia"
+  ],
+  "Random chest": [
+    "Zufallstruhe",
+    "Cofre aleatorio",
+    "Coffre aléatoire",
+    "Forziere casuale",
+    "Losowa skrzynia"
+  ],
+  "Collection reward": [
+    "Sammlungsbelohnung",
+    "Recompensa de colección",
+    "Récompense de collection",
+    "Ricompensa raccolta",
+    "Nagroda kolekcji"
+  ],
+  "Fresh merchant stock received, but no current recommendations. Maxed pets, farmable pets and pets without verified progress are excluded. If an expected pet is missing, save a support report in Settings → Help and include its name and your region.": [
+    "Neue Angebote empfangen, aber keine aktuellen Empfehlungen. Pets mit maximalem Rang, farmbare Pets und Pets ohne bestätigten Fortschritt sind ausgeschlossen. Fehlt ein erwartetes Pet, speichere unter Einstellungen → Hilfe einen Supportbericht mit Name und Region.",
+    "Ofertas recibidas, pero sin recomendaciones. Se excluyen mascotas al máximo, farmeables o sin progreso verificado. Si falta una, guarda un informe en Ajustes → Ayuda e indica su nombre y región.",
+    "Offres reçues sans recommandation. Les familiers au maximum, farmables ou sans progression vérifiée sont exclus. Si un familier manque, enregistrez un rapport dans Paramètres → Aide avec son nom et votre région.",
+    "Offerte ricevute, ma nessuna raccomandazione. Sono esclusi famigli al massimo, ottenibili dai mostri o senza progressi verificati. Se ne manca uno, salva un rapporto in Impostazioni → Aiuto con nome e regione.",
+    "Odebrano oferty, ale brak poleceń. Wykluczono pupile o maksymalnej randze, dostępne z potworów lub bez potwierdzonego postępu. Jeśli brakuje pupila, zapisz raport w Ustawienia → Pomoc z nazwą i regionem."
+  ],
+  "Selected account: {0}. Open Settings > Account > Manage accounts to link {1} or select another account. Pet collections are account-wide.": [
+    "Ausgewähltes Konto: {0}. Öffne Einstellungen > Konto > Konten verwalten, um {1} zu verknüpfen oder ein anderes Konto zu wählen. Pet-Sammlungen gelten kontoweit.",
+    "Cuenta seleccionada: {0}. Abre Ajustes > Cuenta > Gestionar cuentas para vincular a {1} o elegir otra cuenta. La colección es compartida en toda la cuenta.",
+    "Compte sélectionné : {0}. Ouvrez Paramètres > Compte > Gérer les comptes pour associer {1} ou choisir un autre compte. Les familiers sont partagés sur le compte.",
+    "Account selezionato: {0}. Apri Impostazioni > Account > Gestisci account per collegare {1} o scegliere un altro account. La raccolta è condivisa nell'account.",
+    "Wybrane konto: {0}. Otwórz Ustawienia > Konto > Zarządzaj kontami, aby połączyć {1} lub wybrać inne konto. Kolekcja jest wspólna dla konta."
+  ],
+  "The detected server differs from {0}. Choose this character's account in Settings > Account > Manage accounts.": [
+    "Der erkannte Server weicht von {0} ab. Wähle das Konto dieses Charakters unter Einstellungen > Konto > Konten verwalten.",
+    "El servidor detectado difiere de {0}. Elige la cuenta del personaje en Ajustes > Cuenta > Gestionar cuentas.",
+    "Le serveur détecté diffère de {0}. Choisissez le compte de ce personnage dans Paramètres > Compte > Gérer les comptes.",
+    "Il server rilevato è diverso da {0}. Scegli l'account del personaggio in Impostazioni > Account > Gestisci account.",
+    "Wykryty serwer różni się od {0}. Wybierz konto postaci w Ustawienia > Konto > Zarządzaj kontami."
+  ],
+  "{0} (source stored locally)": [
+    "{0} (lokal gespeicherte Quellenangabe)",
+    "{0} (fuente guardada localmente)",
+    "{0} (source stockée localement)",
+    "{0} (fonte salvata localmente)",
+    "{0} (źródło zapisane lokalnie)"
+  ],
+  "Waiting for your character record. If you are already in game, return to character selection and log in again. ": [
+    "Warte auf deine Charakterdaten. Spielst du bereits, kehre zur Charakterauswahl zurück und logge dich erneut ein. ",
+    "Esperando los datos del personaje. Si ya juegas, vuelve a la selección y entra de nuevo. ",
+    "En attente des données du personnage. Si vous jouez déjà, revenez au choix des personnages puis reconnectez-vous. ",
+    "In attesa dei dati del personaggio. Se giochi già, torna alla selezione e accedi di nuovo. ",
+    "Oczekiwanie na dane postaci. Jeśli już grasz, wróć do wyboru postaci i zaloguj ponownie. "
+  ],
+  "Start tracking before the next full game login to synchronize totals.": [
+    "Starte den Tracker vor dem nächsten vollständigen Spiel-Login, um die Werte abzugleichen.",
+    "Inicia el tracker antes del próximo acceso completo para sincronizar los totales.",
+    "Démarrez le tracker avant la prochaine connexion complète pour synchroniser les totaux.",
+    "Avvia il tracker prima del prossimo accesso completo per sincronizzare i totali.",
+    "Uruchom tracker przed następnym pełnym logowaniem, aby zsynchronizować sumy."
+  ],
+  "Reminder settings": [
+    "Erinnerung einstellen",
+    "Ajustes del recordatorio",
+    "Paramètres du rappel",
+    "Impostazioni promemoria",
+    "Ustawienia przypomnienia"
+  ],
+  "Hourly reminder is enabled.": [
+    "Die stündliche Erinnerung ist aktiviert.",
+    "El recordatorio horario está activado.",
+    "Le rappel horaire est activé.",
+    "Il promemoria orario è attivo.",
+    "Cogodzinne przypomnienie jest włączone."
+  ],
+  "Hourly reminder is disabled.": [
+    "Die stündliche Erinnerung ist deaktiviert.",
+    "El recordatorio horario está desactivado.",
+    "Le rappel horaire est désactivé.",
+    "Il promemoria orario è disattivato.",
+    "Cogodzinne przypomnienie jest wyłączone."
+  ],
+  "Observed shop recommendations": [
+    "Zuletzt erfasste Shop-Empfehlungen",
+    "Recomendaciones de ofertas observadas",
+    "Recommandations d’offres observées",
+    "Consigli dalle offerte osservate",
+    "Polecenia z odczytanych ofert"
+  ]
+}

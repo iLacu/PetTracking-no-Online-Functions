@@ -4,6 +4,8 @@ namespace PetTracker;
 
 public class AppSettings
 {
+    public string Language { get; set; } = "auto";
+    public bool MerchantRefreshAlerts { get; set; } = true;
     public bool ShareAllCharacters { get; set; }
     // Retained for settings-file compatibility. Walking guidance is not ready for
     // distribution; neither old preferences nor IPC patches may enable it.
@@ -65,6 +67,7 @@ public class AppSettings
 
     public void Normalize()
     {
+        Language = AppLanguage.Normalize(Language);
         CheckUpdatesAutomatically = false;
         DownloadUpdatesAutomatically = false;
         StartWithWindows = false;

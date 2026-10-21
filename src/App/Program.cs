@@ -11,6 +11,7 @@ public static class Program
     [STAThread]
     public static void Main(string[] args)
     {
+        UiLanguage.Initialize(Storage.Root(args));
         var app = new Application { ShutdownMode = ShutdownMode.OnExplicitShutdown };
         app.Resources.MergedDictionaries.Add(NativeTheme.Resources());
         if (args.Contains("--render"))
@@ -63,7 +64,7 @@ public static class Program
         using var instance = new AppInstanceGate();
         if (!instance.IsPrimary || LegacyCopyRunning())
         {
-            MessageBox.Show("A2 Pet Tracking by Lacu is already running. Use its paw icon in the Windows tray. To switch copies, choose Quit A2 Pet Tracking by Lacu there first.", "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(UiLanguage.Text("A2 Pet Tracking by Lacu is already running. Use its paw icon in the Windows tray. To switch copies, choose Quit A2 Pet Tracking by Lacu there first."), "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Information);
             return;
         }
 
@@ -89,12 +90,16 @@ public static class Program
         };
         var menu = new System.Windows.Forms.ContextMenuStrip();
         tray.ContextMenuStrip = menu;
-        menu.Items.Add("Show / hide tracker", null, (s, e) => host.TogglePetOverlay());
-        menu.Items.Add("Find a pet…", null, (s, e) => host.OpenPetFinder());
-        menu.Items.Add("Settings", null, (s, e) => host.OpenPetOverlaySettings());
-        menu.Items.Add("Unlock tracker", null, async (s, e) => await host.UnlockPetOverlay());
+        var menuLabels = new Dictionary<System.Windows.Forms.ToolStripItem, string>();
+        void AddMenu(string text, EventHandler action) => menuLabels.Add(menu.Items.Add(UiLanguage.Text(text), null, action), text);
+        void TranslateMenu() { foreach (var entry in menuLabels) entry.Key.Text = UiLanguage.Text(entry.Value); }
+        UiLanguage.Changed += TranslateMenu;
+        AddMenu("Show / hide tracker", (s, e) => host.TogglePetOverlay());
+        AddMenu("Find a pet…", (s, e) => host.OpenPetFinder());
+        AddMenu("Settings", (s, e) => host.OpenPetOverlaySettings());
+        AddMenu("Unlock tracker", async (s, e) => await host.UnlockPetOverlay());
         menu.Items.Add(new System.Windows.Forms.ToolStripSeparator());
-        menu.Items.Add("Help", null, (s, e) => host.OpenConnectionHelp());
+        AddMenu("Help", (s, e) => host.OpenConnectionHelp());
         bool quitting = false;
         async Task Quit()
         {
@@ -117,15 +122,15 @@ public static class Program
                 quitting = false;
             }
         }
-        menu.Items.Add("Quit A2 Pet Tracking by Lacu", null, async (s, e) => await Quit());
+        AddMenu("Quit A2 Pet Tracking by Lacu", async (s, e) => await Quit());
         host.QuitRequested += async () => await Quit();
         tray.DoubleClick += (s, e) => host.OpenPetOverlaySettings();
         using var shortcut = new GlobalHideShortcut(host);
-        host.TestNotification += () => tray.ShowBalloonTip(4000, "A2 Pet Tracking by Lacu", "Preview: your pet reached Rank 2.", System.Windows.Forms.ToolTipIcon.Info);
+        host.TestNotification += () => tray.ShowBalloonTip(4000, "A2 Pet Tracking by Lacu", UiLanguage.Text("Preview: your pet reached Rank 2."), System.Windows.Forms.ToolTipIcon.Info);
         host.Notification += text =>
         {
             if (host.PetOverlayPreferences.Toasts)
-                tray.ShowBalloonTip(4000, "A2 Pet Tracking by Lacu", text, System.Windows.Forms.ToolTipIcon.Info);
+                tray.ShowBalloonTip(4000, "A2 Pet Tracking by Lacu", UiLanguage.Text(text), System.Windows.Forms.ToolTipIcon.Info);
         };
         app.DispatcherUnhandledException += (s, e) =>
         {
@@ -135,6 +140,7 @@ public static class Program
         app.Exit += (s, e) =>
         {
             shortcut.Dispose();
+            UiLanguage.Changed -= TranslateMenu;
             tray.Visible = false;
         };
         app.Dispatcher.BeginInvoke(new Action(async () => await host.InitializeLaunch(args.Contains("--minimized"))));
@@ -149,7 +155,7 @@ public static class Program
         }
         catch (Exception error) when (error is IOException or UnauthorizedAccessException)
         {
-            MessageBox.Show("A2 Pet Tracking by Lacu couldn’t open its saved data. Close any program using the files, check folder access, then try again.", "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Warning);
+            MessageBox.Show(UiLanguage.Text("A2 Pet Tracking by Lacu couldn’t open its saved data. Close any program using the files, check folder access, then try again."), "A2 Pet Tracking by Lacu", MessageBoxButton.OK, MessageBoxImage.Warning);
             return null;
         }
     }
@@ -207,18 +213,27 @@ public static class Program
 
         var now = DateTimeOffset.UtcNow;
         var recent = ids.Select((id, i) => new RecentPetActivity(id, null, "", now.AddSeconds(-i))).ToList();
-        var view = new WorkerView(3, profile, true, "Live", "Receiving soul updates from your character.", "Ranger", new() { new() { AccountName = "My account", CharacterName = "Ranger", RealmLabel = "Siel", ProfileKey = "1234567890abcdef12345678" } }, "1234567890abcdef12345678", recent, null, now, 1, 1000, 0, 0, new() { ExpireInactive = false });
+        int languageIndex = Array.IndexOf(args, "--language");
+        string language = languageIndex >= 0 && languageIndex + 1 < args.Length ? AppLanguage.Normalize(args[languageIndex + 1]) : "auto";
+        var view = new WorkerView(3, profile, true, "Live", "Receiving soul updates from your character.", "Ranger", new() { new() { AccountName = "My account", CharacterName = "Ranger", RealmLabel = "Siel", ProfileKey = "1234567890abcdef12345678" } }, "1234567890abcdef12345678", recent, null, now, 1, 1000, 0, 0, new() { ExpireInactive = false, Language = language });
         host.Preview(view);
         Save(host.Overlay!, Path.Combine(folder, "tracker.png"), 340, 410);
         var settings = new SettingsWindow(host);
         Save(settings, Path.Combine(folder, "settings.png"), 780, 700);
-        foreach (var section in new[] { "Tracking", "Overlay", "Account", "Updates", "Help" })
+        foreach (var section in new[] { "Tracking", "Overlay", "Hide Shortcut", "Account", "Language", "Updates", "Help" })
         {
             settings.ShowSection(section);
             Save(settings, Path.Combine(folder, "settings-" + section.Replace(" & ", "-").ToLowerInvariant() + ".png"), 780, 700);
         }
 
         settings.Close();
+        var reminderTime = new DateTimeOffset(2030, 1, 1, 11, 59, 59, TimeSpan.Zero);
+        using (var reminderPreview = new PreviewOverlayScope(new PetTrackerOverlay(host, () => reminderTime, false)))
+        {
+            reminderTime = reminderTime.AddSeconds(2);
+            reminderPreview.Window.RefreshMerchantNotice();
+            Save(reminderPreview.Window, Path.Combine(folder, "merchant-reminder.png"), 400, 600);
+        }
         var startup = new StartupCheckWindow(_ => Task.FromResult(new StartupReport(Array.Empty<RequirementCheck>())), autoStart: false);
         var readyChecks = new[]
         {
@@ -251,5 +266,11 @@ public static class Program
         encoder.Frames.Add(BitmapFrame.Create(bitmap));
         using var file = File.Create(path);
         encoder.Save(file);
+    }
+
+    sealed class PreviewOverlayScope(PetTrackerOverlay window) : IDisposable
+    {
+        public PetTrackerOverlay Window => window;
+        public void Dispose() => Window.DisposeOverlay();
     }
 }

@@ -45,7 +45,10 @@ Nach dem Start den AION-2-Charakter einloggen. Alt+D blendet das Fenster ein/aus
 Das X beendet die gesamte Anwendung. Eigene Daten entstehen unter Code\Daten.
 Fenster an Raendern/Ecken anpassen oder ueber die Titelleiste maximieren/minimieren.
 Groesse und Zustand werden gespeichert. Overlay > Reset window size setzt sie zurueck.
-Special und Pets im Spiel oeffnen, um Merchant-Angebote zu beobachten.
+Merchant erinnert zu jeder vollen lokalen Stunde mit fuenf gelben Blinkimpulsen
+und einem 30-sekuendigen Hinweis. Abschaltbar unter Einstellungen > Tracking.
+Die Oberflaeche folgt der Systemsprache; Einstellungen > Sprache bietet
+Deutsch, Englisch, Spanisch, Franzoesisch, Italienisch und Polnisch.
 
 Dieses Paket enthaelt keine Sammlung, Einstellungen oder Diagnosedaten des Erstellers.
 Quellcode und Build-Skripte: Code\Quellcode.zip. Zum Neubauen ist das .NET SDK noetig;
