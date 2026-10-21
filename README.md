@@ -39,7 +39,3 @@ Merchant neben Nearby zeigt Special und Pets mit zuletzt beobachteten Angeboten,
 Spielpakete werden lokal ueber Npcap gelesen und den konfigurierten AION-2-Prozessen zugeordnet. Kein Senden oder Aendern von Spielpaketen. Sammlung und Einstellungen sind lokale JSON-Dateien. Diagnoseberichte speichern bereinigte Zaehler; rohe Paket-Ausschnitte werden nicht aufbewahrt. Keine automatische Uebertragung und keine Cloud-Synchronisation.
 
 Eine eigene Version aendert nicht die Regeln des Spielbetreibers. Nach Spielpatches kann eine Anpassung des Decoders erforderlich sein. Eine Simulation ersetzt keinen Live-Test im Spiel.
-
-## Lizenz
-
-Der Originalcode von 0Fox2Give und Mitwirkenden bleibt GPL-3.0-only; siehe LICENSE und NOTICE. Bei Weitergabe sind die Lizenzpflichten sowie gesonderte Rechte an Drittbibliotheken, Grafiken und Spieldaten zu beachten. Details in THIRD-PARTY-NOTICES.txt, licenses und LEGAL.md.
