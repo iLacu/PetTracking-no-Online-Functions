@@ -1,38 +1,71 @@
-A2 Pet Tracking
-Custom local Windows version 1.0.4, based on PetTracker 0.1.51, commit a9d3cbf1faf48fe68dc463a4ae5a640648678831.
+# A2 Pet Tracking
 
-The official updater, including Velopack, publisher keys, and GitHub automation, has been removed. No update checks, browser launches, developer account, or remote access functionality. The only download exception is the specified official Npcap installer, used if the startup check detects that Npcap is missing or the user explicitly opens the Npcap setup. Offers, collection data, and settings remain local.
+Custom local Windows version **1.0.4**, based on **PetTracker 0.1.51**  
+Upstream commit: `a9d3cbf1faf48fe68dc463a4ae5a640648678831`
 
-Getting Started
-Open the A2Pet Tracking.lnk shortcut in the top-level project folder (alternatively, run Code\Starten.cmd). Clicking the X in the tracker's main window closes the entire application and the capture process. The paw icon in the system tray also provides access to settings and an exit option. For the first live synchronization, start the tracker first, then your AION-2 character.
+A local AION-2 pet tracker with collection tracking and merchant offers. Collection data, settings, and backups stay on your computer.
 
-The startup check verifies the application files against their SHA-256 checksums, checks the data folder, and checks the Npcap driver and network adapters. .NET and image assets are already bundled in the EXE files. Npcap must be installed as a Windows driver. If it is missing, version 1.89 is downloaded directly from https://npcap.com/dist/npcap-1.89.exe, verified against the stored SHA-256 checksum, and launched in a visible setup window. Confirm the administrator prompt and complete the setup steps. No silent installation and no redistribution of the Npcap installer. A working Npcap installation is not reinstalled. Cancellation, missing files, or a required restart will prevent the tracker from starting.
+The official updater, Velopack, publisher keys, and GitHub automation have been removed. There are no update checks, browser launches, developer account requirements, remote access features, or cloud synchronization. The only download is the official Npcap installer when needed or explicitly requested.
 
-To share the application with friends, tools\Pack-Friends.ps1 creates a ZIP with the EXE at the top level and Code alongside it. Always extract the entire ZIP. The package includes an empty data folder, license notices, and the corresponding source code; it contains no personal user data or SDK. No separate .NET installation is required to use it. Building it yourself requires .NET SDK 10.0.402 and the packages listed in the project files; the standard compiler is not included in the compact distribution package.
+## Getting Started
 
-Folders
-All technical folders are located under Code. Only Code and A2Pet Tracking.lnk remain in the top-level folder.
+1. Extract the **entire ZIP**.
+2. Open `A2Pet Tracking.lnk` in the top-level folder, or run `Code\Starten.cmd`.
+3. For the first live synchronization, start the tracker **before** your AION-2 character.
 
-Anwendung = locally compiled EXE with the .NET runtime.
-Daten = actual collection data, settings, and local backups.
-Quellcode = editable source code with its own local Git history.
-Werkzeuge = portable SDK, local NuGet package cache, and build files.
-Pruefung = synthetic test data and previews.
-Sicherungen = previous custom application versions.
-Custom Updates
-Close the application, modify the source code, and run Build-Local.ps1. The custom version number is defined in Directory.Build.props. Core and UI tests run by default. The build uses only the local package cache and backs up any existing application version. User data is not replaced. Code\Neu bauen.cmd starts this process within the existing local installation.
+No separate .NET installation is required: the runtime and image assets are bundled.
 
-New third-party libraries are added to the local package cache only after deliberate review. With the existing cache, rebuilding requires no internet connection. A personal GitHub repository is used solely for source code management: the application does not access it or publish anything automatically. For a fresh clone, see docs\BUILDING.md and docs\GITHUB.md.
+Startup checks verify application SHA-256 checksums, the data folder, Npcap, and network adapters. If Npcap is missing, the application downloads [Npcap 1.89](https://npcap.com/dist/npcap-1.89.exe), verifies its stored SHA-256 checksum, and opens the visible installer. Confirm the administrator prompt and complete setup.
 
-Window Size
-The main window can be resized from any edge or corner. The title bar supports dragging, double-clicking to maximize or restore, and minimizing or maximizing using the buttons. The window's position, size, and maximized state are saved. Long pet lists scroll within the window, keeping the title and tabs accessible. Settings > Overlay > Reset window size restores automatic height adjustment. Fixed position and Click-through continue to prevent manual resizing.
+Npcap is never installed silently or bundled for redistribution. Working installations are left unchanged. Cancellation, missing files, or a required restart prevents startup.
 
-Hide Shortcut and Merchant
-Settings > Hide Shortcut displays the configurable shortcut button, which defaults to Alt + D. Click it, then press the desired key combination; Escape cancels. The shortcut shows or hides the tracker window. Conflicts with other applications are displayed there. Clicking the X still closes the entire application.
+## Controls and Window
 
-Merchant, next to Nearby, displays Special and Pets with the most recently observed offers, your collection rank, and the Kina price. Open both tabs once in the game so the local decoder can read the offers and the exact refresh time. The countdown uses only this in-game time. When the countdown expires, the connection changes, or an ambiguous shop change occurs, old offers are discarded. The tracker does not query the shop itself; open it again in the game after a refresh.
+- **Close:** The X exits the entire application, including packet capture. The system tray paw icon also provides Settings and Exit.
+- **Hide/show:** Configure the shortcut under **Settings > Hide Shortcut**; default: **Alt + D**. Click the shortcut button and press a combination, or Escape to cancel. Conflicts are displayed.
+- **Resize:** Drag any edge or corner. Standard title-bar controls and double-click maximize/restore are supported.
+- **Remembered layout:** Window position, size, and maximized state are saved. Long lists scroll while the title and tabs remain accessible.
+- **Reset:** **Settings > Overlay > Reset window size** restores automatic height. **Fixed position** and **Click-through** prevent manual resizing.
 
-Privacy and Limitations
-Game packets are read locally through Npcap and associated with the configured AION-2 processes. No game packets are sent or modified. Collection data and settings are stored in local JSON files. Diagnostic reports store sanitized counters; raw packet excerpts are not retained. No automatic uploads or cloud synchronization.
+## Merchant
 
-Using a custom version does not change the game operator's rules. The decoder may need adjustments after game patches. A simulation is not a substitute for live testing in the game.
+The **Merchant** tab beside Nearby displays **Special** and **Pets** offers, your collection rank, and Kina prices.
+
+Open both shop tabs in the game to capture offers and their exact refresh time. The countdown uses only that captured in-game time. Expired offers are discarded, as are offers after connection changes or ambiguous shop changes.
+
+The tracker never queries the shop itself. Reopen the shop in the game after each refresh.
+
+## Folder Layout
+
+The top-level folder contains `Code` and `A2Pet Tracking.lnk`. Technical folders are inside `Code`:
+
+| Folder | Contents |
+|--------|----------|
+| `Anwendung` | Compiled application and bundled .NET runtime |
+| `Daten` | Collection, settings, and local backups |
+| `Quellcode` | Editable source and local Git history |
+| `Werkzeuge` | Portable SDK, local NuGet cache, and build files |
+| `Pruefung` | Synthetic test data and previews |
+| `Sicherungen` | Previous application versions |
+
+## Building and Sharing
+
+Close the application, edit the source, then run `Build-Local.ps1`, or use `Code\Neu bauen.cmd` in an existing installation.
+
+- Set the custom version in `Directory.Build.props`.
+- Builds require **.NET SDK 10.0.402** and the packages listed in the project files.
+- Core and UI tests run by default.
+- Builds use only the local package cache, back up the existing application, and preserve user data.
+- New dependencies require deliberate review before entering the cache. Rebuilds work offline with the existing cache.
+
+`tools\Pack-Friends.ps1` creates a shareable ZIP containing the EXE, `Code`, an empty data folder, license notices, and corresponding source code—without personal data, the SDK, or compiler.
+
+GitHub is used only for source control; the application never accesses the repository or publishes automatically. For fresh clones, see `docs\BUILDING.md` and `docs\GITHUB.md`.
+
+## Privacy and Limitations
+
+Game packets are read locally through Npcap and associated with configured AION-2 processes. **No game packets are sent or modified.**
+
+Collection data and settings are local JSON files. Diagnostics retain sanitized counters, not raw packet excerpts. Nothing is uploaded automatically.
+
+The game operator's rules still apply. Game patches may require decoder updates, and simulations do not replace live in-game testing.
