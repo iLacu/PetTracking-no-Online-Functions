@@ -20,7 +20,3 @@ Collection and settings stay local. No online updater or automatic data uploads.
 ## Local builds
 
 Edit the source and run **Code/Neu bauen.cmd**. Existing user data is preserved. See [build instructions](docs/BUILDING.md).
-
-## License
-
-Original code by 0Fox2Give and contributors: GPL-3.0-only. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [third-party notices](THIRD-PARTY-NOTICES.txt).
